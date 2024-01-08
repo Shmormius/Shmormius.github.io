@@ -209,6 +209,11 @@ nav {
     padding: 5px;
   }
 
+  .home-page-con .home-boxes .box-container .box:hover{
+    background-color: var(--color-quadiary);
+    transition: all 0.4s ease-in-out;
+  }
+
   .home-page-con .home-boxes .text-box-container{
     display: inline-block;
     width: 50%;
@@ -345,6 +350,12 @@ nav {
     height:100%;
     width: 100%;
     margin: 25px;
+  }
+
+  .about-me-con .about-me-boxes .left-about-me .link-box a:hover{
+    background-color: var(--color-secondary);
+    transition: all 0.4s ease-in-out;
+    padding: 20px;
   }
 
   .about-me-con .about-me-boxes .left-about-me .link-box a{
