@@ -113,24 +113,46 @@
                 </div>
             </div>
             <div class="right-contact">
-                <form action="" class="contact-form">
+                <form action="" method="post" class="contact-form">
                     <div class="input-control i-c-2">
-                        <input type="text" required placeholder="YOUR NAME">
-                        <input type="email" required placeholder="YOUR EMAIL">
+                        <input type="text" required placeholder="YOUR NAME" id = "name">
+                        <input type="email" required placeholder="YOUR EMAIL" id = "email">
                     </div>
                     <div class="input-control">
-                        <input type="text" required placeholder="ENTER SUBJECT">
+                        <input type="text" required placeholder="ENTER SUBJECT" id = "subject">
                     </div>
                     <div class="input-control">
-                        <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                        <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..." id = "message"></textarea>
                     </div>
-                    <div class="submit-btn">
-                        <a href="#" class="main-btn">
-                            <span class="btn-text">Submit</span>
-                        </a>
-                    </div>
+                    <button class = "main-btn" id = "btn">
+                        <span class="btn-text">Submit</span>
+                    </button>
                 </form>
             </div>
+            <script src="https://smtpjs.com/v3/smtp.js">
+            </script>
+            <script>
+                var btn = document.getElementById('btn');
+                btn.addEventListener('click',function(e){
+                    e.preventDefault()
+                    var name = document.getElementById('name').value;
+                    var email = document.getElementById('email').value;
+                    var subject = document.getElementById('subject').value;
+                    var message = document.getElementById('message').value;
+                    var body = 'name: ' + name + '<br/> email: ' + email + '<br/> subject: ' + subject + '<br/> message: '+ message;
+
+                    Email.send({
+                        SecureToken : "fdea53df-51e6-45e2-87a5-800d5cb56de3 ",
+                        To : 'shmormius@gmail.com',
+                        From : "daemonkerrigan@gmail.com",
+                        Subject : "Message from website!",
+                        Body : body
+                    }).then(
+                        message => alert(message)
+                        );
+
+                })
+            </script>
         </div>
     </div>
 

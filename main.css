@@ -478,6 +478,21 @@ nav {
     padding-top: 3.5rem;
     padding: 20px;
   }
+
+  .contact-content-con p{
+    font-size: 15px;
+  }
+
+
+  .contact-content-con .main-btn{
+    background-color: var(--color-quintiary);
+  }
+
+  .contact-content-con .main-btn:hover{
+    background-color: var(--color-secondary);
+  }
+
+
   .contact-content-con .left-contact {
     flex: 2;
   }
