@@ -302,7 +302,6 @@ nav {
 
   .about-me-con {
     width: 100%;
-    max-width: 1200px;
   }
   
   .about-me-con .buffer{
@@ -459,6 +458,17 @@ nav {
     margin-top: 25px;
     margin-bottom: 25px;
     width: 80%;
+  }
+
+  /*Portfolio*/
+
+  .portfolio-landing-con{
+    width: 100%;
+    margin: 25px;
+  }
+
+  .portfolio-landing-con .project-slot{
+    padding-bottom: 50px;
   }
 
   /*Contact page*/
