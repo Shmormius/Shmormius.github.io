@@ -122,7 +122,7 @@
                         <input type="text" required placeholder="ENTER SUBJECT" id = "subject">
                     </div>
                     <div class="input-control">
-                        <input type = "text" cols="15" rows="8" placeholder="Message Here..." id = "message"></textarea>
+                        <textarea type = "text" cols="15" rows="8" placeholder="Message Here..." id = "message"></textarea>
                     </div>
                     <button class = "main-btn" id = "btn">
                         <span class="btn-text">Submit</span>
@@ -145,7 +145,7 @@
                     Email.send({
                         SecureToken : "fdea53df-51e6-45e2-87a5-800d5cb56de3 ",
                         To : 'shmormius@gmail.com',
-                        From : "daemonkerrigan@gmail.com",
+                        From : "shmormius@gmail.com",
                         Subject : "Message from website!",
                         Body : body
                     }).then(
