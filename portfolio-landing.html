@@ -4,6 +4,10 @@
 <head>
     <link rel="stylesheet"href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
     <title>Shmormius: Portfolio</title>
     <meta name ="viewport" content="width=device-width,initial-scale=1.0">
 </head>
@@ -11,6 +15,7 @@
 <body>
     <div class="header">
         <h1>Shmormius Website</h1>
+        <div class = "top-bar"></div>
     </div>
     
     <nav>
@@ -46,17 +51,172 @@
     </nav>
 
     <div class = "portfolio-landing-con">
+        
         <h2>Computer Science Projects</h2>
-        <div class ="project-slot">Autonomous Rover</div>
-        <div class ="project-slot">This Website</div>
-        <div class ="project-slot">Assembly Practice</div>
-        <div class ="project-slot">Consumer Producer Problem</div>
+        <hr>
+        <div class = "project-header">
+            <h3>Autonomous Raspberry Pi Rover</h3>
+            <h3 id = "languages">C++</h3>
+            <h3 id = "languages">Python</h3>
+            <h3 id = "languages">html</h3>
+        </div>
+        <div class ="project-slot">
+            
+            <div class = "project-container">
+                <div class = "project-con-left">
+                    <p>
+                        This project was my submission for the CS 370 Operating Systems term project.
+                        The project rules were to group up into groups of 2-3 people and make something using a Raspberry Pi.
+                        In this process I learned very much about the development process and how to leverage hardware restrictions. 
+                        We had the whole term to work so leveraging our time and avalibility to complete the project was another challenge. 
+                    </p>
+                    <p>
+                        We had decided on using our Pi to control a rover and developed a systems through which a user could provide coordinates over a desktop interface, and the rover would seek those coordniates.
+                        The program works by establishing a local server using flask on the Raspberry pi. Then the user would access the server via a webpage and type the coordniates. The Pi would then compute the instruction and send orders to an arduino that operates the rover.
+                        Not being robotics engineers the rover itself looks rather shabby but luckily functions. Using an onboard battery, a gps sensor, an arduino, and the PI
+                    </p>
+                </div>
+                <div class = "project-con-right">
+                    <div class = "project-img-con">
+                        <img src = "img/rover/rover-on-desk.jpg" width = "400" height = "550" loading="lazy" alt = "The rover being prepared on a desk">
+                        <img src = "img/rover/rover-on-floor.jpg" width = "400" height = "550" loading="lazy" alt = "The rover on the floor">
+                    </div>
+                    <div class = btn-group>
+                        <div class="btn-con">
+                            <a href="https://github.com/Shmormius/Autonomous-Rover" target="_blank" class="main-btn">
+                                <span class="btn-text">Project Github</span>
+                            </a>
+                        </div>
+                        <div class="btn-con">
+                            <a href="docs/CS370 Report.pdf" target="_blank" class="main-btn">
+                                <span class="btn-text">Project report pdf</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class = "project-header">
+            <h3>Portfolio Website</h3>
+            <h3 id = "languages">HTML</h3>
+            <h3 id = "languages">CSS</h3>
+            <h3 id = "languages">Javascript</h3>
+        </div>
+        <div class ="project-slot">
+            <div class = "project-container">
+                <div class = "project-con-left">
+                    <p>This one feels pretty self explanatory, but the portfolio website I am refering to is the website you are currently on. 
+                        This website has gone through three major revisions. The first version followed a Youtube video and relied very heavily on Javascript to function.
+                        However after reading a book on web design I learned its probably best to make the website still functional without Javascript.
+                        Thus the second version was very basic and relied mostly on its HTML for structure and funtion. This version is the third version and was a complete restart having learned from the other two.
+
+                    </p>
+                </div>
+                <div class = "project-con-right">
+                    <div class="btn-con">
+                        <a href="https://github.com/Shmormius/Shmormius.github.io" target="_blank" class="main-btn">
+                            <span class="btn-text">Link to website github</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class = "project-header">
+            <h3>Consumer Producer Problem</h3>
+            <h3 id = "languages">Java</h3>
+        </div>
+        <div class ="project-slot">
+            <div class = "project-container">
+                <div class = "project-con-left">
+                    <p>
+                        This is my attempt at the producer-consumer problem using bounded buffer. 
+                        Main starts two threads, producerThread and consumerThread which start the consumer and producer process. 
+                        producer creates random double 'item' and checks if buffer size is equal to 1000, if it is, it waits for the consumer to consume one element. 
+                        It adds the item to the buffer and icrements the counter of total produced items and adds the value to the sum of the produced items.
+                        consumer removes the oldest value in the buffer, maintains a value of the sum of the consumed items. 
+                        Finally after enoughed items are consumed main takes the two threads and joins them back together.
+                    </p>
+                </div>
+                <div class = "project-con-right">
+                    <div class = btn-group>
+                        <div class="btn-con">
+                            <a href="https://github.com/Shmormius/Consumer-Producer-Problem" target="_blank" class="main-btn">
+                                <span class="btn-text">Project Github</span>
+                            </a>
+                        </div>
+                        <div class="btn-con">
+                            <a href="https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem" target="_blank" class="main-btn">
+                                <span class="btn-text">Consumer-Producer Problem</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class = "project-header">
+            <h3>Assembly ASCII to binary </h3>
+            <h3 id = "languages">Assembly Language</h3>
+        </div>
+        <div class ="project-slot">
+            <div class = "project-container">
+                <div class = "project-con-left">
+                    <p>
+                        This is a ASCII to binary converter I coded in Assembly. This was completed for use on CSU's LC3 simulator.
+                        This program features many of the unique aspects of coding in assembly, the most annoying of which is the importance of good comments.
+                        
+                    </p>
+                </div>
+                <div class = "project-con-right">
+                    <div class = btn-group>
+                        <div class="btn-con">
+                            <a href="https://github.com/Shmormius/Assembly-Practice-conversions" target="_blank" class="main-btn">
+                                <span class="btn-text">Project Github</span>
+                            </a>
+                        </div>
+                        <div class="btn-con">
+                            <a href="https://en.wikipedia.org/wiki/Little_Computer_3" target="_blank" class="main-btn">
+                                <span class="btn-text">LC3 info</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
         <h2>3D modeling projects</h2>
-        <div class ="project-slot">Kira Apartment</div>
-        <div class ="project-slot">Gong</div>
-        <div class ="project-slot">Subway Environment</div>
-        <div class ="project-slot">studio apartment</div>
-        <div class ="project-slot">small objects</div>
+        <hr>
+        <div class = "project-header">
+            <h3>Kira Apartment</h3>
+        </div>
+        <div class ="project-slot">
+            
+        <hr>
+        <div class = "project-header">
+            <h3>Gong</h3>
+        </div>
+        <div class ="project-slot">
+            
+        <hr>
+        <div class = "project-header">
+            <h3>Subway Environment</h3>
+        </div>
+        <div class ="project-slot">
+            
+        <hr>
+        <div class = "project-header">
+            <h3>Studio Apartment</h3>
+        </div>
+        <div class ="project-slot">
+            
+        <hr>
+        <div class = "project-header">
+            <h3>Small Objects</h3>
+        </div>
+        <div class ="project-slot">
+        </div> 
     </div>
 
     <div class="fixed-bar"></div>

@@ -462,15 +462,91 @@ nav {
 
   /*Portfolio*/
 
+  .header .top-bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: var(--color-quintiary);
+    box-shadow: var(--box-shadow-1);
+    z-index: -1;
+  }
+
   .portfolio-landing-con{
     width: 100%;
     margin: 25px;
   }
 
-  .portfolio-landing-con .project-slot{
-    padding-bottom: 50px;
+  .portfolio-landing-con hr{
+    width: 80%;
+    opacity: 50%;
+
   }
 
+  .portfolio-landing-con .project-slot .project-container{
+    padding-bottom: 50px;
+    display: grid;
+    min-height: 200px;
+    width: 80%;
+    padding-left: 120px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio-landing-con .project-header{
+    margin-left: 45px;
+  }
+
+  .portfolio-landing-con .project-header h3{
+    display: inline;
+  }
+
+  .portfolio-landing-con .project-con-left{
+    display: flexbox;
+    width: 100%;
+    min-width: 430px;
+  }
+
+  .portfolio-landing-con .project-con-right{
+    display: flexbox;
+    width: 100%;
+  }
+
+  .portfolio-landing-con .project-con-right .btn-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 500px;
+    margin-left: 15px;
+  }
+
+  .portfolio-landing-con .project-con-right .btn-con{
+    padding-top: 50px;
+    
+  }
+  .portfolio-landing-con .project-con-right .project-img-con{
+    display: grid;
+    min-height: 200px;
+    grid-template-columns: repeat(2, 1fr);
+    width: 75%;
+    padding-left: 75px;
+    max-width: 600px;
+  }
+  .portfolio-landing-con .project-con-right .project-img-con img{
+    width: 90%;
+    min-width:150px;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 767px){
+    .portfolio-landing-con .project-slot .project-container{
+      display: flex;
+      flex-direction: column;
+      margin-right:15px;
+      padding-left: 15px;
+    }
+    .portfolio-landing-con .project-header{
+      margin-left: 0px;
+    }
+  }
   /*Contact page*/
 
   .contact-content-con {
