@@ -206,6 +206,7 @@ nav {
     border: 1px solid var(--color-white);
     border-radius: 25px;
     padding: 5px;
+    text-decoration: none;
   }
 
   .home-page-con .home-boxes .box-container .box:hover{
@@ -425,8 +426,13 @@ nav {
   }
 
   .about-me-con .about-me-boxes ul{
-    height: 600px;
     list-style: circle;
+    
+  }
+
+  .about-me-con .about-me-boxes .japanese{
+    list-style: circle;
+    margin-top: 25px;
   }
 
   .about-me-con .about-me-boxes li{
@@ -587,6 +593,7 @@ nav {
     border-radius: 5px;
     box-shadow: --box-shadow-1;
     transition: all 0.4s ease-in-out;
+    text-decoration: none;
   }
   .blogs .blog:hover {
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
@@ -611,8 +618,10 @@ nav {
     margin-top: -7px;
     padding: 1.1rem;
     border-top: 8px solid var(--color-secondary);
+    
   }
   .blogs .blog .blog-text h4 {
+    
     font-size: 1.5rem;
     margin-bottom: 0.7rem;
     transition: all 0.4s ease-in-out;
