@@ -506,7 +506,7 @@ nav {
   }
 
   .portfolio-landing-con .model-project-slot .model-project-thing img{
-    width: 600px;
+    width: 70%
   }
 
   .portfolio-landing-con .project-header{
@@ -537,7 +537,8 @@ nav {
 
   .portfolio-landing-con .project-con-right .btn-con{
     padding-top: 50px;
-    
+    width: 100%;
+    justify-content: center;
   }
   .portfolio-landing-con .project-con-right .project-img-con{
     display: grid;
@@ -554,7 +555,7 @@ nav {
     height: auto;
   }
 
-  @media only screen and (max-width: 767px){
+  @media only screen and (max-width: 900px){
     .portfolio-landing-con .project-slot .project-container{
       display: flex;
       flex-direction: column;
@@ -563,6 +564,11 @@ nav {
     }
     .portfolio-landing-con .project-header{
       margin-left: 0px;
+    }
+    .portfolio-landing-con .project-con-right .project-img-con{
+      width: 100%;
+      justify-content: center;
+      
     }
   }
 
