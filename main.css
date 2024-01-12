@@ -582,6 +582,18 @@ nav {
       justify-content: center;
       
     }
+    .portfolio-landing-con .model-project-slot .model-project-thing .square{
+      width: 80%;
+    }
+  
+    .portfolio-landing-con .model-project-slot .model-project-thing p{
+      width: 80%;
+    }
+  
+    .portfolio-landing-con .model-project-slot .model-project-thing img{
+      width: 70%;
+      max-width: 1200px;
+    }
   }
 
   /*Blog*/
