@@ -206,6 +206,7 @@ nav {
     border: 1px solid var(--color-white);
     border-radius: 25px;
     padding: 5px;
+    text-decoration: none;
   }
 
   .home-page-con .home-boxes .box-container .box:hover{
@@ -243,7 +244,7 @@ nav {
   }
   .home-page-con p span{
     font-size: 35px;
-    color: var(--color-quadiary);
+    color: var(--color-grey-3);
     display: inline;
     white-space: nowrap;
     font-style: italic;
@@ -425,8 +426,13 @@ nav {
   }
 
   .about-me-con .about-me-boxes ul{
-    height: 600px;
     list-style: circle;
+    
+  }
+
+  .about-me-con .about-me-boxes .japanese{
+    list-style: circle;
+    margin-top: 25px;
   }
 
   .about-me-con .about-me-boxes li{
@@ -497,6 +503,11 @@ nav {
     flex-wrap: wrap;
   }
 
+  .portfolio-landing-con .model-project-slot .model-project-thing .square{
+    width: auto;
+    height: 600px;
+  }
+
   .portfolio-landing-con .model-project-slot .model-project-thing{
     margin: 10px;
   }
@@ -506,7 +517,8 @@ nav {
   }
 
   .portfolio-landing-con .model-project-slot .model-project-thing img{
-    width: 600px;
+    width: 70%;
+    max-width: 1200px;
   }
 
   .portfolio-landing-con .project-header{
@@ -537,7 +549,8 @@ nav {
 
   .portfolio-landing-con .project-con-right .btn-con{
     padding-top: 50px;
-    
+    width: 100%;
+    justify-content: center;
   }
   .portfolio-landing-con .project-con-right .project-img-con{
     display: grid;
@@ -554,7 +567,7 @@ nav {
     height: auto;
   }
 
-  @media only screen and (max-width: 767px){
+  @media only screen and (max-width: 900px){
     .portfolio-landing-con .project-slot .project-container{
       display: flex;
       flex-direction: column;
@@ -563,6 +576,25 @@ nav {
     }
     .portfolio-landing-con .project-header{
       margin-left: 0px;
+    }
+    .portfolio-landing-con .project-con-right .project-img-con{
+      width: 100%;
+      justify-content: center;
+      
+    }
+    .portfolio-landing-con .model-project-slot .model-project-thing .square{
+      width: 80%;
+      height: auto;
+    }
+  
+    .portfolio-landing-con .model-project-slot .model-project-thing p{
+      width: 80%;
+      min-width: none;
+    }
+  
+    .portfolio-landing-con .model-project-slot .model-project-thing img{
+      width: 70%;
+      max-width: 1200px;
     }
   }
 
@@ -581,6 +613,7 @@ nav {
     border-radius: 5px;
     box-shadow: --box-shadow-1;
     transition: all 0.4s ease-in-out;
+    text-decoration: none;
   }
   .blogs .blog:hover {
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
@@ -605,8 +638,10 @@ nav {
     margin-top: -7px;
     padding: 1.1rem;
     border-top: 8px solid var(--color-secondary);
+    
   }
   .blogs .blog .blog-text h4 {
+    
     font-size: 1.5rem;
     margin-bottom: 0.7rem;
     transition: all 0.4s ease-in-out;
