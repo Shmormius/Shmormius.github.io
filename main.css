@@ -589,6 +589,7 @@ nav {
   
     .portfolio-landing-con .model-project-slot .model-project-thing p{
       width: 80%;
+      min-width: none;
     }
   
     .portfolio-landing-con .model-project-slot .model-project-thing img{
