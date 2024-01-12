@@ -244,7 +244,7 @@ nav {
   }
   .home-page-con p span{
     font-size: 35px;
-    color: var(--color-quadiary);
+    color: var(--color-grey-3);
     display: inline;
     white-space: nowrap;
     font-style: italic;
@@ -503,6 +503,11 @@ nav {
     flex-wrap: wrap;
   }
 
+  .portfolio-landing-con .model-project-slot .model-project-thing .square{
+    width: auto;
+    height: 600px;
+  }
+
   .portfolio-landing-con .model-project-slot .model-project-thing{
     margin: 10px;
   }
@@ -512,7 +517,8 @@ nav {
   }
 
   .portfolio-landing-con .model-project-slot .model-project-thing img{
-    width: 70%
+    width: 70%;
+    max-width: 1200px;
   }
 
   .portfolio-landing-con .project-header{
