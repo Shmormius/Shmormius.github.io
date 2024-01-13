@@ -294,6 +294,8 @@ nav {
 
       .signature-cover .daemon-signature{
         position: relative;
+        width:300px;
+        height: auto;
       }
       
 
@@ -320,6 +322,7 @@ nav {
   .about-me-con .about-me-boxes p{
     font-size: 20px;
     line-height: 50px;
+    margin-left: 25px;
   }
   
   .about-me-con .about-me-boxes .left-about-me {
@@ -430,7 +433,13 @@ nav {
     
   }
 
-  .about-me-con .about-me-boxes .japanese{
+  .about-me-con .about-me-boxes .right-about-me-map{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .about-me-con .about-me-boxes .about{
     list-style: circle;
     margin-top: 25px;
   }
@@ -595,6 +604,10 @@ nav {
     .portfolio-landing-con .model-project-slot .model-project-thing img{
       width: 70%;
       max-width: 1200px;
+    }
+
+    .portfolio-landing-con .project-con-left{
+      min-width: 100px;
     }
   }
 
