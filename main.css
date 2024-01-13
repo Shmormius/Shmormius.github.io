@@ -808,4 +808,8 @@ nav {
     .contact-content-con {
       display: inline-block;
     }
+    .contact-content-con .right-contact {
+      margin-left: 0rem;
+      margin-right: 3rem;
+    }
   }
