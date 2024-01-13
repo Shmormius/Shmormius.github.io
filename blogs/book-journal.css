@@ -167,6 +167,10 @@ nav {
         width: 100%;
       }
 
+      .journal-content-con .book .left-book .book-cover{
+        width: 50%;
+        height: auto;
+       }
     .journal-content-con .book .right-book{
         width: 85%;
         display: flex;
