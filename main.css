@@ -589,6 +589,7 @@ nav {
     .portfolio-landing-con .project-con-right .project-img-con{
       width: 100%;
       justify-content: center;
+      padding-left: 0px;
       
     }
     .portfolio-landing-con .model-project-slot .model-project-thing .square{
