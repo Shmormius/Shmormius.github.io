@@ -2,6 +2,7 @@
     --color-primary: #edc8ee;
     --color-secondary:#cc7de4;
     --color-terciary:#ac20d6;
+    --color-house:#6e90d8;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey-1: #dbe1e8;
@@ -115,6 +116,11 @@ nav {
   }
 
   /*Main-page*/
+
+  .house{
+    color:var(--color-house);
+  }
+
   i{
     color:var(--color-terciary)
   }
