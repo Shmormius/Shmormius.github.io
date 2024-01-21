@@ -166,6 +166,9 @@ nav {
 
    @media only screen and (max-width: 767px) {
     .journal-content-con .book{
+      width: 80%;
+    }
+    .journal-content-con .book{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
       }
