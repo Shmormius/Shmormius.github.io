@@ -165,8 +165,8 @@ nav {
    }
 
    @media only screen and (max-width: 767px) {
-    .journal-content-con .book{
-      width: 80%;
+    .journal-content-con{
+      width: 100%;
     }
     .journal-content-con .book{
         display: grid;
