@@ -179,9 +179,10 @@ nav {
       .journal-content-con .book .left-book .book-cover{
         width: 50%;
         height: auto;
+        min-width: 180px;
        }
     .journal-content-con .book .right-book{
-        width: 85%;
+        width: 100%;
         display: flex;
       }   
    }
