@@ -218,7 +218,7 @@ nav {
   .home-page-con .home-boxes .text-box-container{
     display: inline-block;
     width: 50%;
-    min-width: 250px;
+    min-width: 200px;
   }
 
   .home-page-con .image-box-cover .daemon-cover{
@@ -266,6 +266,11 @@ nav {
   }
 
   @media only screen and (max-width: 767px){
+    .home-page-con .home-boxes .box-container .box{
+      min-width: 100px;
+      width: 90%;
+    }
+
     .home-page-con .home-boxes{
         display: flex;
         flex-direction: column;
@@ -273,29 +278,29 @@ nav {
 
       }
     
-      .home-page-con .home-boxes .box-container {
+    .home-page-con .home-boxes .box-container {
         width: 100%; 
         margin-right: 0;
         display: grid;
         grid-template-columns: 1fr;
         
-      }
+    }
     
-      .home-page-con .home-boxes .text-box-container{
-        width: 100%; 
+    .home-page-con .home-boxes .text-box-container{
+        width: 90%; 
         margin-top: 50px;
         padding: 25px;
       }
-      .home-page-con .image-box-cover .daemon-cover{
+    .home-page-con .image-box-cover .daemon-cover{
         display: none;
       }
-      .header .h-shape{
+    .header .h-shape{
         display: none;
       }
 
-      .signature-cover .daemon-signature{
+    .signature-cover .daemon-signature{
         position: relative;
-        width:300px;
+        width:80%;
         height: auto;
       }
       
@@ -305,7 +310,8 @@ nav {
   /*About me*/
 
   .about-me-con {
-    width: 100%;
+    width: 90%;
+    margin-left: 40px;
   }
   
   .about-me-con .buffer{
@@ -452,6 +458,10 @@ nav {
   }
 
   @media only screen and (max-width: 767px){
+    .about-me-con{
+      margin-left: 10px;
+    }
+
     .about-me-con .about-me-boxes{
         display: flex;
         flex-direction: column;
@@ -547,7 +557,12 @@ nav {
 
   .portfolio-landing-con .project-con-right{
     display: flexbox;
-    width: 100%;
+    width: 80%;
+    margin-left: 20%;
+    padding-bottom: 20px;
+    border: 1px solid var(--color-grey0);
+    border-radius: 30px;
+    background-color: var(--color-primary);
   }
 
   .portfolio-landing-con .project-con-right .btn-group{
@@ -555,18 +570,21 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     max-width: 500px;
     margin-left: 15px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .portfolio-landing-con .project-con-right .btn-con{
-    padding-top: 50px;
-    width: 100%;
-    justify-content: center;
+    border-color: var(--color-white);
+    margin-top: 10px;
   }
+
   .portfolio-landing-con .project-con-right .project-img-con{
     display: grid;
     min-height: 200px;
     grid-template-columns: repeat(2, 1fr);
-    width: 75%;
+    width: 80%;
     padding-left: 75px;
     max-width: 600px;
   }
@@ -610,6 +628,10 @@ nav {
 
     .portfolio-landing-con .project-con-left{
       min-width: 100px;
+    }
+    .portfolio-landing-con .project-con-right{
+      border: none;
+      background-color: transparent;
     }
   }
 
