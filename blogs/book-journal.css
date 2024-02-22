@@ -136,6 +136,7 @@ nav {
     padding: 20px;
     background-color: var(--color-white);
     margin-left: 10%;
+    border-radius: 30px;
   }
   .journal-content-con .book{
     display: flex;
