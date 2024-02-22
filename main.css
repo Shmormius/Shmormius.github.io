@@ -643,6 +643,7 @@ nav {
     grid-gap: 2rem;
     margin-top: 3rem;
     margin: 25px;
+    margin-right: 75px;
   }
   .blogs .blog {
     position: relative;
