@@ -265,6 +265,12 @@ nav {
     filter: invert(100%);
   }
 
+  @media only screen and (max-height: 767px){
+    .signature-cover .daemon-signature{
+      margin-left: 40%;
+    }
+  }
+
   @media only screen and (max-width: 767px){
     .home-page-con .home-boxes .box-container .box{
       min-width: 100px;
@@ -279,7 +285,7 @@ nav {
       }
     
     .home-page-con .home-boxes .box-container {
-        width: 100%; 
+        width: auto; 
         margin-right: 0;
         display: grid;
         grid-template-columns: 1fr;
@@ -302,6 +308,7 @@ nav {
         position: relative;
         width:80%;
         height: auto;
+        margin-left: 0;
       }
       
 
@@ -585,13 +592,12 @@ nav {
     min-height: 200px;
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
-    padding-left: 75px;
+    padding-left: 10%;
     max-width: 600px;
   }
   .portfolio-landing-con .project-con-right .project-img-con img{
     width: 90%;
     margin-top: 25px;
-    min-width:200px;
     height: auto;
   }
 
