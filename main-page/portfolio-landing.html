@@ -4,10 +4,10 @@
 <head>
     <link rel="stylesheet"href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
-    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+    <link rel="manifest" href="../icon/site.webmanifest">
     <title>Shmormius: Portfolio</title>
     <meta name ="viewport" content="width=device-width,initial-scale=1.0">
 </head>
@@ -18,37 +18,8 @@
         <div class = "top-bar"></div>
     </div>
     
-    <nav>
-        <a href="index.html"><i class="fa-solid fa-mosquito" style="color: #d5edf1;"></i>
-            <p1>
-                HOME
-            </p1>          
-        </a>
-            
-        <a href="aboutme.html"><i class="fa-solid fa-cloud-showers-heavy" style="color: #d5edf1;"></i>
-            <p1>
-                ABOUT ME
-            </p1>
-        </a>
-        
-        <a href="portfolio-landing.html"><i class="fa-solid fa-computer" style="color: #d5edf1;"></i>
-            <p1>
-                PORTFOLIO
-            </p1>  
-        </a>
-            
-        <a href="blog.html"><i class="fa-solid fa-person" style="color: #d5edf1;"></i>
-            <p1>
-                BLOG
-            </p1>      
-        </a>
-        
-        <a href="contact-me.html"><i class="fa-solid fa-envelope" style="color: #d5edf1;"></i>
-            <p1>
-                CONTACTS
-            </p1>     
-        </a>
-    </nav>
+    <div id="navigation-container"></div>
+    <script src="../nav/navigation.js" defer></script>
 
     <div class = "portfolio-landing-con">
         
@@ -79,8 +50,8 @@
                 </div>
                 <div class = "project-con-right">
                     <div class = "project-img-con">
-                        <img src = "img/rover/rover-on-desk.jpg" width = "400" height = "550" loading="lazy" alt = "The rover being prepared on a desk">
-                        <img src = "img/rover/rover-on-floor.jpg" width = "400" height = "550" loading="lazy" alt = "The rover on the floor">
+                        <img src = "../img/rover/rover-on-desk.jpg" width = "400" height = "550" loading="lazy" alt = "The rover being prepared on a desk">
+                        <img src = "../img/rover/rover-on-floor.jpg" width = "400" height = "550" loading="lazy" alt = "The rover on the floor">
                     </div>
                     <div class="btn-con" id = "port-btn">
                         <a href="https://github.com/Shmormius/Autonomous-Rover" target="_blank" class="main-btn">
@@ -88,7 +59,7 @@
                         </a>
                     </div>
                     <div class="btn-con" id = "port-btn">
-                        <a href="docs/CS370 Report.pdf" target="_blank" class="main-btn">
+                        <a href="../docs/CS370 Report.pdf" target="_blank" class="main-btn">
                             <span class="btn-text">Project report pdf</span>
                         </a>
                     </div>
@@ -196,16 +167,16 @@
         <div class ="model-project-slot">
             <div class = "model-project-con">
                 <div class = "model-project-thing">
-                    <img src = "img/Kira-Apartment/Kira1.png" loading="lazy" alt = "kira apartment 1">
+                    <img src = "../img/Kira-Apartment/Kira1.png" loading="lazy" alt = "kira apartment 1">
                 </div>
                 <div class = "model-project-thing">
-                    <img src = "img/Kira-Apartment/Kira2.png" loading="lazy" alt = "kira apartment 2">
+                    <img src = "../img/Kira-Apartment/Kira2.png" loading="lazy" alt = "kira apartment 2">
                 </div>
                 <div class = "model-project-thing">    
-                    <img src = "img/Kira-Apartment/Kira4.png" loading="lazy" alt = "kira apartment 3">
+                    <img src = "../img/Kira-Apartment/Kira4.png" loading="lazy" alt = "kira apartment 3">
                 </div>
                 <div class = "model-project-thing">    
-                    <img src = "img/Kira-Apartment/Kira5.png" loading="lazy" alt = "kira apartment 4">
+                    <img src = "../img/Kira-Apartment/Kira5.png" loading="lazy" alt = "kira apartment 4">
                 </div>
                 <div class = "model-project-thing">
                     <p>
@@ -222,13 +193,13 @@
         </div>
         <div class ="model-project-slot">
             <div class = "model-project-thing">
-                <img src = "img/Gong/FullRender.png" loading="lazy" alt = "gong 1">
+                <img src = "../img/Gong/FullRender.png" loading="lazy" alt = "gong 1">
             </div>
             <div class = "model-project-thing">
-                <img src = "img/Gong/FullRenderExtra.png" loading="lazy" alt = "gong 2">
+                <img src = "../img/Gong/FullRenderExtra.png" loading="lazy" alt = "gong 2">
             </div>
             <div class = "model-project-thing">
-                <img src = "img/Gong/Wireframe.png" loading="lazy" alt = "gong 3" class = "square">
+                <img src = "../img/Gong/Wireframe.png" loading="lazy" alt = "gong 3" class = "square">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -249,10 +220,10 @@
         </div>
         <div class ="model-project-slot">
             <div class = "model-project-thing">
-                <img src = "img/subway/unssssssstitled.png" loading="lazy" alt = "subway 1">
+                <img src = "../img/subway/unssssssstitled.png" loading="lazy" alt = "subway 1">
             </div>
             <div class = "model-project-thing">
-                <img src = "img/subway/unsssstitled.png" loading="lazy" alt = "subway 2">
+                <img src = "../img/subway/unsssstitled.png" loading="lazy" alt = "subway 2">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -266,16 +237,16 @@
         </div>
         <div class ="model-project-slot">
             <div class = "model-project-thing">
-                <img src = "img/apartment/Deskk.png" loading="lazy" alt = "Apartment 1" class = "square">
+                <img src = "../img/apartment/Deskk.png" loading="lazy" alt = "Apartment 1" class = "square">
             </div>
             <div class = "model-project-thing">
-                <img src = "img/apartment/guitus.png" loading="lazy" alt = "Apartment 2" class = "square">
+                <img src = "../img/apartment/guitus.png" loading="lazy" alt = "Apartment 2" class = "square">
             </div>
             <div class = "model-project-thing">
-                <img src = "img/apartment/keyboard.png" loading="lazy" alt = "Apartment 3" class = "square">
+                <img src = "../img/apartment/keyboard.png" loading="lazy" alt = "Apartment 3" class = "square">
             </div>
             <div class = "model-project-thing">
-                <img src = "img/apartment/plantt.png" loading="lazy" alt = "Apartment 4" class = "square">
+                <img src = "../img/apartment/plantt.png" loading="lazy" alt = "Apartment 4" class = "square">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -298,7 +269,7 @@
         </div>
         <div class ="model-project-slot">
             <div class = "model-project-thing">
-                <img src = "img/little-objects/besm.png" loading="lazy" alt = "little thing">
+                <img src = "../img/little-objects/besm.png" loading="lazy" alt = "little thing">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -306,10 +277,10 @@
                 </p>
             </div>
             <div class = "model-project-thing">
-                <img src = "img/little-objects/boaDADrd.png" loading="lazy" alt = "little thing">
+                <img src = "../img/little-objects/boaDADrd.png" loading="lazy" alt = "little thing">
             </div>
             <div class = "model-project-thing">
-                <img src = "img/little-objects/board.png" loading="lazy" alt = "little thing">
+                <img src = "../img/little-objects/board.png" loading="lazy" alt = "little thing">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -317,7 +288,7 @@
                 </p>
             </div>
             <div class = "model-project-thing">
-                <img src = "img/little-objects/can.png" loading="lazy" alt = "little thing" class = "square">
+                <img src = "../img/little-objects/can.png" loading="lazy" alt = "little thing" class = "square">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -326,7 +297,7 @@
                 </p>
             </div>
             <div class = "model-project-thing">
-                <img src = "img/little-objects/Candlerender.png" loading="lazy" alt = "little thing" class = "square">
+                <img src = "../img/little-objects/Candlerender.png" loading="lazy" alt = "little thing" class = "square">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -335,7 +306,7 @@
                 </p>
             </div>
             <div class = "model-project-thing">
-                <img src = "img/little-objects/DRPEPPER.png" loading="lazy" alt = "little thing" class = "square">
+                <img src = "../img/little-objects/DRPEPPER.png" loading="lazy" alt = "little thing" class = "square">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -343,7 +314,7 @@
                 </p>
             </div>
             <div class = "model-project-thing">
-                <img src = "img/little-objects/legonormal.png" loading="lazy" alt = "little thing">
+                <img src = "../img/little-objects/legonormal.png" loading="lazy" alt = "little thing">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -351,7 +322,7 @@
                 </p>
             </div>
             <div class = "model-project-thing">
-                <img src = "img/little-objects/SCREWS.png" loading="lazy" alt = "little thing" class = "square">
+                <img src = "../img/little-objects/SCREWS.png" loading="lazy" alt = "little thing" class = "square">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -365,18 +336,18 @@
         </div>
         <div class ="model-project-slot">
             <div class = "model-project-thing">
-                <img src = "img/environment/0001.png" loading="lazy" alt = "Environment">
+                <img src = "../img/environment/0001.png" loading="lazy" alt = "Environment">
             </div>
             
             <div class = "model-project-thing">
-                <img src = "img/environment/aar.png" loading="lazy" alt = "Environment">
+                <img src = "../img/environment/aar.png" loading="lazy" alt = "Environment">
             </div>
             <div class = "model-project-thing">
             
-                <img src = "img/environment/graaass.png" loading="lazy" alt = "Environment">
+                <img src = "../img/environment/graaass.png" loading="lazy" alt = "Environment">
             </div>
             <div class = "model-project-thing">
-                <img src = "img/environment/stars.png" loading="lazy" alt = "Environment">
+                <img src = "../img/environment/stars.png" loading="lazy" alt = "Environment">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -392,7 +363,7 @@
         </div>
         <div class ="model-project-slot">
             <div class = "model-project-thing">
-                <img src = "img/weird-stuff/CUBEMAN.png" loading="lazy" alt = "strange thing">
+                <img src = "../img/weird-stuff/CUBEMAN.png" loading="lazy" alt = "strange thing">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -401,7 +372,7 @@
                 </p>
             </div>
             <div class = "model-project-thing">
-                <img src = "img/weird-stuff/DEMONINDOOR.png" loading="lazy" alt = "strange thing">
+                <img src = "../img/weird-stuff/DEMONINDOOR.png" loading="lazy" alt = "strange thing">
             </div>
             <div class = "model-project-thing">
                 <p>
@@ -409,7 +380,7 @@
                 </p>
             </div>
             <div class = "model-project-thing">
-                <img src = "img/weird-stuff/ghost.png" loading="lazy" alt = "strange thing" class = "square">
+                <img src = "../img/weird-stuff/ghost.png" loading="lazy" alt = "strange thing" class = "square">
             </div>
             <div class = "model-project-thing">
                 <p>

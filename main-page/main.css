@@ -234,7 +234,7 @@ nav {
   }
 
   .home-page-con .image-box-cover:hover .daemon-cover{
-    content: url('img/daemon-with-cat.png');
+    content: url('../img/daemon-with-cat.png');
     bottom: 20px;
   }
 
