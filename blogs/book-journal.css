@@ -140,9 +140,18 @@ nav {
   }
   .journal-content-con .book{
     display: flex;
-    width: 100%;
+    width: 97%;
     min-height: 300px;
     margin-bottom: 25px;
+    border: 1px solid var(--color-secondary);
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .journal-content-con .book:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: all 0.4s ease-in-out;
   }
 
   .journal-content-con .book .left-book{
@@ -163,6 +172,11 @@ nav {
   .journal-content-con .book .left-book .book-cover{
     width: 200px;
     height: min-content;
+   }
+  .journal-content-con .book .left-book .book-cover:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: all 0.4s ease-in-out;
    }
 
    @media only screen and (max-width: 767px) {
