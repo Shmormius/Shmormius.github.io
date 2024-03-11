@@ -1,399 +1,588 @@
 <!DOCTYPE html>
-<html lang ="en">
+<html lang="en">
 
-<head>
-    <link rel="stylesheet"href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
-    <link rel="manifest" href="../icon/site.webmanifest">
-    <title>Shmormius: Portfolio</title>
-    <meta name ="viewport" content="width=device-width,initial-scale=1.0">
-</head>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="../icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="../icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="../icon/favicon-16x16.png">
+        <link rel="manifest" href="../icon/site.webmanifest">
+        <title>Shmormius: Portfolio</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
 
-<body>
-    <div class="header">
-        <h1>Shmormius Website</h1>
-        <div class = "top-bar"></div>
-    </div>
-    
-    <div id="navigation-container"></div>
-    <script src="../nav/navigation.js" defer></script>
-
-    <div class = "portfolio-landing-con">
-        
-        <h2>Computer Science Projects</h2>
-        <hr>
-        <div class = "project-header">
-            <h3>Autonomous Raspberry Pi Rover</h3>
-            <h3 id = "languages">C++</h3>
-            <h3 id = "languages">Python</h3>
-            <h3 id = "languages">html</h3>
+    <body>
+        <div class="header">
+            <h1>Shmormius Website</h1>
+            <div class="top-bar"></div>
         </div>
-        <div class ="project-slot">
-            
-            <div class = "project-container">
-                <div class = "project-con-left">
-                    <p>
-                        This project was my submission for the CS 370 Operating Systems term project.
-                        The project rules were to group up into groups of 2-3 people and make something using a Raspberry Pi.
-                        In this process I learned a great deal about the development process and how to leverage hardware restrictions. 
-                        We had the whole term to work so leveraging our time and avalibility to complete the project was another challenge. 
-                    </p>
-                    <p>
-                        We had decided on using our Pi to control a rover and developed a systems through which a user could provide coordinates over a desktop interface, and the rover would seek those coordniates.
-                        The program works by establishing a local server using flask on the Raspberry pi. Then the user would access the server via a webpage and type the coordniates. The Pi would then compute the instruction and send orders to an arduino that operates the rover.
-                        Not being robotics engineers the rover itself looks rather shabby but luckily functions. Using an onboard battery, a gps sensor, an arduino, and the PI itself its able to navagate to coordnates provided via the web.
 
-                    </p>
+        <div id="navigation-container"></div>
+        <script src="../nav/navigation.js" defer></script>
+        <div id="content">
+            <div class="portfolio-landing-con">
+
+                <h2>Computer Science Projects</h2>
+                <hr>
+                <div class="project-header">
+                    <h3>Autonomous Raspberry Pi Rover</h3>
+                    <h3 id="languages">C++</h3>
+                    <h3 id="languages">Python</h3>
+                    <h3 id="languages">html</h3>
                 </div>
-                <div class = "project-con-right">
-                    <div class = "project-img-con">
-                        <img src = "../img/rover/rover-on-desk.jpg" width = "400" height = "550" loading="lazy" alt = "The rover being prepared on a desk">
-                        <img src = "../img/rover/rover-on-floor.jpg" width = "400" height = "550" loading="lazy" alt = "The rover on the floor">
-                    </div>
-                    <div class="btn-con" id = "port-btn">
-                        <a href="https://github.com/Shmormius/Autonomous-Rover" target="_blank" class="main-btn">
-                            <span class="btn-text">Project Github</span>
-                        </a>
-                    </div>
-                    <div class="btn-con" id = "port-btn">
-                        <a href="../docs/CS370 Report.pdf" target="_blank" class="main-btn">
-                            <span class="btn-text">Project report pdf</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class = "project-header">
-            <h3>Portfolio Website</h3>
-            <h3 id = "languages">HTML</h3>
-            <h3 id = "languages">CSS</h3>
-            <h3 id = "languages">Javascript</h3>
-        </div>
-        <div class ="project-slot">
-            <div class = "project-container">
-                <div class = "project-con-left">
-                    <p>This one feels pretty self explanatory, but the portfolio website I am refering to is the website you are currently on. 
-                        This website has gone through three major revisions. The first version followed a Youtube video and relied very heavily on Javascript to function.
-                        However after reading a book on web design I learned its probably best to make the website still functional without Javascript.
-                        Thus the second version was very basic and relied mostly on its HTML for structure and funtion. This version is the third version and was a complete restart having learned from the other two.
-                        This website was built from the bottom up using no outside website making programs. 
-                    </p>
-                </div>
-                <div class = "project-con-right">
-                    <div class = btn-group>
-                        <div class="btn-con" id = "port-btn">
-                            <a href="https://github.com/Shmormius/Shmormius.github.io" target="_blank" class="main-btn">
-                                <span class="btn-text">Link to website github</span>
-                            </a>
+                <div class="project-slot">
+
+                    <div class="project-container">
+                        <div class="project-con-left">
+                            <p>
+                                This project was my submission for the CS 370
+                                Operating Systems term project.
+                                The project rules were to group up into groups
+                                of 2-3 people and make something using a
+                                Raspberry Pi.
+                                In this process I learned a great deal about the
+                                development process and how to leverage hardware
+                                restrictions.
+                                We had the whole term to work so leveraging our
+                                time and avalibility to complete the project was
+                                another challenge.
+                            </p>
+                            <p>
+                                We had decided on using our Pi to control a
+                                rover and developed a systems through which a
+                                user could provide coordinates over a desktop
+                                interface, and the rover would seek those
+                                coordniates.
+                                The program works by establishing a local server
+                                using flask on the Raspberry pi. Then the user
+                                would access the server via a webpage and type
+                                the coordniates. The Pi would then compute the
+                                instruction and send orders to an arduino that
+                                operates the rover.
+                                Not being robotics engineers the rover itself
+                                looks rather shabby but luckily functions. Using
+                                an onboard battery, a gps sensor, an arduino,
+                                and the PI itself its able to navagate to
+                                coordnates provided via the web.
+
+                            </p>
+                        </div>
+                        <div class="project-con-right">
+                            <div class="project-img-con">
+                                <img src="../img/rover/rover-on-desk.jpg"
+                                    width="400" height="550" loading="lazy"
+                                    alt="The rover being prepared on a desk">
+                                <img src="../img/rover/rover-on-floor.jpg"
+                                    width="400" height="550" loading="lazy"
+                                    alt="The rover on the floor">
+                            </div>
+                            <div class="btn-con" id="port-btn">
+                                <a
+                                    href="https://github.com/Shmormius/Autonomous-Rover"
+                                    target="_blank" class="main-btn">
+                                    <span class="btn-text">Project Github</span>
+                                </a>
+                            </div>
+                            <div class="btn-con" id="port-btn">
+                                <a href="../docs/CS370 Report.pdf"
+                                    target="_blank" class="main-btn">
+                                    <span class="btn-text">Project report pdf</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <hr>
-        <div class = "project-header">
-            <h3>Consumer Producer Problem</h3>
-            <h3 id = "languages">Java</h3>
-        </div>
-        <div class ="project-slot">
-            <div class = "project-container">
-                <div class = "project-con-left">
-                    <p>
-                        This is my attempt at the producer-consumer problem using bounded buffer. 
-                        Main starts two threads, producerThread and consumerThread which start the consumer and producer process. 
-                        producer creates random double 'item' and checks if buffer size is equal to 1000, if it is, it waits for the consumer to consume one element. 
-                        It adds the item to the buffer and icrements the counter of total produced items and adds the value to the sum of the produced items.
-                        consumer removes the oldest value in the buffer, maintains a value of the sum of the consumed items. 
-                        Finally after enoughed items are consumed main takes the two threads and joins them back together.
-                    </p>
+                <hr>
+                <div class="project-header">
+                    <h3>Portfolio Website</h3>
+                    <h3 id="languages">HTML</h3>
+                    <h3 id="languages">CSS</h3>
+                    <h3 id="languages">Javascript</h3>
+                    <h3 id="languages">JSON</h3>
                 </div>
-                <div class = "project-con-right">
-                    <div class = btn-group>
-                        <div class="btn-con" id = "port-btn">
-                            <a href="https://github.com/Shmormius/Consumer-Producer-Problem" target="_blank" class="main-btn">
-                                <span class="btn-text">Project Github</span>
-                            </a>
+                <div class="project-slot">
+                    <div class="project-container">
+                        <div class="project-con-left">
+                            <p>This one feels pretty self explanatory, but the
+                                portfolio website I am refering to is the
+                                website you are currently on.
+                                This website has gone through three major
+                                revisions. The first version followed a Youtube
+                                video and relied very heavily on Javascript to
+                                function.
+                                However after reading a book on web design I
+                                learned its probably best to make the website
+                                still functional without Javascript.
+                                Thus the second version was very basic and
+                                relied mostly on its HTML for structure and
+                                funtion. This version is the third version and
+                                was a complete restart having learned from the
+                                other two.
+                                This website was built from the bottom up using
+                                no outside website making programs.
+                            </p>
                         </div>
-                        <div class="btn-con" id = "port-btn">
-                            <a href="https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem" target="_blank" class="main-btn">
-                                <span class="btn-text">Consumer-Producer Problem</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class = "project-header">
-            <h3>Assembly ASCII to binary </h3>
-            <h3 id = "languages">Assembly Language</h3>
-        </div>
-        <div class ="project-slot">
-            <div class = "project-container">
-                <div class = "project-con-left">
-                    <p>
-                        This is a ASCII to binary converter I coded in Assembly. This was completed for use on CSU's LC3 simulator.
-                        This program features many of the unique aspects of coding in assembly, the most annoying of which is the importance of good comments. 
-                        While Assembly is not useful practially anymore as it once was, I beleive this project showcases my knowledge of the underlying functions behind much of coding. 
-
-                    </p>
-                </div>
-                <div class = "project-con-right">
-                    <div class = btn-group>
-                        <div class="btn-con" id = "port-btn">
-                            <a href="https://github.com/Shmormius/Assembly-Practice-conversions" target="_blank" class="main-btn">
-                                <span class="btn-text">Project Github</span>
-                            </a>
-                        </div>
-                        <div class="btn-con" id = "port-btn">
-                            <a href="https://en.wikipedia.org/wiki/Little_Computer_3" target="_blank" class="main-btn">
-                                <span class="btn-text">LC3 info</span>
-                            </a>
+                        <div class="project-con-right">
+                            <div class=btn-group>
+                                <div class="btn-con" id="port-btn">
+                                    <a
+                                        href="https://github.com/Shmormius/Shmormius.github.io"
+                                        target="_blank" class="main-btn">
+                                        <span class="btn-text">Link to website
+                                            github</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <hr>
-        <h2>3D modeling projects</h2>
-        <hr>
-        <div class = "project-header">
-            <h3>Kira Apartment</h3>
-        </div>
-        <div class ="model-project-slot">
-            <div class = "model-project-con">
-                <div class = "model-project-thing">
-                    <img src = "../img/Kira-Apartment/Kira1.png" loading="lazy" alt = "kira apartment 1">
+                <hr>
+                <div class="project-header">
+                    <h3>Consumer Producer Problem</h3>
+                    <h3 id="languages">Java</h3>
                 </div>
-                <div class = "model-project-thing">
-                    <img src = "../img/Kira-Apartment/Kira2.png" loading="lazy" alt = "kira apartment 2">
+                <div class="project-slot">
+                    <div class="project-container">
+                        <div class="project-con-left">
+                            <p>
+                                This is my attempt at the producer-consumer
+                                problem using bounded buffer.
+                                Main starts two threads, producerThread and
+                                consumerThread which start the consumer and
+                                producer process.
+                                producer creates random double 'item' and checks
+                                if buffer size is equal to 1000, if it is, it
+                                waits for the consumer to consume one element.
+                                It adds the item to the buffer and icrements the
+                                counter of total produced items and adds the
+                                value to the sum of the produced items.
+                                consumer removes the oldest value in the buffer,
+                                maintains a value of the sum of the consumed
+                                items.
+                                Finally after enoughed items are consumed main
+                                takes the two threads and joins them back
+                                together.
+                            </p>
+                        </div>
+                        <div class="project-con-right">
+                            <div class=btn-group>
+                                <div class="btn-con" id="port-btn">
+                                    <a
+                                        href="https://github.com/Shmormius/Consumer-Producer-Problem"
+                                        target="_blank" class="main-btn">
+                                        <span class="btn-text">Project Github</span>
+                                    </a>
+                                </div>
+                                <div class="btn-con" id="port-btn">
+                                    <a
+                                        href="https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem"
+                                        target="_blank" class="main-btn">
+                                        <span class="btn-text">Consumer-Producer
+                                            Problem</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class = "model-project-thing">    
-                    <img src = "../img/Kira-Apartment/Kira4.png" loading="lazy" alt = "kira apartment 3">
+                <hr>
+                <div class="project-header">
+                    <h3>Assembly ASCII to binary </h3>
+                    <h3 id="languages">Assembly Language</h3>
                 </div>
-                <div class = "model-project-thing">    
-                    <img src = "../img/Kira-Apartment/Kira5.png" loading="lazy" alt = "kira apartment 4">
-                </div>
-                <div class = "model-project-thing">
-                    <p>
-                        This environment model is based on Kira's apartment in Jojolion. 
-                        This was the last thing major thing i did in Blender before taking a long hiatus to focus on computer science.
-                        I'm happy overall with out this turned out but I cant help but notice many problems with it. Everything in this scence was modeled by me. 
-                    </p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class = "project-header">
-            <h3>Gong</h3>
-        </div>
-        <div class ="model-project-slot">
-            <div class = "model-project-thing">
-                <img src = "../img/Gong/FullRender.png" loading="lazy" alt = "gong 1">
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/Gong/FullRenderExtra.png" loading="lazy" alt = "gong 2">
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/Gong/Wireframe.png" loading="lazy" alt = "gong 3" class = "square">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    This is my favorite poly-modeling project. It is based on a mini gong that I have in my apartment. I have trained my cats to all come once I ring it. 
-                    I got the symbols directly from my gong by taking a picture adjusting it until I had a clear alpha of the shape of the symbol.
-                </p>
-            </div>
-            <div class = "model-project-thing">
-                <div class="btn-con" id = "port-btn">
-                    <a href="https://www.cgtrader.com/free-3d-models/interior/other/mini-gong" target="_blank" class="main-btn">
-                        <span class="btn-text">CGtrader link</span>
-                    </a>
-                </div>
-            </div>
-        <hr>
-        <div class = "project-header">
-            <h3>Subway Environment</h3>
-        </div>
-        <div class ="model-project-slot">
-            <div class = "model-project-thing">
-                <img src = "../img/subway/unssssssstitled.png" loading="lazy" alt = "subway 1">
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/subway/unsssstitled.png" loading="lazy" alt = "subway 2">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    This is my high school senior capstone project. At the time I wanted to deticate myself to making a strong urban scene which is something I had never done before this.
-                    I had a lot of spare time due to the Covid-19 pandemic and thus a lot of hours were poured into this. 
-                </p>    
-            </div>
-        <hr>
-        <div class = "project-header">
-            <h3>Studio Apartment</h3>
-        </div>
-        <div class ="model-project-slot">
-            <div class = "model-project-thing">
-                <img src = "../img/apartment/Deskk.png" loading="lazy" alt = "Apartment 1" class = "square">
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/apartment/guitus.png" loading="lazy" alt = "Apartment 2" class = "square">
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/apartment/keyboard.png" loading="lazy" alt = "Apartment 3" class = "square">
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/apartment/plantt.png" loading="lazy" alt = "Apartment 4" class = "square">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    This scene was created in order for me to attempt at making a rainy window, houseplants, and fancy light-bulbs. Im happy with how those aspects turned out however you can see how i am cutting corners in a couple places.
-                    Many of the models in these scene I took from my other projects and because of that can be seen in a couple other scenes as well. The guitar is from before I learned to poly model well, so there is some artifacting. 
-                    The computer tower was made in under 5 minutes and because of that it is easily the weakest part of this. Also the painting on the wall is my favorite paining of all time "City Lights" by Flooko.
-                </p>
-            </div>
-            <div class = "model-project-thing">
-                <div class="btn-con" id = "port-btn">
-                    <a href="https://www.deviantart.com/flooko/art/City-Lights-724006768" target="_blank" class="main-btn">
-                        <span class="btn-text">City Lights by Flooko</span>
-                    </a>
-                </div>
-            </div>
+                <div class="project-slot">
+                    <div class="project-container">
+                        <div class="project-con-left">
+                            <p>
+                                This is a ASCII to binary converter I coded in
+                                Assembly. This was completed for use on CSU's
+                                LC3 simulator.
+                                This program features many of the unique aspects
+                                of coding in assembly, the most annoying of
+                                which is the importance of good comments.
+                                While Assembly is not useful practially anymore
+                                as it once was, I beleive this project showcases
+                                my knowledge of the underlying functions behind
+                                much of coding.
 
-        <hr>
-        <div class = "project-header">
-            <h3>Small things</h3>
-        </div>
-        <div class ="model-project-slot">
-            <div class = "model-project-thing">
-                <img src = "../img/little-objects/besm.png" loading="lazy" alt = "little thing">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    This is an experimental render I made using a bean can model that I had made for another project. Blender has many lens effects.
-                </p>
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/little-objects/boaDADrd.png" loading="lazy" alt = "little thing">
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/little-objects/board.png" loading="lazy" alt = "little thing">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    Have you ever played quirkle? Seriously fun game, but after a game of it at my grandparents I decied to try my hand at modeling our game, with various other games scattered around of course.
-                </p>
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/little-objects/can.png" loading="lazy" alt = "little thing" class = "square">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    This can of pepsi was the only remarkable thing to come out of a dining room scene that I had tried to make. Particularly love this model because I managed to get finger prints on it.
-                    Like many others you can see this model makes it's way into a lot of my scenes.    
-                </p>
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/little-objects/Candlerender.png" loading="lazy" alt = "little thing" class = "square">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    This candle is made based on a tutorial on how to make a candle's flame. The background, plate, and overall render are the parts that diverge from the tutorial.
+                            </p>
+                        </div>
+                        <div class="project-con-right">
+                            <div class=btn-group>
+                                <div class="btn-con" id="port-btn">
+                                    <a
+                                        href="https://github.com/Shmormius/Assembly-Practice-conversions"
+                                        target="_blank" class="main-btn">
+                                        <span class="btn-text">Project Github</span>
+                                    </a>
+                                </div>
+                                <div class="btn-con" id="port-btn">
+                                    <a
+                                        href="https://en.wikipedia.org/wiki/Little_Computer_3"
+                                        target="_blank" class="main-btn">
+                                        <span class="btn-text">LC3 info</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h2>3D modeling projects</h2>
+                <hr>
+                <div class="project-header">
+                    <h3>Kira Apartment</h3>
+                </div>
+                <div class="model-project-slot">
+                    <div class="model-project-con">
+                        <div class="model-project-thing">
+                            <img src="../img/Kira-Apartment/Kira1.png"
+                                loading="lazy" alt="kira apartment 1">
+                        </div>
+                        <div class="model-project-thing">
+                            <img src="../img/Kira-Apartment/Kira2.png"
+                                loading="lazy" alt="kira apartment 2">
+                        </div>
+                        <div class="model-project-thing">
+                            <img src="../img/Kira-Apartment/Kira4.png"
+                                loading="lazy" alt="kira apartment 3">
+                        </div>
+                        <div class="model-project-thing">
+                            <img src="../img/Kira-Apartment/Kira5.png"
+                                loading="lazy" alt="kira apartment 4">
+                        </div>
+                        <div class="model-project-thing">
+                            <p>
+                                This environment model is based on Kira's
+                                apartment in Jojolion.
+                                This was the last thing major thing i did in
+                                Blender before taking a long hiatus to focus on
+                                computer science.
+                                I'm happy overall with out this turned out but I
+                                cant help but notice many problems with it.
+                                Everything in this scence was modeled by me.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="project-header">
+                    <h3>Gong</h3>
+                </div>
+                <div class="model-project-slot">
+                    <div class="model-project-thing">
+                        <img src="../img/Gong/FullRender.png" loading="lazy"
+                            alt="gong 1">
+                    </div>
+                    <div class="model-project-thing">
+                        <img src="../img/Gong/FullRenderExtra.png"
+                            loading="lazy" alt="gong 2">
+                    </div>
+                    <div class="model-project-thing">
+                        <img src="../img/Gong/Wireframe.png" loading="lazy"
+                            alt="gong 3" class="square">
+                    </div>
+                    <div class="model-project-thing">
+                        <p>
+                            This is my favorite poly-modeling project. It is
+                            based on a mini gong that I have in my apartment. I
+                            have trained my cats to all come once I ring it.
+                            I got the symbols directly from my gong by taking a
+                            picture adjusting it until I had a clear alpha of
+                            the shape of the symbol.
+                        </p>
+                    </div>
+                    <div class="model-project-thing">
+                        <div class="btn-con" id="port-btn">
+                            <a
+                                href="https://www.cgtrader.com/free-3d-models/interior/other/mini-gong"
+                                target="_blank" class="main-btn">
+                                <span class="btn-text">CGtrader link</span>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="project-header">
+                        <h3>Subway Environment</h3>
+                    </div>
+                    <div class="model-project-slot">
+                        <div class="model-project-thing">
+                            <img src="../img/subway/unssssssstitled.png"
+                                loading="lazy" alt="subway 1">
+                        </div>
+                        <div class="model-project-thing">
+                            <img src="../img/subway/unsssstitled.png"
+                                loading="lazy" alt="subway 2">
+                        </div>
+                        <div class="model-project-thing">
+                            <p>
+                                This is my high school senior capstone project.
+                                At the time I wanted to deticate myself to
+                                making a strong urban scene which is something I
+                                had never done before this.
+                                I had a lot of spare time due to the Covid-19
+                                pandemic and thus a lot of hours were poured
+                                into this.
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="project-header">
+                            <h3>Studio Apartment</h3>
+                        </div>
+                        <div class="model-project-slot">
+                            <div class="model-project-thing">
+                                <img src="../img/apartment/Deskk.png"
+                                    loading="lazy" alt="Apartment 1"
+                                    class="square">
+                            </div>
+                            <div class="model-project-thing">
+                                <img src="../img/apartment/guitus.png"
+                                    loading="lazy" alt="Apartment 2"
+                                    class="square">
+                            </div>
+                            <div class="model-project-thing">
+                                <img src="../img/apartment/keyboard.png"
+                                    loading="lazy" alt="Apartment 3"
+                                    class="square">
+                            </div>
+                            <div class="model-project-thing">
+                                <img src="../img/apartment/plantt.png"
+                                    loading="lazy" alt="Apartment 4"
+                                    class="square">
+                            </div>
+                            <div class="model-project-thing">
+                                <p>
+                                    This scene was created in order for me to
+                                    attempt at making a rainy window,
+                                    houseplants, and fancy light-bulbs. Im happy
+                                    with how those aspects turned out however
+                                    you can see how i am cutting corners in a
+                                    couple places.
+                                    Many of the models in these scene I took
+                                    from my other projects and because of that
+                                    can be seen in a couple other scenes as
+                                    well. The guitar is from before I learned to
+                                    poly model well, so there is some
+                                    artifacting.
+                                    The computer tower was made in under 5
+                                    minutes and because of that it is easily the
+                                    weakest part of this. Also the painting on
+                                    the wall is my favorite paining of all time
+                                    "City Lights" by Flooko.
+                                </p>
+                            </div>
+                            <div class="model-project-thing">
+                                <div class="btn-con" id="port-btn">
+                                    <a
+                                        href="https://www.deviantart.com/flooko/art/City-Lights-724006768"
+                                        target="_blank" class="main-btn">
+                                        <span class="btn-text">City Lights by
+                                            Flooko</span>
+                                    </a>
+                                </div>
+                            </div>
 
-                </p>
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/little-objects/DRPEPPER.png" loading="lazy" alt = "little thing" class = "square">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    This cup is modeled after my mom's cup that I saw her using one day. The cup is vintage and was given away by my great-uncle and unfortunatly broke after I modeled it but we can see it here being put to good use.
-                </p>
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/little-objects/legonormal.png" loading="lazy" alt = "little thing">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    This is some modeling practice I did with normal maps.
-                </p>
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/little-objects/SCREWS.png" loading="lazy" alt = "little thing" class = "square">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    Still not sure how I managed to do this considering this was one of the earliest renders I have ever done. I think my experience in computer aided drafting actually helped me here. 
-                </p>
-            </div>
-        </div> 
-        <hr>
-        <div class = "project-header">
-            <h3>Environments</h3>
-        </div>
-        <div class ="model-project-slot">
-            <div class = "model-project-thing">
-                <img src = "../img/environment/0001.png" loading="lazy" alt = "Environment">
-            </div>
-            
-            <div class = "model-project-thing">
-                <img src = "../img/environment/aar.png" loading="lazy" alt = "Environment">
-            </div>
-            <div class = "model-project-thing">
-            
-                <img src = "../img/environment/graaass.png" loading="lazy" alt = "Environment">
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/environment/stars.png" loading="lazy" alt = "Environment">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    These are some environments. The First is based on a drawing online, the second is based on a atmosphere and space tutorial.
-                    The grass one is my favorite and is from when I learned to use alfa to specify what to texture and what to not.    
-                </p>
-            </div>
+                            <hr>
+                            <div class="project-header">
+                                <h3>Small things</h3>
+                            </div>
+                            <div class="model-project-slot">
+                                <div class="model-project-thing">
+                                    <img src="../img/little-objects/besm.png"
+                                        loading="lazy" alt="little thing">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        This is an experimental render I made
+                                        using a bean can model that I had made
+                                        for another project. Blender has many
+                                        lens effects.
+                                    </p>
+                                </div>
+                                <div class="model-project-thing">
+                                    <img
+                                        src="../img/little-objects/boaDADrd.png"
+                                        loading="lazy" alt="little thing">
+                                </div>
+                                <div class="model-project-thing">
+                                    <img src="../img/little-objects/board.png"
+                                        loading="lazy" alt="little thing">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        Have you ever played quirkle? Seriously
+                                        fun game, but after a game of it at my
+                                        grandparents I decied to try my hand at
+                                        modeling our game, with various other
+                                        games scattered around of course.
+                                    </p>
+                                </div>
+                                <div class="model-project-thing">
+                                    <img src="../img/little-objects/can.png"
+                                        loading="lazy" alt="little thing"
+                                        class="square">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        This can of pepsi was the only
+                                        remarkable thing to come out of a dining
+                                        room scene that I had tried to make.
+                                        Particularly love this model because I
+                                        managed to get finger prints on it.
+                                        Like many others you can see this model
+                                        makes it's way into a lot of my scenes.
+                                    </p>
+                                </div>
+                                <div class="model-project-thing">
+                                    <img
+                                        src="../img/little-objects/Candlerender.png"
+                                        loading="lazy" alt="little thing"
+                                        class="square">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        This candle is made based on a tutorial
+                                        on how to make a candle's flame. The
+                                        background, plate, and overall render
+                                        are the parts that diverge from the
+                                        tutorial.
 
-        </div> 
-        <hr>
-        <div class = "project-header">
-            <h3>weird stuff</h3>
-        </div>
-        <div class ="model-project-slot">
-            <div class = "model-project-thing">
-                <img src = "../img/weird-stuff/CUBEMAN.png" loading="lazy" alt = "strange thing">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    I downloaded a texture of a man's face as well as some eyeballs. 
-                    I ended up not having the time I needed to do an actual head so here we are...
-                </p>
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/weird-stuff/DEMONINDOOR.png" loading="lazy" alt = "strange thing">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    Its watching
-                </p>
-            </div>
-            <div class = "model-project-thing">
-                <img src = "../img/weird-stuff/ghost.png" loading="lazy" alt = "strange thing" class = "square">
-            </div>
-            <div class = "model-project-thing">
-                <p>
-                    Had this ghost hanging next to my desk for 4+ years until I moved to Fort Collins. I just recently bought a new one that proudly hangs in my apartment from August until November. 
-                </p>
-            </div>
-        </div> 
-        <hr>
-    </div>
-    <hr>
-    <hr>
-    <div class="fixed-bar"></div>
+                                    </p>
+                                </div>
+                                <div class="model-project-thing">
+                                    <img
+                                        src="../img/little-objects/DRPEPPER.png"
+                                        loading="lazy" alt="little thing"
+                                        class="square">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        This cup is modeled after my mom's cup
+                                        that I saw her using one day. The cup is
+                                        vintage and was given away by my
+                                        great-uncle and unfortunatly broke after
+                                        I modeled it but we can see it here
+                                        being put to good use.
+                                    </p>
+                                </div>
+                                <div class="model-project-thing">
+                                    <img
+                                        src="../img/little-objects/legonormal.png"
+                                        loading="lazy" alt="little thing">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        This is some modeling practice I did
+                                        with normal maps.
+                                    </p>
+                                </div>
+                                <div class="model-project-thing">
+                                    <img src="../img/little-objects/SCREWS.png"
+                                        loading="lazy" alt="little thing"
+                                        class="square">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        Still not sure how I managed to do this
+                                        considering this was one of the earliest
+                                        renders I have ever done. I think my
+                                        experience in computer aided drafting
+                                        actually helped me here.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="project-header">
+                                <h3>Environments</h3>
+                            </div>
+                            <div class="model-project-slot">
+                                <div class="model-project-thing">
+                                    <img src="../img/environment/0001.png"
+                                        loading="lazy" alt="Environment">
+                                </div>
 
-</body>
+                                <div class="model-project-thing">
+                                    <img src="../img/environment/aar.png"
+                                        loading="lazy" alt="Environment">
+                                </div>
+                                <div class="model-project-thing">
 
-</html>
+                                    <img src="../img/environment/graaass.png"
+                                        loading="lazy" alt="Environment">
+                                </div>
+                                <div class="model-project-thing">
+                                    <img src="../img/environment/stars.png"
+                                        loading="lazy" alt="Environment">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        These are some environments. The First
+                                        is based on a drawing online, the second
+                                        is based on a atmosphere and space
+                                        tutorial.
+                                        The grass one is my favorite and is from
+                                        when I learned to use alfa to specify
+                                        what to texture and what to not.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <hr>
+                            <div class="project-header">
+                                <h3>weird stuff</h3>
+                            </div>
+                            <div class="model-project-slot">
+                                <div class="model-project-thing">
+                                    <img src="../img/weird-stuff/CUBEMAN.png"
+                                        loading="lazy" alt="strange thing">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        I downloaded a texture of a man's face
+                                        as well as some eyeballs.
+                                        I ended up not having the time I needed
+                                        to do an actual head so here we are...
+                                    </p>
+                                </div>
+                                <div class="model-project-thing">
+                                    <img
+                                        src="../img/weird-stuff/DEMONINDOOR.png"
+                                        loading="lazy" alt="strange thing">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        Its watching
+                                    </p>
+                                </div>
+                                <div class="model-project-thing">
+                                    <img src="../img/weird-stuff/ghost.png"
+                                        loading="lazy" alt="strange thing"
+                                        class="square">
+                                </div>
+                                <div class="model-project-thing">
+                                    <p>
+                                        Had this ghost hanging next to my desk
+                                        for 4+ years until I moved to Fort
+                                        Collins. I just recently bought a new
+                                        one that proudly hangs in my apartment
+                                        from August until November.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    <hr>
+                    <hr>
+                    <div class="fixed-bar"></div>
+
+                </body>
+
+            </html>

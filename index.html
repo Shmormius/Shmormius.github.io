@@ -1,75 +1,88 @@
 <!DOCTYPE html>
-<html lang ="en">
+<html lang="en">
 
-<head>
-    <link rel="stylesheet"href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
-    <link rel="manifest" href="icon/site.webmanifest">
-    <title>The Shmormius Website</title>
-    <meta name ="viewport" content="width=device-width,initial-scale=1.0">
-</head>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/site.webmanifest">
+        <title>The Shmormius Website</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
 
-<body>
-    <div class="header">
-        <h1>Shmormius Website</h1>
-        <div class="h-shape"></div>
-    </div>
-    
-    <div id="navigation-container"></div>
-    <script src="/nav/navigation.js" defer></script>
+    <body>
+        <div class="header">
+            <h1>Shmormius Website</h1>
+            <div class="h-shape"></div>
+        </div>
 
-    <div class = "home-page-con">
-        <div class = "home-boxes">
-            <div class = "box-container">
-                <a href= "portfolio-landing.html" class="box">
-                    <h2>Programming</h2>
-                    <p>
-                        Java, C, C++, Python, Assembly, algorithms, data structures
+        <div id="navigation-container"></div>
+        <script src="/nav/navigation.js" defer></script>
+
+        <div class="home-page-con">
+            <div class="home-boxes">
+                <div class="box-container">
+                    <a href="portfolio-landing.html" class="box">
+                        <h2>Programming</h2>
+                        <p>
+                            Java, C, C++, Python, Assembly, algorithms, data
+                            structures
+                        </p>
+                    </a>
+                    <a href="portfolio-landing.html" class="box">
+                        <h2>3D modeling</h2>
+                        <p>
+                            Poly modeling, texturing, rendering, sculpting
+                        </p>
+                    </a>
+                    <a href="portfolio-landing.html" class="box">
+                        <h2>Web Development</h2>
+                        <p>
+                            HTML, CSS, SCSS, Javascript, JSON
+                        </p>
+                    </a>
+                    <a href="aboutme.html" class="box">
+                        <h2>Agile Software Development</h2>
+                        <p>
+                            Github, scrum, linux, JUnit, Code Climate,
+                            development principles
+                        </p>
+                    </a>
+                </div>
+                <div class="text-box-container"><p>
+                        Hello! my name is... <span>Daemon Kerrigan</span>, I am
+                        a computer scientist and student at Colorado State
+                        University, you can get to know me more here!
                     </p>
-                </a>
-                <a href= "portfolio-landing.html" class="box">
-                    <h2>3D modeling</h2>
-                    <p>
-                        Poly modeling, texturing, rendering, sculpting
-                    </p>
-                </a>
-                <a href= "portfolio-landing.html" class="box">
-                    <h2>Web Development</h2>
-                    <p>
-                        HTML, CSS, SCSS, Javascript, JSON
-                    </p>
-                </a>
-                <a href= "aboutme.html" class="box">
-                    <h2>Agile Software Development</h2>
-                    <p>
-                        Github, scrum, linux, JUnit, Code Climate, development principles
-                    </p>
-                </a>
+                    <div class="btn-con">
+                        <a href="docs/TechResume12-18-23.pdf" target="_blank"
+                            class="main-btn">
+                            <span class="btn-text">Resume PDF</span>
+                        </a>
+                    </div>
+                </div>
+
             </div>
-            <div class = "text-box-container"><p>
-                Hello! my name is... <span>Daemon Kerrigan</span>, I am a computer scientist and student at Colorado State University, you can get to know me more here!
-            </p>
-            <div class="btn-con">
-                <a href="docs/TechResume12-18-23.pdf" target="_blank" class="main-btn">
-                    <span class="btn-text">Resume PDF</span>
-                </a>
+
+            <div class="image-box-cover">
+                <img src="img/daemon-cover-photo.png" class="daemon-cover"
+                    loading="lazy" alt="Photo of Daemon in a button up shirt">
             </div>
         </div>
-            
-        </div>
-        
-        <div class = "image-box-cover">
-            <img src = "img/daemon-cover-photo.png" class = "daemon-cover" loading ="lazy" alt = "Photo of Daemon in a button up shirt">    
-        </div>
-    </div>
 
-    <div class="fixed-bar"></div>
-    <div class = "signature-cover">
-        <img src="img/signiture.png" width="800" height="350" alt="My signiture" loading  ="lazy" class ="daemon-signature">
-    </div>
-</body>
+        <div class="fixed-bar"></div>
+        <div class="signature-cover">
+            <img src="img/signiture.png" width="800" height="350"
+                alt="My signiture" loading="lazy" class="daemon-signature">
+        </div>
+    </body>
 
 </html>
