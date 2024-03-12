@@ -129,6 +129,7 @@ nav a:hover p1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
   }
 }
 
@@ -211,16 +212,28 @@ p {
 
 @media only screen and (max-width: 767px) {
   .journal-content-con {
-    width: 100%;
+    width: 90%;
+    margin-left: 0%;
   }
 
   .journal-content-con .book {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding-left: 0%;
+    border: none;
   }
 
   .journal-content-con .book .left-book {
     width: 100%;
+  }
+  .journal-content-con .book .left-book .title{
+    width: 90%;
+  }
+  .journal-content-con .book .left-book .genre {
+    width: 90%;
+  }
+  .journal-content-con .book .left-book .author {
+    width: 90%;
   }
 
   .journal-content-con .book .left-book .book-cover {
@@ -230,7 +243,7 @@ p {
   }
 
   .journal-content-con .book .right-book {
-    width: 100%;
+    width: 90%;
     display: flex;
   }
 }
