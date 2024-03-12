@@ -33,13 +33,7 @@ h1 {
 
 }
 
-p {
-  color: var(--color-white);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 20px;
-  font-style: italic;
-  font-size: 20px;
-}
+
 
 .header {
   top: 0;
@@ -135,7 +129,7 @@ nav a:active {
   nav a {
     width: 10%;
     height: auto;
-    
+
 
   }
 }
@@ -164,6 +158,7 @@ nav a:active {
   }
 }
 
+
 .quarter {
   width: 50%;
   height: 50%;
@@ -173,6 +168,26 @@ nav a:active {
   z-index: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  /* Center content horizontally */
+  padding: 10px;
+  /* Add padding to give space between content and box edges */
+}
+
+.quarter .text-container {
+  width: 100%;
+}
+
+.quarter .text-container p {
+  width: 100%;
+  text-align: left;
+  margin: 10px 0;
+  color: var(--color-white);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 20px;
+  font-style: italic;
+  font-size: 20px;
+  word-wrap: break-word;
 }
 
 .quarter2 {
@@ -222,6 +237,7 @@ nav a:active {
   z-index: 2;
   transition: all 0.4s ease-in-out;
 }
+
 .image-to-place:hover {
   width: 25%;
 }
@@ -243,10 +259,6 @@ nav a:active {
     /* Adjust the spacing between quarters */
   }
 
-  .quarter2 {
-    display: none;
-    /* Hide the second quarter on smaller screens */
-  }
 
   .video-container,
   .cat {
