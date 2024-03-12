@@ -296,7 +296,7 @@ p {
 @media only screen and (max-width: 767px) {
   .home-page-con .home-boxes .box-container .box {
     min-width: 100px;
-    width: 90%;
+    width: 100%;
   }
 
   .home-page-con .home-boxes {
