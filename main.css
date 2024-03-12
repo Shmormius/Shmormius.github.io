@@ -594,42 +594,27 @@ hr {
 
 .portfolio-landing-con .project-con-right {
   display: flexbox;
-  width: 80%;
-  margin-left: 20%;
-  padding-bottom: 20px;
-  border: 1px solid var(--color-grey0);
-  border-radius: 30px;
-  background-color: var(--color-primary);
+  width: 100%;
 }
 
 .portfolio-landing-con .project-con-right .btn-group {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  max-width: 500px;
-  margin-left: 15px;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
+  padding-top: 15%;
 }
 
 .portfolio-landing-con .project-con-right .btn-con {
-  border-color: var(--color-white);
-  margin-top: 10px;
+  padding-top: 50px;
 }
 
 .portfolio-landing-con .project-con-right .project-img-con {
-  display: grid;
-  min-height: 200px;
-  grid-template-columns: repeat(2, 1fr);
-  width: 80%;
-  padding-left: 10%;
-  max-width: 600px;
+  padding-left: 75px;
+  padding-top: 20px;
+  
 }
 
 .portfolio-landing-con .project-con-right .project-img-con img {
-  width: 90%;
-  margin-top: 25px;
-  height: auto;
+  height: 300px;
+  width: auto;
+  margin: 10px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -642,13 +627,6 @@ hr {
 
   .portfolio-landing-con .project-header {
     margin-left: 0px;
-  }
-
-  .portfolio-landing-con .project-con-right .project-img-con {
-    width: 100%;
-    justify-content: center;
-    padding-left: 0px;
-
   }
 
   .portfolio-landing-con .model-project-slot .model-project-thing .square {
@@ -668,11 +646,6 @@ hr {
 
   .portfolio-landing-con .project-con-left {
     min-width: 100px;
-  }
-
-  .portfolio-landing-con .project-con-right {
-    border: none;
-    background-color: transparent;
   }
 }
 

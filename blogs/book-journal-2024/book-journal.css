@@ -73,7 +73,7 @@ h3 {
 }
 
 .bar a:hover {
-  background-color: #ccc;
+  background-color: var(--color-primary);
 }
 
 

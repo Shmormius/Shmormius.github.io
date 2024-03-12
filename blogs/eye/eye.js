@@ -49,4 +49,17 @@ function getRandomPosition() {
   window.addEventListener('DOMContentLoaded', function() {
     placeImages();
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    function toggleColorInversion() {
+      document.body.classList.toggle("invert-colors");
+    }
+  
+    document.querySelectorAll(".image-to-place").forEach(function(element) {
+      element.addEventListener("click", function() {
+        toggleColorInversion();
+      });
+    });
+  });
+  
   
