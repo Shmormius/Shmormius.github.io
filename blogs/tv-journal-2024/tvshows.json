@@ -1,18 +1,7 @@
 [
     {
         "id": "jan",
-        "cover": "../../img/movie-journal/61zFh8+gdrL.jpg",
-        "title": "Flowers of Evil",
-        "creator": "Atsushi Moriyama",
-        "rating": 4.5,
-        "review": "",
-        "duration": "13 episodes",
-        "genre": "Coming-of-age, psycological",
-        "dateWatched": "1/XX/2024"
-    },
-    {
-        "id": "jan",
-        "cover": "../../img/movie-journal/61zFh8+gdrL.jpg",
+        "cover": "../../img/tv-journal/evangelion.jpg",
         "title": "Neon Genesis Evangelion",
         "creator": "Hideaki Anno",
         "rating": 5,
@@ -22,14 +11,25 @@
         "dateWatched": "1/2/2024"
     },
     {
-        "id": "jan",
-        "cover": "../../img/movie-journal/61zFh8+gdrL.jpg",
+        "id": "",
+        "cover": "../../img/tv-journal/flowers-of-evil.jpg",
+        "title": "Flowers of Evil",
+        "creator": "Atsushi Moriyama",
+        "rating": 4.5,
+        "review": "",
+        "duration": "13 episodes",
+        "genre": "Coming-of-age, psycological",
+        "dateWatched": "1/XX/2024"
+    },
+    {
+        "id": "feb",
+        "cover": "../../img/tv-journal/hells-paradise.jpg",
         "title": "Hells Paradise Season 1",
-        "creator": "",
-        "rating": 5,
+        "creator": "Kaori makita",
+        "rating": 2,
         "review": "",
         "duration": "13 episodes",
         "genre": "Action, dark fantasy",
-        "dateWatched": "1/2/2024"
+        "dateWatched": "2/XX/2024"
     }
 ]

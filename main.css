@@ -114,6 +114,7 @@ h1 {
 nav {
   display: flex;
   align-items: end;
+  z-index: 1;
 }
 
 
@@ -658,6 +659,7 @@ hr {
   margin-top: 3rem;
   margin: 25px;
   margin-right: 75px;
+  margin-bottom: 75px;
 }
 
 .blogs .blog {

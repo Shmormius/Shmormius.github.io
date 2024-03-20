@@ -1,7 +1,7 @@
 [
     {
         "id": "jan",
-        "cover": "/img/book-journal/9780811232432.jpg",
+        "cover": "../../img/game-journal/darksouls3.jpg",
         "title": "Dark Souls III",
         "studio": "FromSoftware",
         "rating": 5,
@@ -10,8 +10,8 @@
         "genre": "Action role-play"
     },
     {
-        "id": "jan",
-        "cover": "/img/book-journal/9780811232432.jpg",
+        "id": "",
+        "cover": "../../img/game-journal/NTSC_Resident_Evil_2_Cover.png",
         "title": "Resident Evil 2 (1998)",
         "studio": "Capcom",
         "rating": 4,
@@ -20,8 +20,8 @@
         "genre": "Survival horror"
     },
     {
-        "id": "jan",
-        "cover": "/img/book-journal/9780811232432.jpg",
+        "id": "",
+        "cover": "../../img/game-journal/Elden_Ring_Box_art.jpg",
         "title": "Elden Ring",
         "studio": "FromSoftware",
         "rating": 5,
@@ -30,8 +30,8 @@
         "genre": "Action role-play"
     },
     {
-        "id": "jan",
-        "cover": "/img/book-journal/9780811232432.jpg",
+        "id": "",
+        "cover": "../../img/game-journal/metal-gear-solid-v-the-phantom-pain-cover-i26603.jpg",
         "title": "Metal Gear Solid V: The Phantom Pain",
         "studio": "Kojima Productions",
         "rating": 4,
@@ -40,8 +40,8 @@
         "genre": "Action-adventure stealth"
     },
     {
-        "id": "jan",
-        "cover": "/img/book-journal/9780811232432.jpg",
+        "id": "",
+        "cover": "../../img/game-journal/metal-gear-solid-3-snake-eater.jpg",
         "title": "Metal Gear Solid 3: Snake Eater",
         "studio": "Konami",
         "rating": 5,
@@ -50,8 +50,8 @@
         "genre": "Action-adventure stealth"
     },
     {
-        "id": "jan",
-        "cover": "/img/book-journal/9780811232432.jpg",
+        "id": "",
+        "cover": "../../img/game-journal/Metal_Gear_Solid_cover_art.png",
         "title": "Metal Gear Solid",
         "studio": "Konami",
         "rating": 4,
@@ -60,8 +60,8 @@
         "genre": "Action-adventure stealth"
     },
     {
-        "id": "jan",
-        "cover": "/img/book-journal/9780811232432.jpg",
+        "id": "",
+        "cover": "../../img/game-journal/fortnite.jpg",
         "title": "Fortnite",
         "studio": "Epic games",
         "rating": 3.5,
@@ -70,8 +70,8 @@
         "genre": "Battle royale"
     },
     {
-        "id": "jan",
-        "cover": "/img/book-journal/9780811232432.jpg",
+        "id": "",
+        "cover": "../../img/game-journal/minecraft.png",
         "title": "Minecraft",
         "studio": "Mojang",
         "rating": 5,
@@ -80,8 +80,8 @@
         "genre": "Survival sandbox"
     },
     {
-        "id": "jan",
-        "cover": "/img/book-journal/9780811232432.jpg",
+        "id": "",
+        "cover": "../../img/game-journal/noita.jpg",
         "title": "Noita",
         "studio": "Nolla games",
         "rating": 4.5,
