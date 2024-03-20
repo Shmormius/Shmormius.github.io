@@ -1,48 +1,45 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch("books.json")
+    fetch("games.json")
         .then(response => response.json())
         .then(data => {
-            const bookJournal = document.getElementById("book-journal");
+            const gameJournal = document.getElementById("game-journal");
 
-            data.forEach(book => {
-                const bookDiv = document.createElement("div");
-                bookDiv.classList.add("book");
+            data.forEach(game => {
+                const gameDiv = document.createElement("div");
+                gameDiv.classList.add("game");
 
-                // Create HTML structure for each book entry
-                bookDiv.innerHTML = `
-                    <div class="left-book">
-                        <img src="${book.cover}" class="book-cover" id = "${book.id}">
+                // Create HTML structure for each game entry
+                gameDiv.innerHTML = `
+                    <div class="left-game">
+                        <img src="${game.cover}" class="game-cover" id = "${game.id}">
                         <div class="details">
                             <div class="title">
-                                <p>${book.title}</p>
+                                <p>${game.title}</p>
                             </div>
-                            <div class="author">
-                                <p>by ${book.author}</p>
+                            <div class="studio">
+                                <p>Created by ${game.studio}</p>
                             </div>
                             <div class="star-rating">
-                                ${getStarRating(book.rating)}
+                                ${getStarRating(game.rating)}
                             </div>
-                            <div class="page-count">
-                                <p>Pages: ${book.pages}</p>
+                            <div class="finished">
+                                <p>Finished?: ${game.finished}</p>
                             </div>
                             <div class="genre">
-                                <p>Genre: ${book.genre}</p>
-                            </div>
-                            <div class="Date-read">
-                                <p>Read: ${book.dateRead}</p>
+                                <p>Genre: ${game.genre}</p>
                             </div>
                         </div>
                     </div>
-                    <div class="right-book">
-                        <p>${book.review}</p>
+                    <div class="right-game">
+                        <p>${game.review}</p>
                     </div>
                 `;
 
-                // Append book div to the book journal container
-                bookJournal.appendChild(bookDiv);
+                // Append game div to the game journal container
+                gameJournal.appendChild(gameDiv);
             });
         })
-        .catch(error => console.error("Error fetching book data:", error));
+        .catch(error => console.error("Error fetching game data:", error));
 
     // Function to generate star rating HTML
     function getStarRating(rating) {

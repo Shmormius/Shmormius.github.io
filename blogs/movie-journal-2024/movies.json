@@ -3,11 +3,33 @@
         "id": "jan",
         "cover": "../../img/movie-journal/61zFh8+gdrL.jpg",
         "title": "The Lighthouse",
-        "director": "",
+        "director": "Robert Eggers",
         "rating": 5,
         "review": "",
-        "duration": 1,
-        "genre": "",
-        "dateWatched": "1/2/2024"
+        "duration": 110,
+        "genre": "Psychological thriller",
+        "dateWatched": "1/XX/2024"
+    },
+    {
+        "id": "mar",
+        "cover": "../../img/movie-journal/MicrosoftTeams-image-2-1.jpg",
+        "title": "The Batman",
+        "director": "Matt Reeves",
+        "rating": 3.5,
+        "review": "",
+        "duration": 175,
+        "genre": "Action, thriller",
+        "dateWatched": "3/XX/2024"
+    },
+    {
+        "id": "",
+        "cover": "../../img/movie-journal/51XFaesw92L._AC_UF894,1000_QL80_.jpg",
+        "title": "The End of Evangelion",
+        "director": "Anno and Kazuya Tsurumaki",
+        "rating": 5,
+        "review": "",
+        "duration": 90,
+        "genre": "Apocalyptic science fiction",
+        "dateWatched": "3/17/2024"
     }
 ]

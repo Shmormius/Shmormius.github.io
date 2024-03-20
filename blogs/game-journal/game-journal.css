@@ -168,7 +168,7 @@ p {
   border-radius: 30px;
 }
 
-.journal-content-con .book {
+.journal-content-con .game {
   display: flex;
   width: 97%;
   min-height: 300px;
@@ -178,33 +178,33 @@ p {
   border-radius: 5px;
 }
 
-.journal-content-con .book:hover {
+.journal-content-con .game:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
   transition: all 0.4s ease-in-out;
 }
 
-.journal-content-con .book .left-book {
+.journal-content-con .game .left-game {
   display: flex;
 }
 
-.journal-content-con .book .left-book .details {
+.journal-content-con .game .left-game .details {
   min-width: 200px;
   margin-left: 5px;
 }
 
-.journal-content-con .book .left-book .details .title p {
+.journal-content-con .game .left-game .details .title p {
   color: var(--color-secondary);
   font-size: 18px;
   font-weight: bold;
 }
 
-.journal-content-con .book .left-book .book-cover {
+.journal-content-con .game .left-game .game-cover {
   width: 200px;
   height: min-content;
 }
 
-.journal-content-con .book .left-book .book-cover:hover {
+.journal-content-con .game .left-game .game-cover:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
   transition: all 0.4s ease-in-out;
@@ -216,33 +216,33 @@ p {
     margin-left: 0%;
   }
 
-  .journal-content-con .book {
+  .journal-content-con .game {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding-left: 0%;
     border: none;
   }
 
-  .journal-content-con .book .left-book {
+  .journal-content-con .game .left-game {
     width: 100%;
   }
-  .journal-content-con .book .left-book .title{
+  .journal-content-con .game .left-game .title{
     width: 90%;
   }
-  .journal-content-con .book .left-book .genre {
+  .journal-content-con .game .left-game .genre {
     width: 90%;
   }
-  .journal-content-con .book .left-book .author {
+  .journal-content-con .game .left-game .studio {
     width: 90%;
   }
 
-  .journal-content-con .book .left-book .book-cover {
+  .journal-content-con .game .left-game .game-cover {
     width: 50%;
     height: auto;
     min-width: 180px;
   }
 
-  .journal-content-con .book .right-book {
+  .journal-content-con .game .right-game {
     width: 90%;
     display: flex;
   }

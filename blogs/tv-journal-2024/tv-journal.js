@@ -17,19 +17,19 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <p>${tv.title}</p>
                             </div>
                             <div class="director">
-                                <p>by ${tv.creator}</p>
+                                <p>Directed by ${tv.creator}</p>
                             </div>
                             <div class="star-rating">
                                 ${getStarRating(tv.rating)}
                             </div>
                             <div class="duration">
-                                <p>Pages: ${tv.duration}</p>
+                                <p>Duration: ${tv.duration} mins</p>
                             </div>
                             <div class="genre">
                                 <p>Genre: ${tv.genre}</p>
                             </div>
-                            <div class="Date-read">
-                                <p>Read: ${tv.dateWatched}</p>
+                            <div class="Date-watched">
+                                <p>Watched: ${tv.dateWatched}</p>
                             </div>
                         </div>
                     </div>
