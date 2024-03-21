@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 ${getStarRating(tv.rating)}
                             </div>
                             <div class="duration">
-                                <p>Duration: ${tv.duration} mins</p>
+                                <p>Duration: ${tv.duration}</p>
                             </div>
                             <div class="genre">
                                 <p>Genre: ${tv.genre}</p>

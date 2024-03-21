@@ -1,7 +1,7 @@
 :root {
-  --color-primary: #edc8ee;
-  --color-secondary: #cc7de4;
-  --color-terciary: #ac20d6;
+  --color-primary: #51557e;
+  --color-secondary: #96b0e5;
+  --color-terciary: #6320d6;
   --color-house: #6e90d8;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: var(--color-primary);
+  background: linear-gradient(to top, #e8e3e2, #e74b50, #000d82, #010b13);
   margin: 0px;
 }
 
@@ -65,7 +65,7 @@ h3 {
   text-align: center;
   padding: 10px;
   border-radius: 5px;
-  background-color: #f0f0f0;
+  background-color: var(--color-grey-1);
   border: 1px solid var(--color-secondary);
   text-decoration: none;
   color: #333;
@@ -163,9 +163,8 @@ p {
   width: 75%;
   padding-top: 3.5rem;
   padding: 20px;
-  background-color: var(--color-white);
+  background-color: var(--color-grey-1);
   margin-left: 10%;
-  border-radius: 30px;
 }
 
 .journal-content-con .movie {

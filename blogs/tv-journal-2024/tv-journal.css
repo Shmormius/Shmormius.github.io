@@ -1,7 +1,7 @@
 :root {
-  --color-primary: #edc8ee;
-  --color-secondary: #cc7de4;
-  --color-terciary: #ac20d6;
+  --color-primary: #aed0f6;
+  --color-secondary: #6a9deb;
+  --color-terciary: #f4a230;
   --color-house: #6e90d8;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -73,7 +73,7 @@ h3 {
 }
 
 .bar a:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-terciary);
 }
 
 
@@ -165,7 +165,6 @@ p {
   padding: 20px;
   background-color: var(--color-white);
   margin-left: 10%;
-  border-radius: 30px;
 }
 
 .journal-content-con .tv {

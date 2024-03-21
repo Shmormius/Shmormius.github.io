@@ -1,7 +1,7 @@
 :root {
   --color-primary: #edc8ee;
-  --color-secondary: #cc7de4;
-  --color-terciary: #ac20d6;
+  --color-secondary: #f98fe9;
+  --color-terciary: #ed78f8;
   --color-house: #6e90d8;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: var(--color-primary);
+  background: linear-gradient(to bottom right,var(--color-primary),var(--color-secondary),var(--color-terciary));
   margin: 0px;
 }
 
@@ -65,7 +65,7 @@ h3 {
   text-align: center;
   padding: 10px;
   border-radius: 5px;
-  background-color: #f0f0f0;
+  background-color: var(--color-white);
   border: 1px solid var(--color-secondary);
   text-decoration: none;
   color: #333;

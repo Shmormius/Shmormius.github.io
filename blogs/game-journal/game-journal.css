@@ -1,7 +1,7 @@
 :root {
-  --color-primary: #edc8ee;
-  --color-secondary: #cc7de4;
-  --color-terciary: #ac20d6;
+  --color-primary: #202926;
+  --color-secondary: #81fb4d;
+  --color-terciary: #1a8d35;
   --color-house: #6e90d8;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -44,17 +44,6 @@ h3 {
   justify-content: center;
 }
 
-.header .top-bar {
-  position: absolute;
-  top: -200px;
-  width: 100%;
-  height: 400px;
-  background-color: var(--color-secondary);
-  box-shadow: var(--box-shadow-1);
-  z-index: -1;
-  border-radius: 100%;
-}
-
 .bar {
   display: flex;
 }
@@ -65,15 +54,15 @@ h3 {
   text-align: center;
   padding: 10px;
   border-radius: 5px;
-  background-color: #f0f0f0;
+  background-color: None;
   border: 1px solid var(--color-secondary);
   text-decoration: none;
-  color: #333;
+  color: var(--color-white);
   margin-bottom: 25px;
 }
 
 .bar a:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 
@@ -156,14 +145,14 @@ i {
 
 p {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: var(--color-grey-5);
+  color: var(--color-grey-1);
 }
 
 .journal-content-con {
   width: 75%;
   padding-top: 3.5rem;
   padding: 20px;
-  background-color: var(--color-white);
+  background-color: None;
   margin-left: 10%;
   border-radius: 30px;
 }
