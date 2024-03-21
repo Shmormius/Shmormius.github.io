@@ -1,7 +1,7 @@
 [
     {
         "id": "jan",
-        "cover": "../../img/game-journal/darksouls3.jpg",
+        "cover": "game-journal-img/darksouls3.jpg",
         "title": "Dark Souls III",
         "studio": "FromSoftware",
         "rating": 5,
@@ -11,7 +11,7 @@
     },
     {
         "id": "",
-        "cover": "../../img/game-journal/NTSC_Resident_Evil_2_Cover.png",
+        "cover": "game-journal-img/NTSC_Resident_Evil_2_Cover.png",
         "title": "Resident Evil 2 (1998)",
         "studio": "Capcom",
         "rating": 4,
@@ -21,7 +21,17 @@
     },
     {
         "id": "",
-        "cover": "../../img/game-journal/Elden_Ring_Box_art.jpg",
+        "cover": "game-journal-img/fortnite.jpg",
+        "title": "Fortnite",
+        "studio": "Epic games",
+        "rating": 3.5,
+        "review": "Perhaps it is controversial but I love Fortnite. While I am capable of recognizing the negative implications of games as a service, and \"micro\"transactions, I still enjoy this game. It is very fun and always fresh with content, pretty much how I relax after work/school at this point.",
+        "finished": "N/A",
+        "genre": "Battle royale"
+    },
+    {
+        "id": "",
+        "cover": "game-journal-img/Elden_Ring_Box_art.jpg",
         "title": "Elden Ring",
         "studio": "FromSoftware",
         "rating": 5,
@@ -31,7 +41,7 @@
     },
     {
         "id": "",
-        "cover": "../../img/game-journal/metal-gear-solid-v-the-phantom-pain-cover-i26603.jpg",
+        "cover": "game-journal-img/metal-gear-solid-v-the-phantom-pain-cover-i26603.jpg",
         "title": "Metal Gear Solid V: The Phantom Pain",
         "studio": "Kojima Productions",
         "rating": 4,
@@ -41,51 +51,41 @@
     },
     {
         "id": "",
-        "cover": "../../img/game-journal/metal-gear-solid-3-snake-eater.jpg",
+        "cover": "game-journal-img/metal-gear-solid-3-snake-eater.jpg",
         "title": "Metal Gear Solid 3: Snake Eater",
         "studio": "Konami",
         "rating": 5,
-        "review": "I am actually shocked that I beat this game, I am so bad when it comes to committing to a full playthough of a game.",
+        "review": "I am actually shocked that I beat this game, I am so bad when it comes to committing to a full playthough of a game. I had a lot of fun with it.",
         "finished": "Yes",
         "genre": "Action-adventure stealth"
     },
     {
         "id": "",
-        "cover": "../../img/game-journal/Metal_Gear_Solid_cover_art.png",
+        "cover": "game-journal-img/Metal_Gear_Solid_cover_art.png",
         "title": "Metal Gear Solid",
         "studio": "Konami",
         "rating": 4,
-        "review": "",
+        "review": "I am not terribly far along in this game but I enjoy it so far. I am on a bit of a Metal Gear Kick",
         "finished": "No",
         "genre": "Action-adventure stealth"
     },
     {
         "id": "",
-        "cover": "../../img/game-journal/fortnite.jpg",
-        "title": "Fortnite",
-        "studio": "Epic games",
-        "rating": 3.5,
-        "review": "",
-        "finished": "N/A",
-        "genre": "Battle royale"
-    },
-    {
-        "id": "",
-        "cover": "../../img/game-journal/minecraft.png",
+        "cover": "game-journal-img/minecraft.png",
         "title": "Minecraft",
         "studio": "Mojang",
         "rating": 5,
-        "review": "",
+        "review": "One of my favorite games ever. Another game that has been catching a lot of negative critisism as of late, but it brings me a lot of comfort and joy.",
         "finished": "Yes",
         "genre": "Survival sandbox"
     },
     {
         "id": "",
-        "cover": "../../img/game-journal/noita.jpg",
+        "cover": "game-journal-img/noita.jpg",
         "title": "Noita",
         "studio": "Nolla games",
         "rating": 4.5,
-        "review": "",
+        "review": "Noita is so good. Very difficult yet rewarding. It begs for you to try and exploit the games mechanics to your advantage. Super fun.",
         "finished": "No",
         "genre": "Roguelite"
     }

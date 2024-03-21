@@ -1,7 +1,7 @@
 [
     {
         "id": "jan",
-        "cover": "../../img/movie-journal/61zFh8+gdrL.jpg",
+        "cover": "movie-journal-img/61zFh8+gdrL.jpg",
         "title": "The Lighthouse",
         "director": "Robert Eggers",
         "rating": 5,
@@ -12,7 +12,7 @@
     },
     {
         "id": "mar",
-        "cover": "../../img/movie-journal/MicrosoftTeams-image-2-1.jpg",
+        "cover": "movie-journal-img/MicrosoftTeams-image-2-1.jpg",
         "title": "The Batman",
         "director": "Matt Reeves",
         "rating": 3.5,
@@ -23,7 +23,7 @@
     },
     {
         "id": "",
-        "cover": "../../img/movie-journal/51XFaesw92L._AC_UF894,1000_QL80_.jpg",
+        "cover": "movie-journal-img/51XFaesw92L._AC_UF894,1000_QL80_.jpg",
         "title": "The End of Evangelion",
         "director": "Anno and Kazuya Tsurumaki",
         "rating": 5,
