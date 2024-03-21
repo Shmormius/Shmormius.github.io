@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     const navigationContainer = document.getElementById("navigation-container");
-    const navigationUrl = "../../nav/navigation.html";
+    const navigationUrl = "../../../main-pages/scripts/nav/navigation.html";
     
     fetch(navigationUrl)
         .then(response => response.text())

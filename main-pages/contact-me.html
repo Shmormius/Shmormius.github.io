@@ -24,7 +24,7 @@
         </div>
 
         <div id="navigation-container"></div>
-        <script src="../nav/navigation.js" defer></script>
+        <script src="scripts/nav/navigation.js" defer></script>
 
         <div class="contact-container">
             <div class="contact-content-con">
@@ -124,30 +124,8 @@
                         </button>
                     </form>
                 </div>
-                <script src="https://smtpjs.com/v3/smtp.js">
-            </script>
-                <script>
-                var btn = document.getElementById('btn');
-                btn.addEventListener('click',function(e){
-                    e.preventDefault()
-                    var name = document.getElementById('name').value;
-                    var email = document.getElementById('email').value;
-                    var subject = document.getElementById('subject').value;
-                    var message = document.getElementById('message').value;
-                    var body = 'name: ' + name + '<br/> email: ' + email + '<br/> subject: ' + subject + '<br/> message: '+ message;
-
-                    Email.send({
-                        SecureToken : "fdea53df-51e6-45e2-87a5-800d5cb56de3 ",
-                        To : 'shmormius@gmail.com',
-                        From : 'daemonkerrigan@gmail.com',
-                        Subject : "Message from website!",
-                        Body : body
-                    }).then(
-                        message => alert(message)
-                        );
-
-                })
-            </script>
+                <script src="https://smtpjs.com/v3/smtp.js"></script>
+                <script src="../main-pages/scripts/contact-functions/contact.js"></script>
             </div>
         </div>
 

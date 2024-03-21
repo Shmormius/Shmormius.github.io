@@ -1,7 +1,7 @@
 [
     {
         "id": "jan",
-        "cover": "/img/book-journal/9780811232432.jpg",
+        "cover": "book-journal-img/9780811232432.jpg",
         "title": "No Longer Human",
         "author": "Osamu Dazai",
         "rating": 4.5,
@@ -12,7 +12,7 @@
     },
     {
         "id": "",
-        "cover": "/img/book-journal/9781101195819.jpg",
+        "cover": "book-journal-img/9781101195819.jpg",
         "title": "Kokoro",
         "author": "Natsume Souseki",
         "rating": 5,
@@ -23,7 +23,7 @@
     },
     {
         "id": "",
-        "cover": "/img/book-journal/9781421586205_p0_v1_s1200x630.jpg",
+        "cover": "book-journal-img/9781421586205_p0_v1_s1200x630.jpg",
         "title": "Goodnight Punpun vol.1",
         "author": "Inio Asano",
         "rating": 4.0,
@@ -34,7 +34,7 @@
     },
     {
         "id": "",
-        "cover": "/img/book-journal/91F0JwS6-fL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "book-journal-img/91F0JwS6-fL._AC_UF1000,1000_QL80_.jpg",
         "title": "Goodnight Punpun vol.2",
         "author": "Inio Asano",
         "rating": 4.5,
@@ -45,7 +45,7 @@
     },
     {
         "id": "",
-        "cover": "/img/book-journal/81r9pMwJCoL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "book-journal-img/81r9pMwJCoL._AC_UF1000,1000_QL80_.jpg",
         "title": "Look Back",
         "author": "Tatsuki Fujimoto",
         "rating": 5.0,
@@ -56,7 +56,7 @@
     },
     {
         "id": "",
-        "cover": "/img/book-journal/GUEST_773681c8-e3ac-4069-bea4-3e317df50564.jpg",
+        "cover": "book-journal-img/GUEST_773681c8-e3ac-4069-bea4-3e317df50564.jpg",
         "title": "Web Design in easy steps",
         "author": "Sean McManus",
         "rating": 3.5,
@@ -67,7 +67,7 @@
     },
     {
         "id": "",
-        "cover": "/img/book-journal/61WuDamPP8L._AC_UF1000,1000_QL80_.jpg",
+        "cover": "book-journal-img/61WuDamPP8L._AC_UF1000,1000_QL80_.jpg",
         "title": "The Hellbound Heart",
         "author": "Clive Barker",
         "rating": 4.0,
@@ -78,7 +78,7 @@
     },
     {
         "id": "",
-        "cover": "/img/book-journal/house-of-leaves.jpg",
+        "cover": "book-journal-img/house-of-leaves.jpg",
         "title": "House of Leaves",
         "author": "Mark Z. Danielewski",
         "rating": 4.0,
@@ -89,7 +89,7 @@
     },
     {
         "id": "",
-        "cover": "/img/book-journal/71WDlCXBe0L._AC_UF1000,1000_QL80_.jpg",
+        "cover": "book-journal-img/71WDlCXBe0L._AC_UF1000,1000_QL80_.jpg",
         "title": "Fire Punch Vol.1",
         "author": "Tatsuki Fujimoto",
         "rating": 3.5,
@@ -100,7 +100,7 @@
     },
     {
         "id": "feb",
-        "cover": "/img/book-journal/81ZhgPj7hyL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "book-journal-img/81ZhgPj7hyL._AC_UF1000,1000_QL80_.jpg",
         "title": "Chainsawman Vol.14",
         "author": "Tatsuki Fujimoto",
         "rating": 5.0,
@@ -111,7 +111,7 @@
     },
     {
         "id": "",
-        "cover": "/img/book-journal/81nT7nT92LL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "book-journal-img/81nT7nT92LL._AC_UF1000,1000_QL80_.jpg",
         "title": "Fire Punch Vol.2",
         "author": "Tatsuki Fujimoto",
         "rating": 2.5,
@@ -122,7 +122,7 @@
     },
     {
         "id": "mar",
-        "cover": "/img/book-journal/71GZt9xMqKL._AC_UF1000,1000_QL80_.jpg",
+        "cover": "book-journal-img/71GZt9xMqKL._AC_UF1000,1000_QL80_.jpg",
         "title": "Quartet: Intermediate Japanese Across the Four Language Skills Vol. 1",
         "author": "Akemi Yasui, Yuriko Ide, Miyuki Doi, Hideki Hamada",
         "rating": 4.5,
@@ -133,7 +133,7 @@
     },
     {
         "id": "",
-        "cover": "/img/book-journal/1709915922206-641dae2a-0618-401b-a503-16b6c43e603a_1.jpg",
+        "cover": "book-journal-img/1709915922206-641dae2a-0618-401b-a503-16b6c43e603a_1.jpg",
         "title": "The Clock We Live On",
         "author": "Isaac Asimov",
         "rating": 4.0,

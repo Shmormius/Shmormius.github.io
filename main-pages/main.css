@@ -253,7 +253,7 @@ nav a:hover p1 {
 }
 
 .home-page-con .image-box-cover:hover .daemon-cover {
-  content: url('../img/daemon-with-cat.png');
+  content: url('../resources/img/main-page-img/daemon-with-cat.png');
   bottom: 20px;
 }
 
@@ -624,6 +624,13 @@ hr {
     flex-direction: column;
     margin-right: 15px;
     padding-left: 15px;
+  }
+
+  .portfolio-landing-con .project-con-right .project-img-con {
+    display: flex;
+    padding-left: 0px;
+    padding-top: 20px;
+    flex-direction: row;
   }
 
   .portfolio-landing-con .project-header {

@@ -1,7 +1,7 @@
 [
     {
         "id": "jan",
-        "cover": "../../img/tv-journal/evangelion.jpg",
+        "cover": "tv-journal-img/evangelion.jpg",
         "title": "Neon Genesis Evangelion",
         "creator": "Hideaki Anno",
         "rating": 4,
@@ -12,7 +12,7 @@
     },
     {
         "id": "",
-        "cover": "../../img/tv-journal/flowers-of-evil.jpg",
+        "cover": "tv-journal-img/flowers-of-evil.jpg",
         "title": "Flowers of Evil",
         "creator": "Atsushi Moriyama",
         "rating": 4.5,
@@ -23,7 +23,7 @@
     },
     {
         "id": "feb",
-        "cover": "../../img/tv-journal/hells-paradise.jpg",
+        "cover": "tv-journal-img/hells-paradise.jpg",
         "title": "Hells Paradise Season 1",
         "creator": "Kaori makita",
         "rating": 2,
