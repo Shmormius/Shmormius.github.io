@@ -1,0 +1,92 @@
+[
+    {
+        "id": "jan",
+        "cover": "../../img/game-journal/darksouls3.jpg",
+        "title": "Dark Souls III",
+        "studio": "FromSoftware",
+        "rating": 5,
+        "review": "Dark Souls III holds a special place in my heart. I love the game very much but due to the amount of times I insist upon restarting I still haven't finished it, maybe this year is the year. Regardless I love this game play it if you like games that are punishing.",
+        "finished": "No",
+        "genre": "Action role-play"
+    },
+    {
+        "id": "",
+        "cover": "../../img/game-journal/NTSC_Resident_Evil_2_Cover.png",
+        "title": "Resident Evil 2 (1998)",
+        "studio": "Capcom",
+        "rating": 4,
+        "review": "When I was younger I tried playing this game but the fixed camera angles proved too alien for me to master. As an adult coming back to it I've found that all it takes is a change of mindset. I think it is fun, like most games from this era incredibly difficult especially if you've been pampered like me by gentle game design in recent years. The music is also so cool.",
+        "finished": "No",
+        "genre": "Survival horror"
+    },
+    {
+        "id": "",
+        "cover": "../../img/game-journal/Elden_Ring_Box_art.jpg",
+        "title": "Elden Ring",
+        "studio": "FromSoftware",
+        "rating": 5,
+        "review": "Elden ring is so good. Just like Dark Souls in its brutal punishing nature but also so fresh and fun. Discovering things in this game for the first time and not knowing what comes next is a genuine treat.",
+        "finished": "No",
+        "genre": "Action role-play"
+    },
+    {
+        "id": "",
+        "cover": "../../img/game-journal/metal-gear-solid-v-the-phantom-pain-cover-i26603.jpg",
+        "title": "Metal Gear Solid V: The Phantom Pain",
+        "studio": "Kojima Productions",
+        "rating": 4,
+        "review": "I came back to this game this year because of the recent Metal Gear resurgance I have been victim of online. I really find this game fun, while that can be controversial I think that this game is fun for what it is and I think little about what it could have been. It certainly lacks some of the spark that the other games in the series have, but I think its good in a different way.",
+        "finished": "No",
+        "genre": "Action-adventure stealth"
+    },
+    {
+        "id": "",
+        "cover": "../../img/game-journal/metal-gear-solid-3-snake-eater.jpg",
+        "title": "Metal Gear Solid 3: Snake Eater",
+        "studio": "Konami",
+        "rating": 5,
+        "review": "I am actually shocked that I beat this game, I am so bad when it comes to committing to a full playthough of a game.",
+        "finished": "Yes",
+        "genre": "Action-adventure stealth"
+    },
+    {
+        "id": "",
+        "cover": "../../img/game-journal/Metal_Gear_Solid_cover_art.png",
+        "title": "Metal Gear Solid",
+        "studio": "Konami",
+        "rating": 4,
+        "review": "",
+        "finished": "No",
+        "genre": "Action-adventure stealth"
+    },
+    {
+        "id": "",
+        "cover": "../../img/game-journal/fortnite.jpg",
+        "title": "Fortnite",
+        "studio": "Epic games",
+        "rating": 3.5,
+        "review": "",
+        "finished": "N/A",
+        "genre": "Battle royale"
+    },
+    {
+        "id": "",
+        "cover": "../../img/game-journal/minecraft.png",
+        "title": "Minecraft",
+        "studio": "Mojang",
+        "rating": 5,
+        "review": "",
+        "finished": "Yes",
+        "genre": "Survival sandbox"
+    },
+    {
+        "id": "",
+        "cover": "../../img/game-journal/noita.jpg",
+        "title": "Noita",
+        "studio": "Nolla games",
+        "rating": 4.5,
+        "review": "",
+        "finished": "No",
+        "genre": "Roguelite"
+    }
+]

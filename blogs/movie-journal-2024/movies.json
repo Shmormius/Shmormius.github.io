@@ -1,0 +1,35 @@
+[
+    {
+        "id": "jan",
+        "cover": "../../img/movie-journal/61zFh8+gdrL.jpg",
+        "title": "The Lighthouse",
+        "director": "Robert Eggers",
+        "rating": 5,
+        "review": "I really enjoyed this movie. I watched it originally in 2023 during a horror movie kick and really enjoyed it. This year I had the opritunity of showing it to two more friends who hadn't seen it yet. Watching it a second time to see their thoughts on what was going on was very worth while. The plot sounds like a recipe for failure, its a movie in black and white with only two characters interacting in one places for the whole film. That sounds so boring but in execution it is incredible. Psycologically and cinematically it is very good at keeping you gripped. It is no feel good movie so keep that in mind if you decide to watch it.",
+        "duration": 110,
+        "genre": "Psychological thriller",
+        "dateWatched": "1/XX/2024"
+    },
+    {
+        "id": "mar",
+        "cover": "../../img/movie-journal/MicrosoftTeams-image-2-1.jpg",
+        "title": "The Batman",
+        "director": "Matt Reeves",
+        "rating": 3.5,
+        "review": "While I wouldn't classify this movie as high art or anything like that, it was very entertaining. I liked what they were going for and how this is an actual movie. Too many big budget films focus on being only part of a whole whereas this film feels like it is complete, no need for many films worth of context.",
+        "duration": 175,
+        "genre": "Action, thriller",
+        "dateWatched": "3/XX/2024"
+    },
+    {
+        "id": "",
+        "cover": "../../img/movie-journal/51XFaesw92L._AC_UF894,1000_QL80_.jpg",
+        "title": "The End of Evangelion",
+        "director": "Anno and Kazuya Tsurumaki",
+        "rating": 5,
+        "review": "My friend and me finished the original Neon Genesis Evangelion tv show at the start of this year. We knew of the fact that movies existed but made little effort to seek them out. However the perfect oppritunity arose when for the first time ever this film was released in theaters in the US, it was released originally in 1997. That being said, this was my first movie theater experience of the year and I feel like I gained back some love for theaters in the process. The original TV show focused in on heavier tones and plot points meant to shock you at times it was nowhere near as gruesome, shocking, and violent as this movie was. I was in awe as the tone was completely different and the movie was incredibly heavy. I was speechless at the end it was like a nightmare. Overall I very much enjoyed the movie and I am interested to see how my outlook on it develops with time.",
+        "duration": 90,
+        "genre": "Apocalyptic science fiction",
+        "dateWatched": "3/17/2024"
+    }
+]

@@ -1,7 +1,7 @@
 :root {
-  --color-primary: #edc8ee;
-  --color-secondary: #f98fe9;
-  --color-terciary: #ed78f8;
+  --color-primary: #51557e;
+  --color-secondary: #96b0e5;
+  --color-terciary: #6320d6;
   --color-house: #6e90d8;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -15,7 +15,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom right,var(--color-primary),var(--color-secondary),var(--color-terciary));
+  background: linear-gradient(to top, #e8e3e2, #e74b50, #000d82, #010b13);
   margin: 0px;
 }
 
@@ -65,7 +65,7 @@ h3 {
   text-align: center;
   padding: 10px;
   border-radius: 5px;
-  background-color: var(--color-white);
+  background-color: var(--color-grey-1);
   border: 1px solid var(--color-secondary);
   text-decoration: none;
   color: #333;
@@ -163,12 +163,11 @@ p {
   width: 75%;
   padding-top: 3.5rem;
   padding: 20px;
-  background-color: var(--color-white);
+  background-color: var(--color-grey-1);
   margin-left: 10%;
-  border-radius: 30px;
 }
 
-.journal-content-con .book {
+.journal-content-con .movie {
   display: flex;
   width: 97%;
   min-height: 300px;
@@ -178,33 +177,33 @@ p {
   border-radius: 5px;
 }
 
-.journal-content-con .book:hover {
+.journal-content-con .movie:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
   transition: all 0.4s ease-in-out;
 }
 
-.journal-content-con .book .left-book {
+.journal-content-con .movie .left-movie {
   display: flex;
 }
 
-.journal-content-con .book .left-book .details {
+.journal-content-con .movie .left-movie .details {
   min-width: 200px;
   margin-left: 5px;
 }
 
-.journal-content-con .book .left-book .details .title p {
+.journal-content-con .movie .left-movie .details .title p {
   color: var(--color-secondary);
   font-size: 18px;
   font-weight: bold;
 }
 
-.journal-content-con .book .left-book .book-cover {
+.journal-content-con .movie .left-movie .movie-cover {
   width: 200px;
   height: min-content;
 }
 
-.journal-content-con .book .left-book .book-cover:hover {
+.journal-content-con .movie .left-movie .movie-cover:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
   transition: all 0.4s ease-in-out;
@@ -216,33 +215,33 @@ p {
     margin-left: 0%;
   }
 
-  .journal-content-con .book {
+  .journal-content-con .movie {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding-left: 0%;
     border: none;
   }
 
-  .journal-content-con .book .left-book {
+  .journal-content-con .movie .left-movie {
     width: 100%;
   }
-  .journal-content-con .book .left-book .title{
+  .journal-content-con .movie .left-movie .title{
     width: 90%;
   }
-  .journal-content-con .book .left-book .genre {
+  .journal-content-con .movie .left-movie .genre {
     width: 90%;
   }
-  .journal-content-con .book .left-book .author {
+  .journal-content-con .movie .left-movie .director {
     width: 90%;
   }
 
-  .journal-content-con .book .left-book .book-cover {
+  .journal-content-con .movie .left-movie .movie-cover {
     width: 50%;
     height: auto;
     min-width: 180px;
   }
 
-  .journal-content-con .book .right-book {
+  .journal-content-con .movie .right-movie {
     width: 90%;
     display: flex;
   }
