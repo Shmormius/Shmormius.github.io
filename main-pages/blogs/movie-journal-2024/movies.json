@@ -31,5 +31,16 @@
         "duration": 90,
         "genre": "Apocalyptic science fiction",
         "dateWatched": "3/17/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/eva1.jpg",
+        "title": "Evangelion: 1.0 <br>You Are (Not) Alone",
+        "director": "Anno and <br>Kazuya Tsurumaki",
+        "rating": 2,
+        "review": "Uh...",
+        "duration": 98,
+        "genre": "Science fiction, Action",
+        "dateWatched": "3/23/2024"
     }
 ]
