@@ -42,5 +42,16 @@
         "duration": 98,
         "genre": "Science fiction, Action",
         "dateWatched": "3/23/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/eva2.jpg",
+        "title": "EVANGELION:2.22 <br>YOU CAN (NOT) ADVANCE.",
+        "director": "Anno and <br>Kazuya Tsurumaki",
+        "rating": 2,
+        "review": "Has more merit than Evangelion 1.0, animation is good but lacks the intrigue of the original.",
+        "duration": 108,
+        "genre": "Science fiction, Action",
+        "dateWatched": "3/23/2024"
     }
 ]
