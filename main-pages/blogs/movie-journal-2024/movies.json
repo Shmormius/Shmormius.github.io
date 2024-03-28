@@ -75,5 +75,16 @@
         "duration": 155,
         "genre": "Science fiction, Action",
         "dateWatched": "3/24/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/yourName.jpg",
+        "title": "Your Name",
+        "director": "<br>Makoto Shinkai",
+        "rating": 4.5,
+        "review": "This is one of those movies that I have seen recommended about 1000 times, especially when it came out. But I had never heard a good enough appraisal to sit down and watch it. I only ended up seeing it because my roomates were watching it. I can see why there was so much hype. It's incredibly high quality on all fronts and was really intriguing too. I always avoid romance because it tends to be formulaic in a way I find boring, but this movie has opened my eyes to the fact that I was generalizing too much!",
+        "duration": 112,
+        "genre": "Romance, Drama",
+        "dateWatched": "3/28/2024"
     }
 ]
