@@ -86,5 +86,16 @@
         "duration": 112,
         "genre": "Romance, Drama",
         "dateWatched": "3/28/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/midsommar.jpg",
+        "title": "Midsommar",
+        "director": "<br>Ari Aster",
+        "rating": 5,
+        "review": "I watched this movie once before after watching Heriditary, another film by Ari Aster. Heriditary is one of my favorite movies and I went into this film orginally with high expectations and was not disappointed. In recent times however i've discovered that opinions on this movie are more of a mixed bag. I saw people online whom I knew calling this film bad, bland, cheap and I was suprised because that was not my appraisal at all. Generally when it comes to movies my opinions tend to align very closely with the general opinion on them. This always made me feel as though my taste in movies was basic. But suprisingly on a second watch with more critical thinking, I still enjoyed it a lot.",
+        "duration": 148,
+        "genre": "Horror, Drama",
+        "dateWatched": "3/30/2024"
     }
 ]
