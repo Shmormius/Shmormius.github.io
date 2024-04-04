@@ -31,5 +31,16 @@
         "duration": "13 episodes",
         "genre": "Action, dark fantasy",
         "dateWatched": "2/XX/2024"
+    },
+    {
+        "id": "apr",
+        "cover": "tv-journal-img/smiling_friends.jpg",
+        "title": "Smiling Friends season 1",
+        "creator": "Zach Hadel, <br>and Micheal Cusack",
+        "rating": 5,
+        "review": "Smiling friends is one of my favorite shows and I recently decided to rewatch it in preperation for the new season soon. The show is only about 100 minutes total accross all episodes but there is somehow so so much thats going on here. I highly recommend as its creativity and artistry is nearly unrivaled in currently running TV. Be warned that the title of 'surreal humour' does not come for free and its not for everybody. My roommates hate it!",
+        "duration": "9 Episodes",
+        "genre": "Surreal humour",
+        "dateWatched": "4/3/2024"
     }
 ]
