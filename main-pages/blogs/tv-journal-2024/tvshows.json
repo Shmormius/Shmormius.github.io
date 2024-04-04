@@ -42,5 +42,16 @@
         "duration": "9 Episodes",
         "genre": "Surreal humour",
         "dateWatched": "4/3/2024"
+    },
+    {
+        "id": "apr",
+        "cover": "tv-journal-img/attack_on_titan.jpg",
+        "title": "Attack On Titan season 1",
+        "creator": "Hajime Isayama",
+        "rating": 4.5,
+        "review": "I first watched this in 2013 in it's original airing period. I then watched it again in 2020 during the Covid-19 lockdowns and then once more in 2021-2022 with my partner who had never seen it before. So rewatching it now gave me a strong sense of nostalgia. I am rewatching it now because my roommate had never watched it and my partner was eager to start fresh to understand the last season. Overall its incredible, of couse it has cliche moments and occasionally relies on its violence, but it barely takes away from the high quality of the show. ",
+        "duration": "25 Episodes",
+        "genre": "Action Dark fantasy <br>Post-apocalyptic",
+        "dateWatched": "4/1/2024"
     }
 ]
