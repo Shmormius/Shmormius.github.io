@@ -97,5 +97,16 @@
         "duration": 148,
         "genre": "Horror, Drama",
         "dateWatched": "3/30/2024"
+    },
+    {
+        "id": "apr",
+        "cover": "movie-journal-img/suzume.jpg",
+        "title": "Suzume",
+        "director": "<br>Makoto Shinkai",
+        "rating": 4.5,
+        "review": "Such impressive visuals, certainly makes the whole movie worth watching alone. The music is also really good, together they make a very mesmerizing movie. Overall it was very good! Overall I dont have a lot to say which is either a good or bad thing depending on the movie.",
+        "duration": 122,
+        "genre": "Adventure, mystery",
+        "dateWatched": "4/6/2024"
     }
 ]
