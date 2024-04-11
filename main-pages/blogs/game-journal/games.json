@@ -7,6 +7,8 @@
         "rating": 5,
         "review": "Dark Souls III holds a special place in my heart. I love the game very much but due to the amount of times I insist upon restarting I still haven't finished it, maybe this year is the year. Regardless I love this game play it if you like games that are punishing.",
         "finished": "No",
+        "playedbefore": "Yes",
+        "monthsplayed": "Jan",
         "genre": "Action role-play"
     },
     {
@@ -17,6 +19,8 @@
         "rating": 4,
         "review": "When I was younger I tried playing this game but the fixed camera angles proved too alien for me to master. As an adult coming back to it I've found that all it takes is a change of mindset. I think it is fun, like most games from this era incredibly difficult especially if you've been pampered like me by gentle game design in recent years. The music is also so cool.",
         "finished": "No",
+        "playedbefore": "No",
+        "monthsplayed": "Jan",
         "genre": "Survival horror"
     },
     {
@@ -27,6 +31,8 @@
         "rating": 3.5,
         "review": "Perhaps it is controversial but I love Fortnite. While I am capable of recognizing the negative implications of games as a service, and \"micro\"transactions, I still enjoy this game. It is very fun and always fresh with content, pretty much how I relax after work/school at this point.",
         "finished": "N/A",
+        "playedbefore": "Yes",
+        "monthsplayed": "Jan - Now",
         "genre": "Battle royale"
     },
     {
@@ -37,6 +43,8 @@
         "rating": 5,
         "review": "Elden ring is so good. Just like Dark Souls in its brutal punishing nature but also so fresh and fun. Discovering things in this game for the first time and not knowing what comes next is a genuine treat.",
         "finished": "No",
+        "playedbefore": "Yes",
+        "monthsplayed": "Jan",
         "genre": "Action role-play"
     },
     {
@@ -47,6 +55,8 @@
         "rating": 4,
         "review": "I came back to this game this year because of the recent Metal Gear resurgance I have been victim of online. I really find this game fun, while that can be controversial I think that this game is fun for what it is and I think little about what it could have been. It certainly lacks some of the spark that the other games in the series have, but I think its good in a different way.",
         "finished": "No",
+        "playedbefore": "Yes",
+        "monthsplayed": "Feb-Mar",
         "genre": "Action-adventure stealth"
     },
     {
@@ -57,6 +67,8 @@
         "rating": 5,
         "review": "I am actually shocked that I beat this game, I am so bad when it comes to committing to a full playthough of a game. I had a lot of fun with it.",
         "finished": "Yes",
+        "playedbefore": "Yes",
+        "monthsplayed": "Feb-Mar",
         "genre": "Action-adventure stealth"
     },
     {
@@ -67,6 +79,8 @@
         "rating": 4,
         "review": "I am not terribly far along in this game but I enjoy it so far. I am on a bit of a Metal Gear Kick",
         "finished": "No",
+        "playedbefore": "No",
+        "monthsplayed": "Feb-Mar",
         "genre": "Action-adventure stealth"
     },
     {
@@ -77,6 +91,8 @@
         "rating": 5,
         "review": "One of my favorite games ever. Another game that has been catching a lot of negative critisism as of late, but it brings me a lot of comfort and joy.",
         "finished": "Yes",
+        "playedbefore": "Yes",
+        "monthsplayed": "Feb",
         "genre": "Survival sandbox"
     },
     {
@@ -87,6 +103,8 @@
         "rating": 4.5,
         "review": "Noita is so good. Very difficult yet rewarding. It begs for you to try and exploit the games mechanics to your advantage. Super fun.",
         "finished": "No",
+        "playedbefore": "Yes",
+        "monthsplayed": "Mar",
         "genre": "Roguelite"
     },
     {
@@ -97,6 +115,44 @@
         "rating": 4,
         "review": "Good, fun, simple yet complicated. I come back to this one every once in a while.",
         "finished": "No",
+        "playedbefore": "Yes",
+        "monthsplayed": "Mar",
         "genre": "Roguelike"
+    },
+    {
+        "id": "apr",
+        "cover": "game-journal-img/stray.jpg",
+        "title": "Stray",
+        "studio": "BlueTwelve",
+        "rating": 5,
+        "review": "I came into this game with low expectations, after all the discourse since it's release have painted it as 'boring' or 'too short'. Implying that it wasn't worth the money, even at a discount. However I love this game. I was very impressed not only with the environments and world but most of all with the animation of the cat. Call me a cat lover to a fault but I couldn't believe the attention to detail. The gameplay is also super satisfying, whenever I wanted to jump on something or do something I was seldom stopped in my tracks by the game's mechanics.",
+        "finished": "No",
+        "playedbefore": "No",
+        "monthsplayed": "Apr",
+        "genre": "Indie adventure"
+    },
+    {
+        "id": "",
+        "cover": "game-journal-img/re3.jpg",
+        "title": "Resident Evil 3 (2020)",
+        "studio": "Capcom",
+        "rating": 3.5,
+        "review": "I must say that despite the 3.5 star review I quite like this game. The problem lies in how this game, while fun in my eyes, is the epidome of wasted potential. RE2 remake is my favorite game ever and it set a very high precedent for what they were capable of doing with the RE remakes. However with this game not only is it lacking the polish and care but it is quite a bit shorter than the other. The fact that you can reletively easily beat this game in under 3 hours is proof of this. RE2 excels at tension by having a big monster follow you around for the whole latter half of the game, making the already difficult and challenging puzzles and layout become even more stressful. So when this game has the potential to take that concept and amplify it it, it doesnt. Instead of having nemesis follow you over a big and open area, it opts to have you on a glorified hallway for one short moment of the game. ",
+        "finished": "3+ times",
+        "playedbefore": "Yes",
+        "monthsplayed": "Apr",
+        "genre": "Action survival horror"
+    },
+    {
+        "id": "apr",
+        "cover": "game-journal-img/marvelsspiderman2_lob_crd_02.jpg",
+        "title": "SpiderMan 2",
+        "studio": "Sony Interactive",
+        "rating": 3,
+        "review": "I haven't gotten a chance to make it extremely far in this game yet but I was very impressed with it, it has still yet to prove itself as really great however.",
+        "finished": "No",
+        "playedbefore": "No",
+        "monthsplayed": "Apr",
+        "genre": "Action adventure"
     }
 ]

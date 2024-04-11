@@ -25,6 +25,12 @@ document.addEventListener("DOMContentLoaded", function() {
                             <div class="finished">
                                 <p>Finished?: ${game.finished}</p>
                             </div>
+                            <div class="played-before">
+                                <p>Played before?: ${game.playedbefore}</p>
+                            </div>
+                            <div class="months-played">
+                                <p>Months Played: ${game.monthsplayed}</p>
+                            </div>
                             <div class="genre">
                                 <p>Genre: ${game.genre}</p>
                             </div>

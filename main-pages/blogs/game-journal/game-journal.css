@@ -1,7 +1,7 @@
 :root {
-  --color-primary: #202926;
-  --color-secondary: #81fb4d;
-  --color-terciary: #1a8d35;
+  --color-primary: #282029;
+  --color-secondary: #c44dfb;
+  --color-terciary: #801a8d;
   --color-house: #6e90d8;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -59,10 +59,12 @@ h3 {
   text-decoration: none;
   color: var(--color-white);
   margin-bottom: 25px;
+  transition: all 0.4s ease-in-out;
 }
 
 .bar a:hover {
   background-color: var(--color-secondary);
+
 }
 
 
@@ -98,7 +100,7 @@ nav p1 {
 
 nav a:hover,
 nav a:active {
-  background-color: var(--color-terciary);
+  filter:invert(100%);
   top: 2px;
   left: 2px;
   width: 150px;

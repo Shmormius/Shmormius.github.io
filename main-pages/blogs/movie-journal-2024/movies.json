@@ -108,5 +108,27 @@
         "duration": 122,
         "genre": "Adventure, mystery",
         "dateWatched": "4/6/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/weather.jpg",
+        "title": "Weathering with you",
+        "director": "<br>Makoto Shinkai",
+        "rating": 4,
+        "review": "This movie was really good, it just seemed a tad confused. I never was able to catch the underlying ideas that this film had, it almost seems completely surface level, but now and again it seems to sugest some deeper subtext. ",
+        "duration": 114,
+        "genre": "Fantasy",
+        "dateWatched": "4/8/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/ape.jpg",
+        "title": "Rise of the Planet<br>of the Apes",
+        "director": "<br>Rupert Wyatt",
+        "rating": 2.5,
+        "review": "We watched this movie because my roommate is a big fan of the franchise. I had seen this movie originally sometime back when it came out but I was like ~11 so I dont really remember my opinions on it. Honesly my highest praise is that it was entertaining, not once did I really stop paying attention. Otherwise, it was alright I have nothing to bad or good to say.",
+        "duration": 105,
+        "genre": "Action, Science Fiction",
+        "dateWatched": "4/10/2024"
     }
 ]
