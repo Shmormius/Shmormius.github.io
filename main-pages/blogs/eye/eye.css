@@ -19,6 +19,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 h1 {
@@ -32,13 +33,10 @@ h1 {
 
 }
 
-
-
 .header {
   top: 0;
   display: flex;
   width: 100%;
-  height: 100px;
   justify-content: center;
 }
 
@@ -46,20 +44,19 @@ h1 {
   position: relative;
   width: 100%;
   height: 50px;
-  background-color: var(--color-grey-4);
+  background-color: var(--color-black);
   box-shadow: var(--box-shadow-1);
   z-index: 1;
 }
 
 #background {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   z-index: -1;
-  animation: spin 20s infinite linear;
-  transform-origin: center center;
-  width: 125%;
-  height: fit-content;
+  background-color: #000;
+  width: 100%;
+  height: 1500px;
 }
 
 @keyframes spin {
@@ -108,11 +105,13 @@ nav a {
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
   content: url('eye-img/IMG_5039.jpg');
+  filter: grayscale(100%) contrast(10000%);
 }
 
 nav a:hover,
 nav a:active {
-  content: url('eye-img/IMG_5038.jpg');
+  content: url('eye-img/eye-open.jpeg');
+  filter: grayscale(100%) contrast(5000%);
 }
 
 /* Media Query for smaller screens (phones) */
@@ -134,14 +133,11 @@ nav a:active {
   position: absolute;
   top: 50px;
   left: 0;
-  width: 80%;
   height: 800px;
   display: flex;
   margin-top: 2.5%;
-  margin-left: 10%;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   box-sizing: border-box;
   background-color: black;
   flex-wrap: wrap;
@@ -156,7 +152,7 @@ nav a:active {
 
 
 .quarter {
-  width: 50%;
+  width: 35%;
   height: 50%;
   box-sizing: border-box;
   position: relative;
@@ -201,10 +197,12 @@ nav a:active {
   width: 80%;
   margin-left: 25px;
   transition: all 0.4s ease-in-out;
+  filter: grayscale(100%) contrast(100%);
 }
 
 .quarter .cat:hover {
   content: url('eye-img/maxresdefault\ \(1\).jpg');
+  filter: contrast(5000%);
 }
 
 .cat {
@@ -212,6 +210,7 @@ nav a:active {
   display: inline-block;
   padding: 20px;
   /* Adjust padding as needed */
+  
 }
 
 .video-container {
@@ -219,6 +218,7 @@ nav a:active {
   overflow: hidden;
   width: 100%;
   height: 100%;
+  filter: grayscale(100%) contrast(500%);
 }
 
 .eye {
@@ -232,6 +232,7 @@ nav a:active {
   position: absolute;
   z-index: 2;
   transition: all 0.4s ease-in-out;
+  filter: grayscale(100%) contrast(5000%) invert(100%);
 }
 
 .image-to-place:hover {
