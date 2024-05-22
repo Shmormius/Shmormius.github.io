@@ -5,10 +5,10 @@
         "title": "Dark Souls III",
         "studio": "FromSoftware",
         "rating": 5,
-        "review": "Dark Souls III holds a special place in my heart. I love the game very much but due to the amount of times I insist upon restarting I still haven't finished it, maybe this year is the year. Regardless I love this game play it if you like games that are punishing.",
-        "finished": "No",
+        "review": "Dark Souls III holds a special place in my heart. I love the game very much but due to the amount of times I insist upon restarting I still haven't finished it, maybe this year is the year. Regardless I love this game play it if you like games that are punishing. Ammendment 5/22/24: I beat the game in April! Despite considering it one of my favorite games ever, I had never finished it! Now I have I can say now it is my favorite game ever and I plan on going back to 100% it.",
+        "finished": "Yes",
         "playedbefore": "Yes",
-        "monthsplayed": "Jan",
+        "monthsplayed": "Jan, Apr",
         "genre": "Action role-play"
     },
     {
@@ -42,9 +42,9 @@
         "studio": "FromSoftware",
         "rating": 5,
         "review": "Elden ring is so good. Just like Dark Souls in its brutal punishing nature but also so fresh and fun. Discovering things in this game for the first time and not knowing what comes next is a genuine treat.",
-        "finished": "No",
+        "finished": "2x times",
         "playedbefore": "Yes",
-        "monthsplayed": "Jan",
+        "monthsplayed": "Jan, Apr-May",
         "genre": "Action role-play"
     },
     {
@@ -144,7 +144,7 @@
         "genre": "Action survival horror"
     },
     {
-        "id": "apr",
+        "id": "",
         "cover": "game-journal-img/marvelsspiderman2_lob_crd_02.jpg",
         "title": "SpiderMan 2",
         "studio": "Sony Interactive",
@@ -154,5 +154,41 @@
         "playedbefore": "No",
         "monthsplayed": "Apr",
         "genre": "Action adventure"
+    },
+    {
+        "id": "",
+        "cover": "game-journal-img/fallout_4_cover_art.jpg",
+        "title": "Fallout 4",
+        "studio": "Bethesda",
+        "rating": 1.5,
+        "review": "For a long time I considered this one of my favorite games and I came very close getting 100% completion. However coming back to it (before the show came out suprisingly) I discovered that it was in fact, bad. Like very difficult to force myself to play bad. ",
+        "finished": "Yes",
+        "playedbefore": "Yes",
+        "monthsplayed": "Apr",
+        "genre": "Action role-play, Post-Apocalyptic."
+    },
+    {
+        "id": "apr",
+        "cover": "game-journal-img/Bloodborne_cover_wallpaper.jpg",
+        "title": "Bloodborne",
+        "studio": "FromSoftware",
+        "rating": 0,
+        "review": "N/A havenet played enough yet",
+        "finished": "No",
+        "playedbefore": "No",
+        "monthsplayed": "Apr",
+        "genre": "Gothic horror"
+    },
+    {
+        "id": "",
+        "cover": "game-journal-img/massEffect.jpg",
+        "title": "Mass Effect",
+        "studio": "EA",
+        "rating": 0,
+        "review": "N/A havenet played enough yet",
+        "finished": "No",
+        "playedbefore": "No",
+        "monthsplayed": "Apr",
+        "genre": "Military science fiction"
     }
 ]

@@ -44,7 +44,7 @@
         "dateWatched": "4/3/2024"
     },
     {
-        "id": "apr",
+        "id": "",
         "cover": "tv-journal-img/attack_on_titan.jpg",
         "title": "Attack On Titan season 1",
         "creator": "Hajime Isayama",
@@ -53,5 +53,39 @@
         "duration": "25 Episodes",
         "genre": "Action Dark fantasy <br>Post-apocalyptic",
         "dateWatched": "4/1/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/aot2.jpg",
+        "title": "Attack On Titan season 2",
+        "creator": "Hajime Isayama",
+        "rating": 4.5,
+        "review": "Season 2 was very good, for some reason I didn't care for it very much back when it first released but now I do. Of course watching it with someone who had never seen it was a contributing factor.",
+        "duration": "12 Episodes",
+        "genre": "Action Dark fantasy <br>Post-apocalyptic",
+        "dateWatched": "4/6/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/aot3.jpg",
+        "title": "Attack On Titan season 3",
+        "creator": "Hajime Isayama",
+        "rating": 4.5,
+        "review": "It's hard to sell this show to people who haven't seen it before. However it's biggest draw for me is that is it's mystery and intrigue. From the first episode we are given huge mysteries and part of the central conflict of the show is the lack of information that any of the characters have. This season finally gives many of the answers to those questions in an extremely cathartic way. By the last episode of the season we witness a complete shift in the stakes and themes of the show that is controverisal to many people, however you cannot deny how shocking it is. ",
+        "duration": "22 Episodes",
+        "genre": "Action Dark fantasy <br>Post-apocalyptic",
+        "dateWatched": "4/27/2024"
+    },
+    {
+        "id": "may",
+        "cover": "tv-journal-img/aot4.jpg",
+        "title": "Attack On Titan season 4",
+        "creator": "Hajime Isayama",
+        "rating": 5,
+        "review": "Season 4 is really good. I have already seen it back when it first aired but I went in hesitant to praise it because I have seen a lot of debates online. My opinion remains unchanged however I was really impressed.",
+        "duration": "30 Episodes",
+        "genre": "Action Dark fantasy",
+        "dateWatched": "5/8/2024"
     }
+    
 ]

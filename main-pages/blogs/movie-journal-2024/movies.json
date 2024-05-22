@@ -130,5 +130,38 @@
         "duration": 105,
         "genre": "Action, Science Fiction",
         "dateWatched": "4/10/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/dawn.jpg",
+        "title": "Dawn of the Planet<br>of the Apes",
+        "director": "<br>Matt Reeves",
+        "rating": 2.5,
+        "review": "It was alright, I can see why it might have more merit than the previous film but in my mind I cant fathom a single reason I would raise it above 2.5 stars.",
+        "duration": 130,
+        "genre": "Action, Adventure",
+        "dateWatched": "4/13/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/war.jpg",
+        "title": "War for the Planet<br>of the Apes",
+        "director": "<br>Matt Reeves",
+        "rating": 2.5,
+        "review": "This was kind of ridiculous. I know I shouldn't expect anything less of a movie about apes gaining human sentience, but this movie took itself so seriously. There were enjoyable parts but it is oddly doused in cliches and it doesn't seem to have an ounce of self awareness about it. Why do they have massive tanks of combustible fluids right next to their front gates when their enemies have rockets and jets??",
+        "duration": 140,
+        "genre": "Action, Science Fiction",
+        "dateWatched": "4/17/2024"
+    },
+    {
+        "id": "may",
+        "cover": "movie-journal-img/monkeykingdom.jpg",
+        "title": "Kingdom of the Planet<br>of the Apes",
+        "director": "<br>Wes Ball",
+        "rating": 3,
+        "review": "I am often scewed in my movie opinions when I watch the movie in theaters, which could possibly explain why I feel compelled to give this movie a 3 where the other movies all got a 2.5. It was alright, I walked out feeling positve about it but I don't have all that much to say.",
+        "duration": 145,
+        "genre": "Action, Science Fiction",
+        "dateWatched": "5/18/2024"
     }
 ]

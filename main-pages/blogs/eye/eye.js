@@ -1,6 +1,6 @@
 function getRandomPosition() {
   var contentRect = document.getElementById('content').getBoundingClientRect();
-  var contentWidth = contentRect.width;
+  var contentWidth = contentRect.width - 300;
   var contentHeight = contentRect.height;
   var randomX = Math.random() * contentWidth + contentRect.left;
   var randomY = Math.random() * contentHeight + contentRect.top;
