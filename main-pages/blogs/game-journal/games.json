@@ -5,7 +5,7 @@
         "title": "Dark Souls III",
         "studio": "FromSoftware",
         "rating": 5,
-        "review": "Dark Souls III holds a special place in my heart. I love the game very much but due to the amount of times I insist upon restarting I still haven't finished it, maybe this year is the year. Regardless I love this game play it if you like games that are punishing. Ammendment 5/22/24: I beat the game in April! Despite considering it one of my favorite games ever, I had never finished it! Now I have I can say now it is my favorite game ever and I plan on going back to 100% it.",
+        "review": "Dark Souls III holds a special place in my heart. I love the game very much but due to the amount of times I insist upon restarting I still haven't finished it, maybe this year is the year. Regardless I love this game play it if you like games that are punishing. AMMENDMENT 5/22/24: I beat the game in April! Despite considering it one of my favorite games ever, I had never finished it! Now I have I can say now it is my favorite game ever and I plan on going back to 100% it.",
         "finished": "Yes",
         "playedbefore": "Yes",
         "monthsplayed": "Jan, Apr",
@@ -41,8 +41,8 @@
         "title": "Elden Ring",
         "studio": "FromSoftware",
         "rating": 5,
-        "review": "Elden ring is so good. Just like Dark Souls in its brutal punishing nature but also so fresh and fun. Discovering things in this game for the first time and not knowing what comes next is a genuine treat.",
-        "finished": "2x times",
+        "review": "Elden ring is so good. Just like Dark Souls in its brutal punishing nature but also so fresh and fun. Discovering things in this game for the first time and not knowing what comes next is a genuine treat. AMMENDMENT 5/28/2024: I have finally acquired 100% of the acheivements for this game, marking the first FromSoft game that I will 100% and one of few games that i've ever 100%. ",
+        "finished": "3x times",
         "playedbefore": "Yes",
         "monthsplayed": "Jan, Apr-May",
         "genre": "Action role-play"
@@ -157,7 +157,7 @@
     },
     {
         "id": "",
-        "cover": "game-journal-img/fallout_4_cover_art.jpg",
+        "cover": "game-journal-img/Fallout_4_cover_art.jpg",
         "title": "Fallout 4",
         "studio": "Bethesda",
         "rating": 1.5,
@@ -169,7 +169,7 @@
     },
     {
         "id": "apr",
-        "cover": "game-journal-img/Bloodborne_cover_wallpaper.jpg",
+        "cover": "game-journal-img/Bloodborne_Cover_Wallpaper.jpg",
         "title": "Bloodborne",
         "studio": "FromSoftware",
         "rating": 0,
@@ -181,7 +181,7 @@
     },
     {
         "id": "",
-        "cover": "game-journal-img/massEffect.jpg",
+        "cover": "game-journal-img/MassEffect.jpg",
         "title": "Mass Effect",
         "studio": "EA",
         "rating": 0,
@@ -190,5 +190,17 @@
         "playedbefore": "No",
         "monthsplayed": "Apr",
         "genre": "Military science fiction"
+    },
+    {
+        "id": "may",
+        "cover": "game-journal-img/darksouls1.jpg",
+        "title": "Dark Souls Remastered",
+        "studio": "FromSoftware",
+        "rating": 4,
+        "review": "I am torn between a 3.5 and a 4 star rating, however I think my enjoyment of the franchise and the addictiveness of these games elevates it a little bit higher. There are parts of this game that are honestly so frustrating it brings me close to turning it off and walking away. Out of all the fromSoftware games i've played this one has tested my patience the most. Nevertheless my goal is to 100% all of these games, Elden Ring, Dark Souls I, II, and III, Sekiro, and Bloodborne. We will certainly see if I am even capable of that at this rate... ",
+        "finished": "No",
+        "playedbefore": "Yes",
+        "monthsplayed": "Apr",
+        "genre": "Action role-play"
     }
 ]
