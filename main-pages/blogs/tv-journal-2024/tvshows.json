@@ -97,6 +97,17 @@
         "duration": "8 Episodes",
         "genre": "Comedy-drama",
         "dateWatched": "5/8/2024"
+    },
+    {
+        "id": "jun",
+        "cover": "tv-journal-img/chernobyl.jpg",
+        "title": "Chernobyl",
+        "creator": "Craig Mazin",
+        "rating": 4,
+        "review": "As a drama I found it very compelling and well made. They make you care about the characters and present the show in a way where even if you know the history it's very enthralling. I can't speak to the historical accuracy but it's clear that they take liberties for the sake of good TV. So if you are able to put that behind you I really recommend it!",
+        "duration": "5 Episodes",
+        "genre": "Historical drama",
+        "dateWatched": "6/2/2024"
     }
     
 ]
