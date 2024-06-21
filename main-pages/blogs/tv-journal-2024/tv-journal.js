@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <p>Genre: ${tv.genre}</p>
                             </div>
                             <div class="Date-watched">
-                                <p>Watched: ${tv.dateWatched}</p>
+                                <p>Finished: ${tv.dateWatched}</p>
                             </div>
                         </div>
                     </div>

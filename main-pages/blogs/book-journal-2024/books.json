@@ -152,6 +152,28 @@
         "pages": 236,
         "genre": "Horror fiction",
         "dateRead": "4/3/2024"
+    },
+    {
+        "id": "may",
+        "cover": "book-journal-img/csm15.jpg",
+        "title": "Chainsawman Vol.15",
+        "author": "Tatsuki Fujimoto",
+        "rating": 4,
+        "review": "Much like before I am very much enjoying part 2 of the series and this is just more of that. As a stand alone work it didn't feel as strong as 14 did but still good.",
+        "pages": 200,
+        "genre": "Dark fantasy, Comedy Horror",
+        "dateRead": "5/7/2024"
+    },
+    {
+        "id": "jun",
+        "cover": "book-journal-img/stoner.jpg",
+        "title": "Stoner",
+        "author": "John Williams",
+        "rating": 5,
+        "review": "I am still reading 3 other books be on a whim decided I might have an easier time if I read a classic fictional biography, like the first two books on this list. I found this one because a book reviewer on Tik Tok proclaimed that it was their favorite book ever after reading it, which got me curious. What sealed the deal in my reading it however is when that same reviewer explained that nothing really happens in this book. There is no notable event and there is no focus, its just the life of this guy named William Stoner and thats it. With my curiousity piqued I read it and it really is true that its about pretty much nothing in the grand scheme of things, so much so It had me feeling existential. This guy deticated himself to studying and teaching at his university and just grew old and died without ever leaving Missouri. I can't really place my finger on why its so good either but something about just rubbed off on my brain and I often think about it.",
+        "pages": 278,
+        "genre": "Novel",
+        "dateRead": "6/17/2024"
     }
 
 ]
