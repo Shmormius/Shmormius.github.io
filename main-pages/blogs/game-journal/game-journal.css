@@ -162,6 +162,7 @@ p {
 .journal-content-con .game {
   display: flex;
   width: 97%;
+  height: fit-content;
   min-height: 300px;
   margin-bottom: 25px;
   border: 1px solid var(--color-secondary);
