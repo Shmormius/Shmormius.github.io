@@ -201,7 +201,7 @@ p {
 
 .journal-content-con .book .left-book .book-cover {
   width: 200px;
-  height: min-content;
+  height: fit-content;
 }
 
 .journal-content-con .book .left-book .book-cover:hover {
