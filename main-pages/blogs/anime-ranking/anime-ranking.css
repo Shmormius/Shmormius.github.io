@@ -226,6 +226,7 @@ nav a:hover p1 {
     .ranking-content-con .anime .left-anime .anime-cover {
       width: 50%;
       min-width: 125px;
+      height: auto;
     }
 
     .ranking-content-con .right-anime{

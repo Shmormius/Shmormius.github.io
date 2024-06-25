@@ -238,6 +238,7 @@ p {
   .journal-content-con .tv .left-tv .tv-cover {
     width: 50%;
     min-width: 180px;
+    height: auto;
   }
 
   .journal-content-con .tv .right-tv {
