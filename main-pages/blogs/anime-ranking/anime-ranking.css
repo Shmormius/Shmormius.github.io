@@ -1,0 +1,243 @@
+:root {
+    --color-primary: #51557e;
+    --color-secondary: #96b0e5;
+    --color-terciary: #6320d6;
+    --color-house: #6e90d8;
+    --color-white: #FFFFFF;
+    --color-black: #000;
+    --color-grey-1: #dbe1e8;
+    --color-grey-2: #b2becd;
+    --color-grey-3: #6c7983;
+    --color-grey-4: #454e56;
+    --color-grey-5: #2a2e35;
+    --color-grey-6: #12181b;
+    --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
+  }
+
+body {
+    background: linear-gradient(to top, #e74b4b, #461154,  #000d82, #010b13);
+    margin: 0px;
+  }
+  
+/*header*/
+  
+h1 {
+    color: var(--color-white);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    font-style: italic;
+    font-size: 40px;
+    position: absolute;
+  
+}
+  
+h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    font-style: italic
+}
+  
+.header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
+  
+.header .top-bar {
+    position: absolute;
+    top: -200px;
+    width: 100%;
+    height: 400px;
+    background-color: var(--color-secondary);
+    box-shadow: var(--box-shadow-1);
+    z-index: -1;
+    border-radius: 100%;
+}
+  
+.bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.bar a {
+    flex: 1 0 15%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--color-grey-1);
+    border: 1px solid var(--color-secondary);
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 25px;
+}
+  
+.bar a:hover {
+    background-color: var(--color-primary);
+}
+  
+  
+/*nav-bar*/
+  
+nav {
+    display: flex;
+    align-items: end;
+    padding-bottom: 20px;
+}
+  
+  
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-secondary);
+    box-shadow: var(--box-shadow-1);
+    border-radius: 50%;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-white);
+    transition: all 0.4s ease-in-out;
+}
+  
+nav p1 {
+    display: none;
+}
+  
+nav a:hover,
+nav a:active {
+    background-color: var(--color-terciary);
+    top: 2px;
+    left: 2px;
+    width: 150px;
+    border-radius: 25px;
+  
+  
+}
+  
+nav a:hover p1 {
+    opacity: 100%;
+    display: inline-flex;
+}
+  
+/* Media Query for smaller screens (phones) */
+@media only screen and (max-width: 767px) {
+    nav {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+    }
+}
+  
+@media only screen and (min-width: 768px) {
+    nav {
+      flex-direction: column;
+      justify-content: right;
+      position: fixed;
+      right: 0;
+      top: 12rem;
+    }
+  
+}
+
+.ranking-content-con {
+    width: 75%;
+    padding-top: 3.5rem;
+    padding: 20px;
+    background-color: var(--color-grey-1);
+    margin-left: 10%;
+  }
+  
+  .ranking-content-con .anime {
+    display: flex;
+    width: 97%;
+    min-height: 200px;
+    margin-bottom: 5px;
+    border: 1px solid var(--color-secondary);
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .ranking-content-con .anime .left-anime {
+    display: flex;
+  }
+  .ranking-content-con .anime .left-anime p{
+    padding: 25px;
+    padding-left: 0px;
+    right: 50%;
+    font-size: 34px;
+  }
+
+  .ranking-content-con .anime .right-anime {
+    display: flex;
+  }
+  
+  .ranking-content-con .anime .right-anime .details {
+    min-width: 200px;
+    margin-left: 25px;
+  }
+  
+  .ranking-content-con .anime .right-anime .details .title p {
+    color: var(--color-secondary);
+    font-size: 34px;
+    font-weight: bold;
+    top: 0;
+  }
+  
+  .ranking-content-con .anime .left-anime .anime-cover {
+    width: 150px;
+    height: min-content;
+  }
+  .ranking-content-con .anime .right-anime .star-rating{
+    font-size: 28px;
+    color: var(--color-primary);
+  }
+  
+  .ranking-content-con .anime .right-anime .anime-cover:hover {
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: all 0.4s ease-in-out;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .ranking-content-con {
+      width: 100%;
+      margin-left: 0%;
+      padding-left: 0%;
+    }
+
+    .ranking-content-con .anime{
+      padding-left: 0%;
+    }
+
+    .ranking-content-con .left-anime{
+      width: 50%;
+    }
+
+    .ranking-content-con .anime .left-anime p{
+      padding: 0%;
+      padding-right: 10px;
+    }
+  
+    .ranking-content-con .anime .left-anime .anime-cover {
+      width: 50%;
+      min-width: 125px;
+    }
+
+    .ranking-content-con .right-anime{
+      padding-right: 10px;
+    }
+    .ranking-content-con .anime .right-anime .details .title p{
+      font-size: 20px;
+    }
+    .ranking-content-con .anime .right-anime .details .star-rating{
+      width: 86%;
+    }
+    .ranking-content-con .right-anime h1{
+      font-size: 12px;
+    }
+}
