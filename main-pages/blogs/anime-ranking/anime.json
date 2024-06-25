@@ -1,0 +1,275 @@
+[
+    {
+        "id": "",
+        "cover": "anime-covers/JoJo_Part_1_Phantom_Blood.jpg",
+        "title": "Jojo's Bizzare Adventure",
+        "rating": 10,
+        "duration": 190
+    },
+    {
+        "id": "movie",
+        "cover": "anime-covers/akira.jpg",
+        "title": "AKIRA",
+        "rating": 10,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/mob.jpg",
+        "title": "Mob Psycho 100",
+        "rating": 10,
+        "duration": 37
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/51XFaesw92L._AC_UF894,1000_QL80_.jpg",
+        "title": "End of Evangelion",
+        "rating": 10,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/csm.jpg",
+        "title": "Chainsawman",
+        "rating": 10,
+        "duration": 12
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/dungeon.jpg",
+        "title": "Delicious in Dungeon",
+        "rating": 10,
+        "duration": 24
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/FLCL.jpg",
+        "title": "FLCL",
+        "rating": 10,
+        "duration": 6
+    },
+    {
+        "id": "",
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/flowers-of-evil.jpg",
+        "title": "Flowers of Evil",
+        "rating": 8,
+        "duration": 13
+    },
+    {
+        "id": "",
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/attack_on_titan.jpg",
+        "title": "Attack on Titan",
+        "rating": 9,
+        "duration": 94
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/cowboy.jpg",
+        "title": "Cowboy Bebop",
+        "rating": 8,
+        "duration": 26
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/yourname.jpg",
+        "title": "Your Name",
+        "rating": 9,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/evangelion.jpg",
+        "title": "Neon Genesis Evangelion",
+        "rating": 7,
+        "duration": 26
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3+1.jpg",
+        "title": "Evengelion 3.0 + 4.01",
+        "rating": 9,
+        "duration": 1
+    },
+    {
+        "id": "movie",
+        "cover": "anime-covers/Perfectblueposter.png",
+        "title": "Perfect blue",
+        "rating": 9,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/deathnote.jpg",
+        "title": "Death note",
+        "rating": 9,
+        "duration": 37
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/jjk.jpg",
+        "title": "Jujutsu Kaisen",
+        "rating": 7,
+        "duration": 47
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/skip.jpg",
+        "title": "Skip and Loafer",
+        "rating": 9,
+        "duration": 12
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3.jpg",
+        "title": "Evangelion 3.33",
+        "rating": 7,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/vinland.jpg",
+        "title": "Vinland Saga",
+        "rating": 8,
+        "duration": 48
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/heavenly.jpg",
+        "title": "Heavenly Delusion",
+        "rating": 6,
+        "duration": 13
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/erased.jpg",
+        "title": "Erased",
+        "rating": 8,
+        "duration": 13
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/opm.jpg",
+        "title": "One Punch Man",
+        "rating": 5,
+        "duration": 24
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/demonslayer.jpg",
+        "title": "Demon Slayer",
+        "rating": 7,
+        "duration": 55
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/weather.jpg",
+        "title": "Weathering with You",
+        "rating": 8,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/cat.jpg",
+        "title": "The Masterful Cat is Depressed Again Today",
+        "rating": 7,
+        "duration": 13
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/terror.jpg",
+        "title": "Terror in Resonance",
+        "rating": 7,
+        "duration": 11
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/komi.jpg",
+        "title": "Komi Can't Communicate",
+        "rating": 6,
+        "duration": 24
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva2.jpg",
+        "title": "Evengelion 2.22",
+        "rating": 6,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/cyber.jpg",
+        "title": "Cyberpunk: Edgerunners",
+        "rating": 6,
+        "duration": 10
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/thusspoke.jpg",
+        "title": "Thus Spoke Kishbe Rohan",
+        "rating": 7,
+        "duration": 4
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/trigun.jpg",
+        "title": "Trigun",
+        "rating": 6,
+        "duration": 26
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/deathparade.jpg",
+        "title": "Death Parade",
+        "rating": 7,
+        "duration": 12
+    },
+    {
+        "id": "movie",
+        "cover": "anime-covers/jjk0.jpg",
+        "title": "Jujutsu Kaisen 0",
+        "rating": 5,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/devilman.jpg",
+        "title": "Devilman: Crybaby",
+        "rating": 4,
+        "duration": 12
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva1.jpg",
+        "title": "Evangelion 1.0",
+        "rating": 3,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/mha.jpg",
+        "title": "My Hero Academia",
+        "rating": 3,
+        "duration": 88
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/pnl.jpg",
+        "title": "Promised neverland",
+        "rating": 4,
+        "duration": 24
+    },
+    {
+        "id": "",
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/hells-paradise.jpg",
+        "title": "Hell's paradise",
+        "rating": 3,
+        "duration": 13
+    },
+    {
+        "id": "movie",
+        "cover": "anime-covers/Bubble_film_poster.jpg",
+        "title": "Bubble",
+        "rating": 2,
+        "duration": 1
+    }
+]

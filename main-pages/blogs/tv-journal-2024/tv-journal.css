@@ -200,7 +200,7 @@ p {
 
 .journal-content-con .tv .left-tv .tv-cover {
   width: 200px;
-  height: fit-content;
+  height: min-content;
 }
 
 .journal-content-con .tv .left-tv .tv-cover:hover {
@@ -237,7 +237,6 @@ p {
 
   .journal-content-con .tv .left-tv .tv-cover {
     width: 50%;
-    height: auto;
     min-width: 180px;
   }
 
