@@ -239,6 +239,7 @@ p {
   .journal-content-con .book .left-book .book-cover {
     width: 50%;
     min-width: 180px;
+    height: auto;
   }
 
   .journal-content-con .book .right-book {
