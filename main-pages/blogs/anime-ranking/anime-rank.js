@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
 
                 animeDiv.classList.add("anime");
+                animeDiv.id = anime.special;
 
                 animeDiv.innerHTML = `
                     <div class="left-anime">
