@@ -1,5 +1,6 @@
 [
-    {
+    {   
+        "special": "jjba",
         "id": "",
         "cover": "anime-covers/JoJo_Part_1_Phantom_Blood.jpg",
         "title": "Jojo's Bizzare Adventure",
@@ -7,13 +8,15 @@
         "duration": 190
     },
     {
+        "special": "akira",
         "id": "movie",
         "cover": "anime-covers/akira.jpg",
         "title": "AKIRA",
         "rating": 10,
         "duration": 1
     },
-    {
+    {   
+        "special": "mob",
         "id": "",
         "cover": "anime-covers/mob.jpg",
         "title": "Mob Psycho 100",
@@ -21,6 +24,7 @@
         "duration": 37
     },
     {
+        "special": "eva",
         "id": "movie",
         "cover": "../../blogs/movie-journal-2024/movie-journal-img/51XFaesw92L._AC_UF894,1000_QL80_.jpg",
         "title": "End of Evangelion",
@@ -28,6 +32,7 @@
         "duration": 1
     },
     {
+        "special": "csm",
         "id": "",
         "cover": "anime-covers/csm.jpg",
         "title": "Chainsawman",
