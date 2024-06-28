@@ -15,7 +15,7 @@
   }
 
 body {
-    background: linear-gradient(to top, #e74b4b, #461154,  #000d82, #010b13);
+    background: linear-gradient(to top, #350c39, #461154, #010b13);
     margin: 0px;
   }
   
@@ -252,7 +252,7 @@ nav a:hover p1 {
       color: rgb(78, 42, 42);
     }
     .right-anime .star-rating{
-      color: rgb(255, 232, 232);
+      color: rgb(114, 39, 39);
     }
     .right-anime .duration{
       color: rgb(73, 48, 48);
@@ -260,9 +260,114 @@ nav a:hover p1 {
 
     background: linear-gradient(
         to right,
-        rgb(234, 213, 132) 30%,
+        rgb(250, 225, 200) 30%,
         rgba(255, 0, 0, 0) 100%,
         rgba(255,0,0,0)),url('anime-covers/Chainsaw-Man-Makima-Tercer-Ending.jpg');
+      background-size: cover;
+  }
+
+  #meshi{
+
+    .right-anime .details .title p {
+      color: rgb(218, 222, 255);
+    }
+    .right-anime .star-rating{
+      color: rgb(62, 81, 152);
+    }
+    .right-anime .duration{
+      color: rgb(92, 134, 138);
+    }
+
+    background: linear-gradient(
+        to right,
+        rgb(33, 32, 103) 30%,
+        rgba(32, 26, 115, 0.5) 60%,
+        rgba(255, 0, 0, 0) 100%,
+        rgba(255,0,0,0)),url('anime-covers/meshi-back.jpg');
+      background-size: cover;
+  }
+
+  #flcl{
+
+    .right-anime .details .title p {
+      color: rgb(0, 0, 0);
+    }
+    .right-anime .star-rating{
+      color: rgb(0, 0, 0);
+    }
+    .right-anime .duration{
+      color: rgb(0, 0, 0);
+    }
+
+    background: linear-gradient(
+        to right,
+        rgb(184, 151, 105) 30%,
+        rgba(163, 151, 95, 0.5) 60%,
+        rgba(255, 0, 0, 0) 100%,
+        rgba(255,0,0,0)),url('anime-covers/FLCL_1.png');
+      background-size: cover;
+  }
+
+  #flowers{
+
+    .right-anime .details .title p {
+      color: rgb(208, 222, 222);
+    }
+    .right-anime .star-rating{
+      color: rgb(196, 212, 213);
+    }
+    .right-anime .duration{
+      color: rgb(177, 197, 200);
+    }
+
+    background: linear-gradient(
+        to right,
+        rgb(0, 0, 0) 30%,
+        rgba(53, 52, 52, 0.5) 60%,
+        rgba(255, 0, 0, 0) 100%,
+        rgba(255,0,0,0)),url('anime-covers/flowers.png');
+      background-size: cover;
+  }
+
+  #aot{
+
+    .right-anime .details .title p {
+      color: rgb(255, 231, 163);
+    }
+    .right-anime .star-rating{
+      color: rgb(246, 234, 192);
+    }
+    .right-anime .duration{
+      color: rgb(177, 197, 200);
+    }
+
+    background: linear-gradient(
+        to right,
+        rgb(85, 47, 0) 30%,
+        rgba(179, 54, 54, 0.5) 60%,
+        rgba(255, 0, 0, 0) 100%,
+        rgba(255,0,0,0)),url('anime-covers/aot-back.jpg');
+      background-size: cover;
+  }
+
+  #cowboy{
+
+    .right-anime .details .title p {
+      color: rgb(65, 27, 27);
+    }
+    .right-anime .star-rating{
+      color: rgb(98, 46, 49);
+    }
+    .right-anime .duration{
+      color: rgb(57, 23, 23);
+    }
+
+    background: linear-gradient(
+        to right,
+        rgb(109, 105, 30) 30%,
+        rgba(179, 142, 54, 0.5) 60%,
+        rgba(255, 0, 0, 0) 100%,
+        rgba(255,0,0,0)),url('anime-covers/cowboy-back.jpg');
       background-size: cover;
   }
 
