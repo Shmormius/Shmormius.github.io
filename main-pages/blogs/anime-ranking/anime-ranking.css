@@ -160,13 +160,6 @@ nav a:hover p1 {
     border: 1px solid var(--color-secondary);
     padding: 15px;
     border-radius: 5px;
-    background: linear-gradient(
-        to right,
-        rgb(234, 224, 234) 30%,
-        rgb(209, 225, 254) 60%,
-        rgb(159, 162, 251) 100%,
-        rgb(149, 152, 252));
-      background-size: cover;
   }
 
   #jjba{
