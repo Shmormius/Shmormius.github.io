@@ -1,0 +1,21 @@
+.port-con {
+    width: 95%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .port-con .posts {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: min-content;
+    margin: auto;
+  }
+
+  .port-con .posts .post {
+    width: 100%;
+    height: min-content;
+    margin-bottom: 25px;
+  }
