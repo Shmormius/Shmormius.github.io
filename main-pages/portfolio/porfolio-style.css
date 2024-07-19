@@ -1,0 +1,63 @@
+:root {
+    --color-icon: #3f2058;
+    --color-house: #6e90d8;
+    --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
+}
+
+.portfolio-selection-con{
+    height: 500px;
+}
+
+.portfolio-selection-con .option-con{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    margin: 25px;
+    margin-right: 75px;
+    margin-bottom: 75px;
+    height: 100%;
+}
+
+.portfolio-selection-con .option-con .option{
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#cs{
+    background: linear-gradient(
+        to right,
+        var(--color-icon) 30%,
+        rgba(47, 15, 96, 0.747) 60%,
+        rgba(255, 0, 0, 0) 100%,
+        rgba(255,0,0,0)),url('computer_science/cs-img/code-thumbnail.jpg');
+      background-size: cover;
+}
+
+#blender{
+    background: linear-gradient(
+        to right,
+        var(--color-icon) 30%,
+        rgba(47, 15, 96, 0.747) 60%,
+        rgba(255, 0, 0, 0) 100%,
+        rgba(255,0,0,0)),url('blender/blender-img/graaass.png');
+      background-size: cover;
+}
+
+.portfolio-selection-con .option-con .option:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: all 0.4s ease-in-out;
+}
+
+.portfolio-selection-con .option-con .option p{
+    width: 45%;
+    padding: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .portfolio-selection-con .option-con{
+        grid-template-columns: repeat(1, 1fr);
+        margin-right: 25px;
+    }
+}

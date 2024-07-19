@@ -44,7 +44,7 @@
         "review": "Elden ring is so good. Just like Dark Souls in its brutal punishing nature but also so fresh and fun. Discovering things in this game for the first time and not knowing what comes next is a genuine treat. AMMENDMENT 5/28/2024: I have finally acquired 100% of the acheivements for this game, marking the first FromSoft game that I will 100% and one of few games that i've ever 100%. ",
         "finished": "3x times",
         "playedbefore": "Yes",
-        "monthsplayed": "Jan, Apr-Jun",
+        "monthsplayed": "Jan, Apr-Jul",
         "genre": "Action role-play"
     },
     {
@@ -92,7 +92,7 @@
         "review": "One of my favorite games ever. Another game that has been catching a lot of negative critisism as of late, but it brings me a lot of comfort and joy.",
         "finished": "Yes",
         "playedbefore": "Yes",
-        "monthsplayed": "Feb, Jun",
+        "monthsplayed": "Feb, Jun-Jul",
         "genre": "Survival sandbox"
     },
     {
@@ -202,5 +202,17 @@
         "playedbefore": "Yes",
         "monthsplayed": "Apr-Jun",
         "genre": "Action role-play"
+    },
+    {
+        "id": "jul",
+        "cover": "game-journal-img/dbd.jpg",
+        "title": "Dead By Daylight",
+        "studio": "Behaviour Interactive",
+        "rating": 3.5,
+        "review": "Dead by Daylight is a game that I have been playing off and on since 2017. The thing that usually draws me back is the approach of fall. If you know anything about it it's that I am very enthusiastic about Halloween and fall. This game has it's flaws but I still love it. I think the rating may go up as I play it more this year. ",
+        "finished": "N/A",
+        "playedbefore": "Yes",
+        "monthsplayed": "Jul",
+        "genre": "asymmetric multiplayer, survival horror"
     }
 ]
