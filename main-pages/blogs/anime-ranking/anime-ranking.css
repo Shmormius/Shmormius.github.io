@@ -145,16 +145,15 @@ nav a:hover p1 {
 }
 
 .ranking-content-con {
-    width: 75%;
+    width: 60%;
     padding-top: 3.5rem;
     padding: 20px;
     background-color: var(--color-grey-1);
-    margin-left: 10%;
+    margin-left: 18%;
   }
   
   .ranking-content-con .anime {
     display: flex;
-    width: 97%;
     min-height: 200px;
     margin-bottom: 5px;
     border: 1px solid var(--color-secondary);
