@@ -26,16 +26,61 @@
     <div class = "port-con">
         <div class = "posts">
             <div class = "post">
-                <p>Autonomous Raspberry Pi Rover</p>
+                <h2>Autonomous Raspberry Pi Rover | C++ | Python | HTML</h2>
+                <div class = "info-container">
+                    <img src="../cs-img/rover/rover-on-floor.jpg" loading="lazy" alt="rover 1">
+                    <img src="../cs-img/rover/rover-on-desk.jpg" loading="lazy" alt="rover 2">
+                    <p>This is a partially autonomous rover that was designed collaboratively between me and two of my classmates for a Computer Science course. The rover hosts a web interface via the Raspberry Pi on the back that allows for wireless integration on a computer. The web interface was constructed with basic HTML and has a text box where you input commands. While it had the ability to go forward, turn around, and stop the main feature was that It could navigate to geographic coordinates. </p>
+                    <p>The way this works is that the Raspberry Pi on the back of the rover hosts a server using flask with the basic web interface mentioned before. The server is hosted on local WiFi but once the instructions are given the rover autonomously navigates to the coordinates provided with or without lasting connection to the network. The instructions are taken from the Raspberry Pi and given to the Arduino via a serial port and the Arduino interprets those instructions and sends signals to the hardware to move.</p>
+                    <div class = "buttons">
+                        <div class="btn-con">
+                            <a href="https://github.com/Shmormius/Autonomous-Rover" target="_blank" class="main-btn">
+                                <span class="btn-text">Project Github</span>
+                            </a>
+                        </div>
+                        <div class="btn-con">
+                            <a href="../../../../resources/docs/CS370 Report.pdf" target="_blank" class="main-btn">
+                                <span class="btn-text">Project report pdf</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class = "post">
-                <p>Portfolio Website</p>
+                <h2>Portfolio Website | HTML | CSS | Javascript | JSON</h2>
+                <div class = "info-container">
+                    <img src="../cs-img/website/javascript.png" loading="lazy" alt="javascript example">
+                    <img src="../cs-img/website/json.png" loading="lazy" alt="json example">
+                    <p>This project is the website that you are on right now! This version is actually the third iteration of my portfolio website, each of which has become increasingly more removed from examples and tutorials. This version is utilizing source control using Github and is structured using multiple different folders and files. Each page uses HTML for content and structure, and CSS for style. Some select pages like most of my blog pages use a combination of Javascript and JSON to create repetitive "post" style entries that have the same format but different information. For example, in the book blog the information such as title, author, rating, and cover are stored in a JSON file and the Javascript file repeatedly generates a html div with all of the information in it for every entry.</p>
+                    <div class="btn-con" id="port-btn">
+                        <a href="https://github.com/Shmormius/Shmormius.github.io" target="_blank"
+                            class="main-btn">
+                            <span class="btn-text">Link to website
+                                github</span>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class = "post">
-                <p>Consumer Producer Problem w/ bounded buffer</p>
-            </div>
-            <div class = "post">
-                <p>Assembly ASCII to binary</p>
+                <h2>Consumer Producer Problem w/ bounded buffer | Java</h2>
+                <div class = "info-container">
+                    <img class = "big-img" src="../cs-img/buffer/bounded-buffer-medium-details.png" loading="lazy" alt="bounded buffer">
+                    <p>This is my attempt at solving the producer consumer problem using bounded buffer in Java. There are two threads, one consumer that removes items from the buffer and 'consumes' them, and one producer that adds items to the buffer, thus 'producing them'. Adding to the buffer is an action that can easily cause issues if both threads try and change the values at the same time. The program uses a couple of methods to synchronize and manage common resources, such as waiting and notifying the updating common variables when one is operating on the buffer. </p>
+                    <div class = "buttons">
+                        <div class="btn-con" id="port-btn">
+                            <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww2.it.uu.se%2Feducation%2Fcourse%2Fhomepage%2Fos%2Fvt20%2Fmodule-4%2Fbounded-buffer%2F&psig=AOvVaw2_mp7Cxg-Dqpa504l6Zlgs&ust=1720808437065000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCLDK44_Nn4cDFQAAAAAdAAAAABAI" target="_blank"
+                                class="main-btn">
+                                <span class="btn-text">Image credit</span>
+                            </a>
+                        </div>
+                        <div class="btn-con" id="port-btn">
+                            <a href="https://github.com/Shmormius/Consumer-Producer-Problem" target="_blank"
+                                class="main-btn">
+                                <span class="btn-text">Project Github</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

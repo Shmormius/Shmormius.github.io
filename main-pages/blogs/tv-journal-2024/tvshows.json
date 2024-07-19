@@ -108,6 +108,17 @@
         "duration": "5 Episodes",
         "genre": "Historical drama",
         "dateWatched": "6/2/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/smiling_friends_2.jpg",
+        "title": "Smiling Friends season 2",
+        "creator": "Zach Hadel, <br>and Micheal Cusack",
+        "rating": 5,
+        "review": "I was worried that the show would be cancelled before getting a season two but I think it has exploded in popularity enough to warrent several more. I love the way that this show is willing to do whatever it wants with the medium of animation.",
+        "duration": "8 Episodes",
+        "genre": "Surreal humour",
+        "dateWatched": "6/23/2024"
     }
     
 ]

@@ -19,3 +19,25 @@
     height: min-content;
     margin-bottom: 25px;
   }
+
+  .port-con .posts .post .info-container .big-img{
+    width: 95%;
+  }
+
+  img{
+    width: 45%;
+    margin: 10px;
+  }
+  .port-con .posts .post .buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    margin-right: 25px;
+  }
+
+  @media only screen and (max-width: 767px){
+    img{
+        width: 40%
+    }
+  }
