@@ -15,7 +15,7 @@
   }
 
 body {
-    background: linear-gradient(to top, #350c39, #461154, #010b13);
+    background: linear-gradient(to top, #9bdce7, #302783, #461154, #000000);
     margin: 0px;
   }
   
@@ -175,8 +175,8 @@ nav a:hover p1 {
 
     background: linear-gradient(
         to right,
-        rgb(60, 1, 60) 30%,
-        rgba(230, 0, 255, 0.5) 60%,
+        rgb(134, 10, 134) 30%,
+        rgba(176, 0, 230, 0.5) 60%,
         rgba(255, 0, 0, 0) 100%,
         rgba(255,0,0,0)),url('../../../resources/img/blog-img/blog-thumbnails/madeinheaven.jpg');
       background-size: cover;
@@ -217,7 +217,7 @@ nav a:hover p1 {
 
     background: linear-gradient(
         to right,
-        rgb(144, 58, 243) 30%,
+        rgb(99, 3, 209) 30%,
         rgba(15, 130, 138, 0.5) 60%,
         rgba(255, 0, 0, 0) 100%,
         rgba(255,0,0,0)),url('anime-covers/mob_back.jpg');
@@ -259,7 +259,7 @@ nav a:hover p1 {
 
     background: linear-gradient(
         to right,
-        rgb(250, 225, 200) 30%,
+        rgb(255, 252, 225) 30%,
         rgba(255, 0, 0, 0) 100%,
         rgba(255,0,0,0)),url('anime-covers/Chainsaw-Man-Makima-Tercer-Ending.jpg');
       background-size: cover;
@@ -300,8 +300,8 @@ nav a:hover p1 {
 
     background: linear-gradient(
         to right,
-        rgb(184, 151, 105) 30%,
-        rgba(163, 151, 95, 0.5) 60%,
+        rgb(150, 60, 60) 30%,
+        rgba(112, 211, 214, 0.5) 60%,
         rgba(255, 0, 0, 0) 100%,
         rgba(255,0,0,0)),url('anime-covers/FLCL_1.png');
       background-size: cover;
@@ -328,7 +328,7 @@ nav a:hover p1 {
       background-size: cover;
   }
 
-  #aot{
+  #nge{
 
     .right-anime .details .title p {
       color: rgb(255, 231, 163);
@@ -342,29 +342,29 @@ nav a:hover p1 {
 
     background: linear-gradient(
         to right,
-        rgb(85, 47, 0) 30%,
-        rgba(179, 54, 54, 0.5) 60%,
+        rgb(52, 9, 94) 30%,
+        rgba(84, 255, 42, 0.5) 60%,
         rgba(255, 0, 0, 0) 100%,
-        rgba(255,0,0,0)),url('anime-covers/aot-back.jpg');
+        rgba(255,0,0,0)),url('anime-covers/nge.png');
       background-size: cover;
   }
 
   #cowboy{
 
     .right-anime .details .title p {
-      color: rgb(65, 27, 27);
+      color: rgb(255, 255, 255);
     }
     .right-anime .star-rating{
-      color: rgb(98, 46, 49);
+      color: rgb(245, 225, 226);
     }
     .right-anime .duration{
-      color: rgb(57, 23, 23);
+      color: rgb(255, 239, 239);
     }
 
     background: linear-gradient(
         to right,
-        rgb(109, 105, 30) 30%,
-        rgba(179, 142, 54, 0.5) 60%,
+        rgb(9, 55, 116) 30%,
+        rgba(67, 151, 247, 0.5) 60%,
         rgba(255, 0, 0, 0) 100%,
         rgba(255,0,0,0)),url('anime-covers/cowboy-back.jpg');
       background-size: cover;

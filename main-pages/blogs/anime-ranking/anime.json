@@ -47,13 +47,13 @@
         "rating": 10,
         "duration": 24
     },
-    {   
-        "special": "flcl",
+    {
+        "special": "nge",
         "id": "",
-        "cover": "anime-covers/FLCL.jpg",
-        "title": "FLCL",
-        "rating": 10,
-        "duration": 6
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/evangelion.jpg",
+        "title": "Neon Genesis Evangelion",
+        "rating": 8,
+        "duration": 26
     },
     {
         "special": "flowers",
@@ -63,13 +63,13 @@
         "rating": 8,
         "duration": 13
     },
-    {
-        "special": "aot",
+    {   
+        "special": "flcl",
         "id": "",
-        "cover": "../../blogs/tv-journal-2024/tv-journal-img/attack_on_titan.jpg",
-        "title": "Attack on Titan",
-        "rating": 9,
-        "duration": 94
+        "cover": "anime-covers/FLCL.jpg",
+        "title": "FLCL",
+        "rating": 10,
+        "duration": 6
     },
     {   
         "special": "cowboy",
@@ -80,18 +80,19 @@
         "duration": 26
     },
     {
+        "special": "",
+        "id": "",
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/attack_on_titan.jpg",
+        "title": "Attack on Titan",
+        "rating": 9,
+        "duration": 94
+    },
+    {
         "id": "movie",
         "cover": "../../blogs/movie-journal-2024/movie-journal-img/yourname.jpg",
         "title": "Your Name",
         "rating": 9,
         "duration": 1
-    },
-    {
-        "id": "",
-        "cover": "../../blogs/tv-journal-2024/tv-journal-img/evangelion.jpg",
-        "title": "Neon Genesis Evangelion",
-        "rating": 7,
-        "duration": 26
     },
     {
         "id": "movie",
@@ -193,20 +194,6 @@
     },
     {
         "id": "",
-        "cover": "anime-covers/komi.jpg",
-        "title": "Komi Can't Communicate",
-        "rating": 6,
-        "duration": 24
-    },
-    {
-        "id": "movie",
-        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva2.jpg",
-        "title": "Evengelion 2.22",
-        "rating": 6,
-        "duration": 1
-    },
-    {
-        "id": "",
         "cover": "anime-covers/cyber.jpg",
         "title": "Cyberpunk: Edgerunners",
         "rating": 6,
@@ -238,6 +225,20 @@
         "cover": "anime-covers/jjk0.jpg",
         "title": "Jujutsu Kaisen 0",
         "rating": 5,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/komi.jpg",
+        "title": "Komi Can't Communicate",
+        "rating": 6,
+        "duration": 24
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva2.jpg",
+        "title": "Evengelion 2.22",
+        "rating": 6,
         "duration": 1
     },
     {
