@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                     <div class="right-game">
                         <p>${game.review}</p>
+                        ${game.amendment ? `<p>${game.amendment}</p>` : ''}
                     </div>
                 `;
 

@@ -179,6 +179,13 @@
     },
     {
         "id": "",
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/ranking.jpg",
+        "title": "Ranking of Kings",
+        "rating": 6,
+        "duration":33
+    },
+    {
+        "id": "",
         "cover": "anime-covers/cat.jpg",
         "title": "The Masterful Cat is Depressed Again Today",
         "rating": 7,

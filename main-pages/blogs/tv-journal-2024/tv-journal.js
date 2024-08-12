@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                     <div class="right-tv">
                         <p>${tv.review}</p>
+                        ${tv.amendment ? `<p>${tv.amendment}</p>` : ''}
                     </div>
                 `;
 

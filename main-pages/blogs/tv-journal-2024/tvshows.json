@@ -4,8 +4,9 @@
         "cover": "tv-journal-img/evangelion.jpg",
         "title": "Neon Genesis Evangelion",
         "creator": "Hideaki Anno",
-        "rating": 4,
+        "rating": 4.5,
         "review": "This show is very artistically rich. I really like learning about the world and characters. However it falls into some typical anime tropes that I don't really like. It can go from being masterful in one episode to just uncomforatble or bland on the next but generally keeps a good overall quality. The last two episodes weren't the best in my eyes but they are retconned by the movie so I dont really consider them when looking at the storys end. Overall I recommend it but only to those with open minds.",
+        "amendment": "Amendment 8/12/2024: I ordered a bluray and rewatched this during the end of July to the start of August. My roommate and partner had never seen it before and I thought it would be fun to watch it again with them and get their opinion. What shocked me was how much more I enjoyed it on a second watch. Almost all of the issues I had before were completely null and void. I saw a new layer of commentary and self-awareness that I had mistaken for cliche before. I am raising the rating from 4 to 4.5 stars!",
         "duration": "26 episodes",
         "genre": "Apocalyptic, mecha, psycological",
         "dateWatched": "1/2/2024"
@@ -119,6 +120,39 @@
         "duration": "8 Episodes",
         "genre": "Surreal humour",
         "dateWatched": "6/23/2024"
+    },
+    {
+        "id": "jul",
+        "cover": "tv-journal-img/jjks1.jpg",
+        "title": "Jujutsu Kaisen season 1",
+        "creator": "Gege Akutami",
+        "rating": 3.5,
+        "review": "I had already seen this before but my roommate, partner, and I have been showing each other shows and they had not yet seen this one and were curious. I enjoyed it more on a second watch! Sometime though it gets muddled in explaining how it's own power system works and feels like a boring science lesson when someone punches someone else.",
+        "duration": 24,
+        "genre": "Action, thriller, spiritual",
+        "dateWatched": "7/17/2024"
+    },
+    {
+        "id": "",
+        "cover": "../anime-ranking//anime-covers/jjk.jpg",
+        "title": "Jujutsu Kaisen season 2",
+        "creator": "Gege Akutami",
+        "rating": 4,
+        "review": "Season 2 can only truly be described as a specticle. End to end it gives very good animation and suspense. I am a tad skeptical in the writing, and it is starting to feel like a typical shonen with a darker shade of paint. But overall I really enjoyed it!",
+        "duration": 23,
+        "genre":"Action, thriller, spiritual",
+        "dateWatched": "7/29/2024"
+    },
+    {
+        "id": "aug",
+        "cover": "tv-journal-img/ranking.jpg",
+        "title": "Ranking of Kings season 1",
+        "creator": "Sousuke Touka",
+        "rating": 2.5,
+        "review": "I Thought It was a fun watch, the animations at times was spectacular and many of the characters are deeply likable. It becomes kind of ridiculous when the show bends over backwards to keep characters from dying despite the very dire situations they are consistantly placed in. The plot also goes completely hairwire at random intervals, people change sides more than 3 times and people very quickly abandon the plot thread that they were following. Episodes will end with a character declaring \"Im going to do this thing!\" and then the next episode it shows that they don't actually want to do that or they never intended too, its like whiplash. ",
+        "duration": "23 Episodes",
+        "genre": "Fantasy humour",
+        "dateWatched": "8/11/2024"
     }
     
 ]

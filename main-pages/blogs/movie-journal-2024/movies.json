@@ -27,7 +27,7 @@
         "title": "The End of Evangelion",
         "director": "Anno and Kazuya Tsurumaki",
         "rating": 5,
-        "review": "My friend and me finished the original Neon Genesis Evangelion tv show at the start of this year. We knew of the fact that movies existed but made little effort to seek them out. However the perfect oppritunity arose when for the first time ever this film was released in theaters in the US, it was released originally in 1997. That being said, this was my first movie theater experience of the year and I feel like I gained back some love for theaters in the process. The original TV show focused in on heavier tones and plot points meant to shock you at times it was nowhere near as gruesome, shocking, and violent as this movie was. I was in awe as the tone was completely different and the movie was incredibly heavy. I was speechless at the end it was like a nightmare. Overall I very much enjoyed the movie and I am interested to see how my outlook on it develops with time.",
+        "review": "My friend and I finished the original Neon Genesis Evangelion tv show at the start of this year. We knew of the fact that movies existed but made little effort to seek them out. However the perfect oppritunity arose when for the first time ever this film was released in theaters in the US, it was released originally in 1997. That being said, this was my first movie theater experience of the year and I feel like I gained back some love for theaters in the process. The original TV show focused in on heavier tones and plot points meant to shock you at times it was nowhere near as gruesome, shocking, and violent as this movie was. I was in awe as the tone was completely different and the movie was incredibly heavy. I was speechless at the end it was like a nightmare. Overall I very much enjoyed the movie and I am interested to see how my outlook on it develops with time.",
         "duration": 90,
         "genre": "Apocalyptic science fiction",
         "dateWatched": "3/17/2024"
@@ -163,5 +163,16 @@
         "duration": 145,
         "genre": "Action, Science Fiction",
         "dateWatched": "5/18/2024"
+    },
+    {
+        "id": "jul",
+        "cover": "../../blogs/anime-ranking/anime-covers/jjk0.jpg",
+        "title": "Jujutsu Kaisen 0",
+        "director": "<br>Gege Akutami",
+        "rating": 3,
+        "review": "It was always strange to me how exactly this fits into the wider story. Like here is a prequel story that is crucial to fully understanding season 2 of the show but doesn't really fit all that well. Why does this show need two main characters? It's an entertaining movie at least.",
+        "duration": 105,
+        "genre": "Action, Triller, Anime",
+        "dateWatched": "7/19/2024"
     }
 ]
