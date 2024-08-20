@@ -68,7 +68,7 @@
         "id": "",
         "cover": "anime-covers/FLCL.jpg",
         "title": "FLCL",
-        "rating": 10,
+        "rating": 8,
         "duration": 6
     },
     {   
@@ -88,6 +88,13 @@
         "duration": 94
     },
     {
+        "id": "",
+        "cover": "anime-covers/deathnote.jpg",
+        "title": "Death note",
+        "rating": 9,
+        "duration": 37
+    },
+    {
         "id": "movie",
         "cover": "../../blogs/movie-journal-2024/movie-journal-img/yourname.jpg",
         "title": "Your Name",
@@ -97,8 +104,8 @@
     {
         "id": "movie",
         "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3+1.jpg",
-        "title": "Evengelion 3.0 + 1.0",
-        "rating": 9,
+        "title": "Evangelion 3.0 + 1.0",
+        "rating": 8,
         "duration": 1
     },
     {
@@ -107,13 +114,6 @@
         "title": "Perfect blue",
         "rating": 9,
         "duration": 1
-    },
-    {
-        "id": "",
-        "cover": "anime-covers/deathnote.jpg",
-        "title": "Death note",
-        "rating": 9,
-        "duration": 37
     },
     {
         "id": "",
@@ -130,13 +130,6 @@
         "duration": 12
     },
     {
-        "id": "movie",
-        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3.jpg",
-        "title": "Evangelion 3.33",
-        "rating": 7,
-        "duration": 1
-    },
-    {
         "id": "",
         "cover": "anime-covers/vinland.jpg",
         "title": "Vinland Saga",
@@ -145,10 +138,24 @@
     },
     {
         "id": "",
-        "cover": "anime-covers/heavenly.jpg",
-        "title": "Heavenly Delusion",
+        "cover": "anime-covers/opm.jpg",
+        "title": "One Punch Man",
         "rating": 6,
-        "duration": 13
+        "duration": 24
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/weather.jpg",
+        "title": "Weathering with You",
+        "rating": 8,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/trigun.jpg",
+        "title": "Trigun",
+        "rating": 6,
+        "duration": 26
     },
     {
         "id": "",
@@ -159,10 +166,17 @@
     },
     {
         "id": "",
-        "cover": "anime-covers/opm.jpg",
-        "title": "One Punch Man",
-        "rating": 5,
-        "duration": 24
+        "cover": "anime-covers/heavenly.jpg",
+        "title": "Heavenly Delusion",
+        "rating": 6,
+        "duration": 13
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/cyber.jpg",
+        "title": "Cyberpunk: Edgerunners",
+        "rating": 6,
+        "duration": 10
     },
     {
         "id": "",
@@ -173,9 +187,9 @@
     },
     {
         "id": "movie",
-        "cover": "../../blogs/movie-journal-2024/movie-journal-img/weather.jpg",
-        "title": "Weathering with You",
-        "rating": 8,
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3.jpg",
+        "title": "Evangelion 3.33",
+        "rating": 4,
         "duration": 1
     },
     {
@@ -201,24 +215,10 @@
     },
     {
         "id": "",
-        "cover": "anime-covers/cyber.jpg",
-        "title": "Cyberpunk: Edgerunners",
-        "rating": 6,
-        "duration": 10
-    },
-    {
-        "id": "",
         "cover": "anime-covers/thusspoke.jpg",
         "title": "Thus Spoke Kishbe Rohan",
-        "rating": 7,
-        "duration": 4
-    },
-    {
-        "id": "",
-        "cover": "anime-covers/trigun.jpg",
-        "title": "Trigun",
         "rating": 6,
-        "duration": 26
+        "duration": 4
     },
     {
         "id": "",
@@ -242,18 +242,18 @@
         "duration": 24
     },
     {
-        "id": "movie",
-        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva2.jpg",
-        "title": "Evengelion 2.22",
-        "rating": 6,
-        "duration": 1
-    },
-    {
         "id": "",
         "cover": "anime-covers/devilman.jpg",
         "title": "Devilman: Crybaby",
         "rating": 4,
         "duration": 12
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva2.jpg",
+        "title": "Evangelion 2.22",
+        "rating": 4,
+        "duration": 1
     },
     {
         "id": "movie",
