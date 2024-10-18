@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
 
 # Scrape the web page
 url = 'https://deadbystats.eu/profile/76561198375240696'
