@@ -12,8 +12,11 @@ data = {'scraped_info': soup.title.text}  # Example extraction
 
 # Load the current JSON
 json_file_path = 'main-pages/blogs/dbd-stats/dbd.JSON'
-with open(json_file_path, 'r') as file:
-    current_data = json.load(file)
+if os.path.getsize(json_file_path) > 0:  # Check if the file is not empty
+    with open(json_file_path, 'r') as file:
+        current_data = json.load(file)
+else:
+    current_data = {}  # Initialize as an empty dictionary if the file is empty
 
 # Update the JSON data
 current_data.update(data)
