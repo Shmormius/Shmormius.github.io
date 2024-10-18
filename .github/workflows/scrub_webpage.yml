@@ -26,13 +26,13 @@ jobs:
         pip install requests beautifulsoup4
 
     - name: Run web scraper script
-      run: python scripts/scrub_webpage.py
+      run: python main-pages/blogs/dbd-stats/scrub_webpage.py
 
     - name: Commit changes
       run: |
-        git config --global user.name 'GitHub Actions'
-        git config --global user.email 'actions@github.com'
-        git add path/to/your.json
+        git config --global user.name 'Shmormius'
+        git config --global user.email 'daemonkerrigan@gmail.com'
+        git add main-pages/blogs/dbd-stats/dbd.JSON
         git commit -m 'Update JSON file from web scraping'
         git push
       env:
