@@ -24,6 +24,14 @@
         "duration": 37
     },
     {
+        "special": "look_back",
+        "id": "movie",
+        "cover": "anime-covers/lookback.jpg",
+        "title": "Look Back",
+        "rating": 10,
+        "duration": 1
+    },
+    {
         "special": "eva",
         "id": "movie",
         "cover": "../../blogs/movie-journal-2024/movie-journal-img/51XFaesw92L._AC_UF894,1000_QL80_.jpg",
@@ -64,20 +72,20 @@
         "duration": 13
     },
     {   
-        "special": "flcl",
-        "id": "",
-        "cover": "anime-covers/FLCL.jpg",
-        "title": "FLCL",
-        "rating": 8,
-        "duration": 6
-    },
-    {   
         "special": "cowboy",
         "id": "",
         "cover": "anime-covers/cowboy.jpg",
         "title": "Cowboy Bebop",
         "rating": 8,
         "duration": 26
+    },
+    {   
+        "special": "",
+        "id": "",
+        "cover": "anime-covers/FLCL.jpg",
+        "title": "FLCL",
+        "rating": 8,
+        "duration": 6
     },
     {
         "special": "",
@@ -103,13 +111,6 @@
     },
     {
         "id": "movie",
-        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3+1.jpg",
-        "title": "Evangelion 3.0 + 1.0",
-        "rating": 8,
-        "duration": 1
-    },
-    {
-        "id": "movie",
         "cover": "anime-covers/Perfectblueposter.png",
         "title": "Perfect blue",
         "rating": 9,
@@ -128,6 +129,13 @@
         "title": "Skip and Loafer",
         "rating": 9,
         "duration": 12
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3+1.jpg",
+        "title": "Evangelion 3.0 + 1.0",
+        "rating": 8,
+        "duration": 1
     },
     {
         "id": "",

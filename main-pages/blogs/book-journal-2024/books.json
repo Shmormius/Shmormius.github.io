@@ -185,6 +185,50 @@
         "pages": 352,
         "genre": "Cyberpunk post-apocalyptic",
         "dateRead": "7/17/2024"
+    },
+    {
+        "id": "aug",
+        "cover": "book-journal-img/dandadan.jpg",
+        "title": "Dandadan Vol.1",
+        "author": "Yukinobu Tatsu",
+        "rating": 4,
+        "review": "",
+        "pages": 208,
+        "genre": "Comedy, action, sci-fi",
+        "dateRead": "7/21/2024"
+    },
+    {
+        "id": "aug",
+        "cover": "book-journal-img/fp3.jpg",
+        "title": "Fire Punch Vol.3",
+        "author": "Tatsuki Fujimoto",
+        "rating": 2,
+        "review": "",
+        "pages": 208,
+        "genre": "Dark fantasy, Dystopian, Supernatural",
+        "dateRead": "8/13/2024"
+    },
+    {
+        "id": "jul",
+        "cover": "book-journal-img/bot.jpg",
+        "title": "Blood on the Tracks vol. 1",
+        "author": "Shuzo Oshimi",
+        "rating": 4,
+        "review": "",
+        "pages": 0,
+        "genre": "",
+        "dateRead": "8/XX/2024"
+    },
+    {
+        "id": "jul",
+        "cover": "book-journal-img/csm16.jpg",
+        "title": "Chainsawman Vol.16",
+        "author": "Tatsuki Fujimoto",
+        "rating": 4,
+        "review": "",
+        "pages": 185,
+        "genre": "",
+        "dateRead": "9/6/2024"
     }
 
 ]

@@ -174,5 +174,38 @@
         "duration": 105,
         "genre": "Action, Triller, Anime",
         "dateWatched": "7/19/2024"
+    },
+    {
+        "id": "aug",
+        "cover": "movie-journal-img/alien.jpg",
+        "title": "Alien",
+        "director": "",
+        "rating": 4,
+        "review": "",
+        "duration": 0,
+        "genre": "",
+        "dateWatched": "7/29/2024"
+    },
+    {
+        "id": "sep",
+        "cover": "movie-journal-img/elcamino.jpg",
+        "title": "El Camino",
+        "director": "<br>Vince Gilligan",
+        "rating": 2.5,
+        "review": "",
+        "duration": 122,
+        "genre": "Action, Drama",
+        "dateWatched": "8/25/2024"
+    },
+    {
+        "id": "oct",
+        "cover": "../../blogs/anime-ranking/anime-covers/lookback.jpg",
+        "title": "Look Back",
+        "director": "<br>Kiyotaka Oshiyama",
+        "rating": 5,
+        "review": "Incredible film. It was only earlier this year when I read look back for the first time and it is hard to beleive that something so good can be adapted into a different medium with so much care and passion. Every part of this movie is made with care and love, I highly recommend it for anyone who loves art!",
+        "duration": 57,
+        "genre": "Coming-of-age",
+        "dateWatched": "10/7/2024"
     }
 ]

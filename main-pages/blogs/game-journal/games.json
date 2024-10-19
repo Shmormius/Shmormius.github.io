@@ -215,7 +215,19 @@
         "amendment": "AMENDMENT 8/12/2024: I have been playing an unhealthy amount of this game since they enabled cross progression. I love this game, I am increasing the rating from 3.5 to 4",
         "finished": "N/A",
         "playedbefore": "Yes",
-        "monthsplayed": "Jul-Sep",
+        "monthsplayed": "Jul-Oct",
         "genre": "asymmetric multiplayer, survival horror"
+    },
+    {
+        "id": "oct",
+        "cover": "game-journal-img/silenthill2re.jpg",
+        "title": "Silent Hill 2 (2024)",
+        "studio": "Bloober Team",
+        "rating": 5,
+        "review": "I am in love with this game. The presentation and care that went into it bleed straight through. Highly recommend this game to anyone who likes appreciating a virtual environment! This game has also gotten some real scares out of me. ",
+        "finished": "N/A",
+        "playedbefore": "No",
+        "monthsplayed": "Oct",
+        "genre": "Survival Horror"
     }
 ]

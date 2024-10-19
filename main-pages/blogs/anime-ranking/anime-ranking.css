@@ -286,24 +286,24 @@ nav a:hover p1 {
       background-size: cover;
   }
 
-  #flcl{
+  #look_back{
 
     .right-anime .details .title p {
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
     }
     .right-anime .star-rating{
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
     }
     .right-anime .duration{
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
     }
 
     background: linear-gradient(
         to right,
-        rgb(150, 60, 60) 30%,
-        rgba(112, 211, 214, 0.5) 60%,
+        rgb(33, 136, 47) 30%,
+        rgba(42, 141, 148, 0.5) 60%,
         rgba(255, 0, 0, 0) 100%,
-        rgba(255,0,0,0)),url('anime-covers/FLCL_1.png');
+        rgba(255,0,0,0)),url('anime-covers/look-back.jpg');
       background-size: cover;
   }
 

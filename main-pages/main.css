@@ -495,7 +495,7 @@ h3 {
   margin: 10px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1000px) {
   .about-me-con {
     width: 100%;
     margin-left: 0px;
