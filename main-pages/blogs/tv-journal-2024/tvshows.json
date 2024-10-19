@@ -27,7 +27,7 @@
         "cover": "tv-journal-img/hells-paradise.jpg",
         "title": "Hells Paradise Season 1",
         "creator": "Kaori makita",
-        "rating": 2,
+        "rating": 1.5,
         "review": "Its kind of embarrising to me that it is mostly animation on this list but its what I watch with my roomates and I do not watch TV or movies on my own apparently. Anyways, I didn't really care for this very much. Felt souless at times and was often carried by the design or art, when that was lacking, a 20 minute episode could feel like an hour. I enjoyed the main character's development emotionally but that was not enough to carry it above a 2 star ratting.",
         "duration": "13 episodes",
         "genre": "Action, dark fantasy",
@@ -153,6 +153,105 @@
         "duration": "23 Episodes",
         "genre": "Fantasy humour",
         "dateWatched": "8/11/2024"
+    },
+    {
+        "id": "sep",
+        "cover": "tv-journal-img/br1.jpg",
+        "title": "Breaking Bad season 1",
+        "creator": "",
+        "rating": 0,
+        "review": "",
+        "duration": "",
+        "genre": "",
+        "dateWatched": "9/XX/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/br2.jpg",
+        "title": "Breaking Bad season 2",
+        "creator": "",
+        "rating": 0,
+        "review": "",
+        "duration": "",
+        "genre": "",
+        "dateWatched": "9/XX/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/br3.jpg",
+        "title": "Breaking Bad season 3",
+        "creator": "",
+        "rating": 0,
+        "review": "",
+        "duration": "",
+        "genre": "",
+        "dateWatched": "9/XX/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/br4.jpg",
+        "title": "Breaking Bad season 4",
+        "creator": "",
+        "rating": 0,
+        "review": "",
+        "duration": "",
+        "genre": "",
+        "dateWatched": "9/XX/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/br5.jpg",
+        "title": "Breaking Bad season 5",
+        "creator": "",
+        "rating": 0,
+        "review": "",
+        "duration": "",
+        "genre": "",
+        "dateWatched": "9/XX/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/bcs1.jpg",
+        "title": "Better Call Saul Season 1",
+        "creator": "",
+        "rating": 0,
+        "review": "",
+        "duration": "",
+        "genre": "",
+        "dateWatched": "9/XX/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/bcs2.jpg",
+        "title": "Better Call Saul Season 2",
+        "creator": "",
+        "rating": 0,
+        "review": "",
+        "duration": "",
+        "genre": "",
+        "dateWatched": "10/XX/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/bcs3.jpg",
+        "title": "Better Call Saul Season 3",
+        "creator": "",
+        "rating": 0,
+        "review": "",
+        "duration": "",
+        "genre": "",
+        "dateWatched": "10/XX/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/bcs4.jpg",
+        "title": "Better Call Saul Season 1",
+        "creator": "",
+        "rating": 0,
+        "review": "",
+        "duration": "",
+        "genre": "",
+        "dateWatched": "10/17/2024"
     }
     
 ]
