@@ -245,13 +245,24 @@
     {
         "id": "",
         "cover": "tv-journal-img/bcs4.jpg",
-        "title": "Better Call Saul Season 1",
+        "title": "Better Call Saul Season 4",
         "creator": "",
         "rating": 0,
         "review": "",
         "duration": "",
         "genre": "",
         "dateWatched": "10/17/2024"
+    },
+    {
+        "id": "",
+        "cover": "tv-journal-img/bcs5.jpg",
+        "title": "Better Call Saul Season 5",
+        "creator": "",
+        "rating": 0,
+        "review": "",
+        "duration": "",
+        "genre": "",
+        "dateWatched": "10/29/2024"
     }
     
 ]

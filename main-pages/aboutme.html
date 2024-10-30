@@ -25,38 +25,16 @@
 
         <div id="navigation-container"></div>
         <script src="../main-pages/scripts/nav/navigation.js" defer></script>
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
         <div id="content">
             <div class="about-me-con">
 
                 <div class="about-me-boxes">
                     <div class="left-about-me">
-                        <div class="grid-container">
-                            <div class="photo-1"><img
-                                    src="../resources/img/about-me-img/daemon-with-cat.jpg" width="200"
-                                    height="400" loading=lazy
-                                    class="daemon-with-cat-photo"></div>
-                            <div class="photo-1 photo-2"><img
-                                    src="../resources/img/about-me-img/daemon-with-soup.jpg"
-                                    loading=lazy class="daemon-with-soup-photo"></div>
-                            <div class="photo-1"><img
-                                    src="../resources/img/about-me-img/daemon-with-ram.jpg" width="200"
-                                    height="400" loading=lazy
-                                    class="daemon-with-ram-photo"></div>
-                            <div class="photo-1"><img
-                                    src="../resources/img/about-me-img/daemon-with-beanie.jpg"
-                                    width="200" height="400" loading=lazy
-                                    class="daemon-with-beanie-photo"></div>
-                            <div class="photo-1"><img
-                                    src="../resources/img/about-me-img/daemon-with-bao.jpg" width="200"
-                                    height="400" loading=lazy
-                                    class="daemon-with-bao-photo"></div>
-                            <div class="photo-1"><img
-                                    src="../resources/img/about-me-img/daemon-at-con.jpg" width="200"
-                                    height="400" loading=lazy
-                                    class="daemon-at-con-photo"></div>
-                        </div>
+                        <model-viewer class = "model" alt="Framed Picture of Daemon" src="\..\resources\3Dmodels\AboutMeModels\aboutme.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
                     </div>
                     <div class="right-about-me">
+                        <model-viewer class = "model" alt="Framed Picture of Daemon" src="\..\resources\3Dmodels\AboutMeModels\words.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
                         <p>My name is Daemon Kerrigan, I am a type 1 diabetic
                             student at Colorado State University in Fort Collins
                             Colorado.
@@ -85,12 +63,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="right-about-me-map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167898.0270631629!2d-106.0390964179129!3d38.56202325226585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x871517c051b82e5d%3A0xba2bef0021afe1b6!2sSalida%2C%20CO%2081201!5e0!3m2!1sen!2sus!4v1704700860433!5m2!1sen!2sus"
-                            width="400" height="225" style="border:0;"
-                            allowfullscreen loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="right-about-me">
+                        <model-viewer class = "model" alt="Framed Picture of Daemon" src="\..\resources\3Dmodels\AboutMeModels\worlds.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
                     </div>
                 </div>
 
