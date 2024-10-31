@@ -3,18 +3,26 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-# Scrape the web page
-url = 'https://deadbystats.eu/profile/76561198375240696'
-response = requests.get(url)
-soup = BeautifulSoup(response.content, 'html.parser')
+def updatePlayerJSON(name, url):
+    soup_object = getSoupObject(url)
+    JSON_data = createJSONData(soup_object)
+    update_current_JSON(name, JSON_data)
 
-new_data = {}
+def getSoupObject(url):
+    content_from_website = requests.get(url)
+    iterable_soup_object = BeautifulSoup(content_from_website.content, 'html.parser')
+    return iterable_soup_object
 
-job_elements = soup.find_all("div", class_="flex flex-col px-8 py-2")
+def createJSONData(iterable_soup_object):
+    new_data = {}
+    stats_containing_class = "flex flex-col px-8 py-2"
+    name_containing_class = "text-sm md:text-base cursor-default"
+    data_containing_class = "text-base md:text-lg font-bold leading-0"
 
-for job_element in job_elements:
-    name_element = job_element.find("p", class_="text-sm md:text-base cursor-default")
-    data_element = job_element.find("p", class_="text-base md:text-lg font-bold leading-0")
+    DBDStatsElements = iterable_soup_object.find_all("div", class_= stats_containing_class)
+    for DBD_data_element in DBDStatsElements:
+        name_element = DBD_data_element.find("p", class_=name_containing_class)
+        data_element = DBD_data_element.find("p", class_=data_containing_class)
     
     if name_element is not None and data_element is not None:
         name_text = name_element.text.strip()
