@@ -36,7 +36,7 @@
   text-decoration: none;
 }
 
-.projectss .project:hover {
+.projects .project:hover {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
   transition: all 0.4s ease-in-out;
@@ -75,9 +75,19 @@
 }
 
 .projects .project .project-text .attributes {
+  display: grid;
   width: 100%;
-  display: block;
+  grid-template-columns: repeat(3, 1fr);
 }
+
+.projects .project .project-text .attributes p {
+  display: block;
+  font-size: 18px;
+  font-style: italic;
+  color: var(--color-white);
+  padding: 5px;
+}
+
 
 .projects .project .project-text h4:hover {
   color: var(--color-secondary);
@@ -87,6 +97,7 @@
   color: var(--color-grey-2);
   line-height: 2rem;
   padding-bottom: 1rem;
+  height: 75px;
 }
 
 @media only screen and (max-width: 767px) {

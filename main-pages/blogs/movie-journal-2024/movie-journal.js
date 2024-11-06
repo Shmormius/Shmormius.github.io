@@ -63,3 +63,17 @@ document.addEventListener("DOMContentLoaded", function() {
         return starsHTML;
     }
 });
+
+document.getElementById("carousel-left").addEventListener("click", () => {
+    document.querySelector(".carousel-bar").scrollBy({
+        left: -200, 
+        behavior: 'smooth'
+    });
+});
+
+document.getElementById("carousel-right").addEventListener("click", () => {
+    document.querySelector(".carousel-bar").scrollBy({
+        left: 200,
+        behavior: 'smooth'
+    });
+});

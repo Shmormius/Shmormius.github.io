@@ -209,6 +209,73 @@ p {
   transition: all 0.4s ease-in-out;
 }
 
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.carousel-bar {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+  width: 80%; 
+}
+
+.carousel-bar::-webkit-scrollbar {
+  display: none;
+}
+.carousel-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.carousel-bar a {
+  flex: 1 0 80px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: none;
+  border: 1px solid var(--color-secondary);
+  text-decoration: none;
+  color:var(--color-white);
+}
+
+.carousel-bar a:hover {
+  background-color: var(--color-terciary);
+}
+
+.carousel-button {
+  background: var(--color-secondary);
+  color: var(--color-white);
+  border: none;
+  width: 40px;   /* Set width and height to make it round */
+  height: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow-1);
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-button p{
+  color: var(--color-white);
+}
+
+.carousel-button:hover {
+  background: var(--color-terciary);
+}
+
 @media only screen and (max-width: 767px) {
   .journal-content-con {
     width: 90%;
