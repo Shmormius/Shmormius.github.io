@@ -18,6 +18,7 @@
     background: linear-gradient(to bottom right,var(--color-primary),var(--color-secondary),var(--color-terciary));
     margin: 0px;
     border-top: 100px;
+    min-height: 1000px;
   }
 
 h1 {
@@ -108,5 +109,9 @@ nav {
       top: 12rem;
     }
   
+  }
+
+  .text-box {
+    margin-left: 100px;
   }
   
