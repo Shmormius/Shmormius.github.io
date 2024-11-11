@@ -64,10 +64,10 @@
         "duration": 26
     },
     {
-        "special": "flowers",
+        "special": "lain",
         "id": "",
-        "cover": "../../blogs/tv-journal-2024/tv-journal-img/flowers-of-evil.jpg",
-        "title": "Flowers of Evil",
+        "cover": "anime-covers/lain.jpg",
+        "title": "Serial Experiments Lain",
         "rating": 8,
         "duration": 13
     },
@@ -80,7 +80,6 @@
         "duration": 26
     },
     {   
-        "special": "",
         "id": "",
         "cover": "anime-covers/FLCL.jpg",
         "title": "FLCL",
@@ -88,7 +87,6 @@
         "duration": 6
     },
     {
-        "special": "",
         "id": "",
         "cover": "../../blogs/tv-journal-2024/tv-journal-img/attack_on_titan.jpg",
         "title": "Attack on Titan",
@@ -101,6 +99,13 @@
         "title": "Death note",
         "rating": 9,
         "duration": 37
+    },
+    {
+        "id": "",
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/flowers-of-evil.jpg",
+        "title": "Flowers of Evil",
+        "rating": 8,
+        "duration": 13
     },
     {
         "id": "movie",

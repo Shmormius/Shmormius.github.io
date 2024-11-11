@@ -263,6 +263,17 @@
         "duration": "",
         "genre": "",
         "dateWatched": "10/29/2024"
+    },
+    {
+        "id": "nov",
+        "cover": "tv-journal-img/lain.jpg",
+        "title": "Serial Experiments Lain",
+        "creator": "",
+        "rating": 4,
+        "review": "",
+        "duration": "13",
+        "genre": "",
+        "dateWatched": "11/11/2024"
     }
     
 ]

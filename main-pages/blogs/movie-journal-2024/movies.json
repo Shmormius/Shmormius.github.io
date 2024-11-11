@@ -207,5 +207,60 @@
         "duration": 57,
         "genre": "Coming-of-age",
         "dateWatched": "10/7/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/wildrobot.jpg",
+        "title": "Wild Robot",
+        "director": "",
+        "rating": 0,
+        "review": "",
+        "duration": 0,
+        "genre": "Animated",
+        "dateWatched": "10/26/2024"
+    },
+    {
+        "id": "nov",
+        "cover": "movie-journal-img/halloween2018.jpg",
+        "title": "Halloween(2018)",
+        "director": "",
+        "rating": 0,
+        "review": "",
+        "duration": 0,
+        "genre": "Horror",
+        "dateWatched": "11/6/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/halloweenkills.jpg",
+        "title": "Halloween Kills",
+        "director": "",
+        "rating": 0,
+        "review": "",
+        "duration": 0,
+        "genre": "Horror",
+        "dateWatched": "11/6/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/halloweenends.jpg",
+        "title": "Halloween Ends",
+        "director": "",
+        "rating": 0,
+        "review": "",
+        "duration": 0,
+        "genre": "Horror",
+        "dateWatched": "11/7/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/whiplash.jpg",
+        "title": "Whiplash",
+        "director": "",
+        "rating": 0,
+        "review": "",
+        "duration": 0,
+        "genre": "Drama",
+        "dateWatched": "11/6/2024"
     }
 ]
