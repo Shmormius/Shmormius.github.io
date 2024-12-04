@@ -6,6 +6,10 @@
 
 .portfolio-selection-con{
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
 }
 
 .portfolio-selection-con .option-con{
@@ -17,6 +21,7 @@
     margin-right: 75px;
     margin-bottom: 75px;
     height: 100%;
+    max-width: 1000px;
 }
 
 .portfolio-selection-con .option-con .option{

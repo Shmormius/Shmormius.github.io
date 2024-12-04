@@ -468,6 +468,12 @@ h3 {
   display: flex;
 }
 
+.about-me-con .about-me-boxes .right-about-me-map {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 .about-me-con .about-me-boxes .about {
   list-style: circle;
   margin-top: 25px;
