@@ -225,9 +225,57 @@
         "studio": "Bloober Team",
         "rating": 5,
         "review": "I am in love with this game. The presentation and care that went into it bleed straight through. Highly recommend this game to anyone who likes appreciating a virtual environment! This game has also gotten some real scares out of me. ",
-        "finished": "N/A",
+        "finished": "No",
         "playedbefore": "No",
         "monthsplayed": "Oct",
         "genre": "Survival Horror"
+    },
+    {
+        "id": "nov",
+        "cover": "game-journal-img/factorio.png",
+        "title": "Factorio",
+        "studio": "",
+        "rating": 5,
+        "review": "",
+        "finished": "No",
+        "playedbefore": "Yes",
+        "monthsplayed": "Nov",
+        "genre": ""
+    },
+    {
+        "id": "",
+        "cover": "game-journal-img/phasmophobia-cover.jpg",
+        "title": "Phasmophobia",
+        "studio": "",
+        "rating": 2.5,
+        "review": "",
+        "finished": "N/A",
+        "playedbefore": "Yes",
+        "monthsplayed": "Nov-Dec",
+        "genre": ""
+    },
+    {
+        "id": "",
+        "cover": "game-journal-img/buckshot.png",
+        "title": "Phasmophobia",
+        "studio": "",
+        "rating": 5,
+        "review": "",
+        "finished": "No",
+        "playedbefore": "No",
+        "monthsplayed": "Nov-Dec",
+        "genre": ""
+    },
+    {
+        "id": "dec",
+        "cover": "game-journal-img/fvf.jpg",
+        "title": "Friends VS Friends",
+        "studio": "",
+        "rating": 1.5,
+        "review": "",
+        "finished": "N/A",
+        "playedbefore": "No",
+        "monthsplayed": "Dec",
+        "genre": ""
     }
 ]

@@ -80,6 +80,14 @@
         "duration": 26
     },
     {   
+        "special": "",
+        "id": "",
+        "cover": "anime-covers/ddd.png",
+        "title": "Dandadan",
+        "rating": 9,
+        "duration": 12
+    },
+    {   
         "id": "",
         "cover": "anime-covers/FLCL.jpg",
         "title": "FLCL",
@@ -227,7 +235,7 @@
         "duration": 13
     },{
         "id": "",
-        "cover": "",
+        "cover": "anime-covers/stbs.jpg",
         "title": "Stranger by the Shore",
         "rating": 5,
         "duration": 1
