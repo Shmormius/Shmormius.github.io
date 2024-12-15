@@ -18,6 +18,12 @@
     grid-gap: 2rem;
 }
 
+.content .row .text p{
+    font-size: 26px;
+}
+
+
+
 .content .image-row{
     width: 95%;
     padding: 10%;
