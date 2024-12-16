@@ -209,6 +209,10 @@ p {
   transition: all 0.4s ease-in-out;
 }
 
+.journal-content-con .tv .right-tv p{
+  margin-left: 10px;
+}
+
 .carousel {
   display: flex;
   align-items: center;
