@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="right-game">
-                        <p>${game.review}</p>
-                        ${game.amendment ? `<p>${game.amendment}</p>` : ''}
+                        <p>${game.review}
+                        ${game.amendment ? `<br><br>${game.amendment}</p>` : ''}
                     </div>
                 `;
 
