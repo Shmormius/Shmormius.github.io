@@ -22,5 +22,27 @@
 
     <div id="navigation-container"></div>
     <script src="../../../scripts/nav/navigation.js" defer></script>
+    <div class ="content">
+        <div class="row">
+            <div class = "image">
+                <img src="../cs-img/buffer/bounded-buffer-medium-details.png" loading="lazy" alt="bounded buffer">
+            </div>
+            <div class = "text">
+                <p>This is my attempt at solving the producer consumer problem using bounded buffer in Java. There are two threads, one consumer that removes items from the buffer and 'consumes' them, and one producer that adds items to the buffer, thus 'producing them'. Adding to the buffer is an action that can easily cause issues if both threads try and change the values at the same time. The program uses a couple of methods to synchronize and manage common resources, such as waiting and notifying the updating common variables when one is operating on the buffer. </p>
+            </div>
+            <div class="btn-con" id="port-btn">
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww2.it.uu.se%2Feducation%2Fcourse%2Fhomepage%2Fos%2Fvt20%2Fmodule-4%2Fbounded-buffer%2F&psig=AOvVaw2_mp7Cxg-Dqpa504l6Zlgs&ust=1720808437065000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCLDK44_Nn4cDFQAAAAAdAAAAABAI" target="_blank"
+                    class="main-btn">
+                    <span class="btn-text">Image credit</span>
+                </a>
+            </div>
+            <div class="btn-con" id="port-btn">
+                <a href="https://github.com/Shmormius/Consumer-Producer-Problem" target="_blank"
+                    class="main-btn">
+                    <span class="btn-text">Project Github</span>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

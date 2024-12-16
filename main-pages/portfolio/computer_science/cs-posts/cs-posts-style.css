@@ -18,11 +18,21 @@
     grid-gap: 2rem;
 }
 
+.content .row .btn-con{
+    width: 100%;
+}
+
 .content .row .text p{
     font-size: 26px;
 }
 
+.wide-text p{
+    font-size: 26px;
+}
 
+.content .wide-text{
+    width: 95%;
+}
 
 .content .image-row{
     width: 95%;
@@ -47,6 +57,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
+    margin-top: 15%;
   }
   
 .content .row .image .image-description{
