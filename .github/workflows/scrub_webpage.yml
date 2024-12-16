@@ -32,7 +32,9 @@ jobs:
       run: |
         git config --global user.name 'Shmormius'
         git config --global user.email 'daemonkerrigan@gmail.com'
-        git add main-pages/blogs/dbd-stats/dbd.JSON
+        git add main-pages/blogs/dbd-stats/ShmormiusDBD.JSON
+        git add main-pages/blogs/dbd-stats/StoneOceanDBD.JSON
+        git add main-pages/blogs/dbd-stats/SzillaDBD.JSON
         git commit -m 'Update JSON file from web scraping'
         git push
       env:
