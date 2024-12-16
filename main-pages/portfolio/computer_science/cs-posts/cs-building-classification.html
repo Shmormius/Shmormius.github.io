@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../../../main.css">
+    <link rel="stylesheet" href="cs-posts-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../resources/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../resources/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../resources/icon/favicon-16x16.png">
+    <link rel="manifest" href="../../../../resources/icon/site.webmanifest">
+    <title>Shmormius: Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+    <div class="header">
+        <h1>CSU Building Classification</h1>
+    </div>
+
+    <div id="navigation-container"></div>
+    <script src="../../../scripts/nav/navigation.js" defer></script>
+
+    <div class="container">
+        <h1>Winner of Club Computer Vision CSU's First AI competition</h2>
+        <div class="content">
+            <div class="row">
+                <div class="image">
+                    <img src="../cs-img/AI/Picture13.png" width="500"
+                         height="500" loading="lazy"
+                         alt="The computer science building">
+                </div>
+                <div class="text">
+                    <p>Club Computer Vision CSU (CCVC) hosted an AI competition during the month of October 2024 on the Kaggle Platform. 
+                        The competitors are provided with a GoPro video of the perimeter of each CSU building and must train a machine learning model to classify a CSU building from a picture input.
+                        This is the first competion run by CCVC and it was my first semester as a member. Each participant is provided with a graduate level mentor from the club. 
+                        I ended the competion at first place with the highest accuracy of 40%.</p>
+                </div>
+            </div>
+        </div>
+        <h1>Competition Details and Challenges</h2>
+        <div class="content">
+            <div class="row">
+                
+                <div class="text">
+                    <p>The challege in the competition was to train a building classifier using a limited data set and without using pretrained weights. 
+                        The competition was held on Kaggle and we were required to use only Kaggle notebooks so there was a 30 hour a week GPU limit. 
+                        Leveraging this limit and finding strategies to work around the such little data was the challenge of the competition.</p>
+                </div>
+                <div class="image">
+                    <img src="../cs-img/AI/present.JPG" width="500"
+                         height="500" loading="lazy"
+                         alt="Daemon accepting first place">
+                    <div class = image-description>
+                        <p>A picture of me accepting first place taken on the same GoPro used to collect the data.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>Winning Approach</h2>
+        <div class="content">
+            <div class="row">
+                <div class="image">
+                    <div class = "image-array">
+                        <img src="../cs-img/AI/Picture8.png" width="500"
+                            height="500" loading="lazy"
+                            alt="training loss">
+                        <img src="../cs-img/AI/Picture9.png" width="500"
+                            height="500" loading="lazy"
+                            alt="validation loss">
+                        <img src="../cs-img/AI/Picture10.png" width="500"
+                            height="500" loading="lazy"
+                            alt="training accuracy">
+                        <img src="../cs-img/AI/Picture11.png" width="500"
+                            height="500" loading="lazy"
+                            alt="validation accuracy">
+                    </div>
+                    <div class = image-description>
+                        <p>Graphs visualizing my loss and accuracy.</p>
+                    </div>
+                    <div class="btn-con">
+                        <a href="" target="_blank"
+                            class="main-btn">
+                            <span class="btn-text">Kaggle Notebook</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>First, I used data augmentation to make the dataset more distinct and reduce overfitting. 
+                        Then I experimented with different models.
+                        The model that I used initially was Resnet-18.
+                        I also experimented with the number of epochs.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class = "content">
+            <div class ="wide-text">
+                <p>
+                    Second, I created an algorithm to determine the most distinct samples from the training set to set aside for the validation set.
+                    Part of the competition rules was that the validation set comes from the training set and my new function allowed me to choose the most mathematically distinct samples to use.
+                    I also implemented a scheduler to run epochs until a minimum amount of improvement in validation accuracy occurs. I also decided to upgrade to Resnet-50.
+                    <br><br>
+                    Lastly, I doubled the total amount of samples by using data agumentation with more extreme augmentation and extended the set instead of just changing what already existed. 
+                    My initial accuracy was around 12-18% and these changes improved it to >40%. While this is not an impressive number on the surface using just one video of each building I was able to get my buidling classifer to correctly identify 4/10 CSU buildings from pictures it had never seen before.
+                    This experience taught me a lot about training and using machine learning models and I intend to participate in the Spring 2025 competition.
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="image-row">
+                <img src="../cs-img/AI/Picture4.png" width="1000"
+                            height="500" loading="lazy"
+                            alt="Mathematically distinct samples">
+                <div class = image-description>
+                    <p>Mathematically distinct samples used in the validation set.</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="image">
+                    <img src="../cs-img/AI/Picture5.png" width="500"
+                        height="500" loading="lazy"
+                        alt="data augmentation examples">
+                    <div class = image-description>
+                        <p>First implementation of data augmentation, example samples.</p>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="../cs-img/AI/Picture7.png" width="500"
+                        height="500" loading="lazy"
+                        alt="data augmentation samples more extreme.">
+                    <div class = image-description>
+                        <p>Final implementation of data augmentation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

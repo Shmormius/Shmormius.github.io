@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../../../main.css">
+    <link rel="stylesheet" href="cs-posts-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../resources/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../resources/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../resources/icon/favicon-16x16.png">
+    <link rel="manifest" href="../../../../resources/icon/site.webmanifest">
+    <title>Shmormius: Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Consumer Producer Problem</h1>
+    </div>
+
+    <div id="navigation-container"></div>
+    <script src="../../../scripts/nav/navigation.js" defer></script>
+    <div class ="container">
+        <div class ="content">
+            <div class="row">
+                <div class="inner-row">
+                    <div class = "image">
+                        <img src="../cs-img/buffer/bounded-buffer-medium-details.png" loading="lazy" alt="bounded buffer">
+                    </div>
+                    <div class = "text">
+                        <p>
+                            ProducerConsumer: Contains producer, consumer, and main. main starts two threads, producerThread and consumerThread which start the consumer and producer process.
+                            <br><br>
+                            producer: creates random double 'item' and checks if buffer size is equal to 1000, if it is, it waits for the consumer to consume one element. It adds the item to the buffer
+                            icrements the counter of total produced items and adds the value to the sum of the produced items.
+                            <br><br>
+                            consumer: removes the oldest value in the buffer, maintains a value of the sum of the consumed items. 
+                            <br><br>
+                            main: makes two threads and joins them back together
+                            <br><br>
+                            The makefile compiles the files and then runs with 'make run'
+                        </p>
+                    </div>
+                </div>
+                <div class = "text">
+                    <p>This is my attempt at solving the producer consumer problem using bounded buffer in Java. 
+                        There are two threads, one consumer that removes items from the buffer and 'consumes' them, and one producer that adds items to the buffer, thus 'producing them'. 
+                        Adding to the buffer is an action that can easily cause issues if both threads try and change the values at the same time. 
+                        The program uses a couple of methods to synchronize and manage common resources, such as waiting and notifying the updating common variables when one is operating on the buffer. </p>
+                </div>
+                <div class="btn-con" id="port-btn">
+                    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww2.it.uu.se%2Feducation%2Fcourse%2Fhomepage%2Fos%2Fvt20%2Fmodule-4%2Fbounded-buffer%2F&psig=AOvVaw2_mp7Cxg-Dqpa504l6Zlgs&ust=1720808437065000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCLDK44_Nn4cDFQAAAAAdAAAAABAI" target="_blank"
+                        class="main-btn">
+                        <span class="btn-text">Image credit</span>
+                    </a>
+                </div>
+                <div class="btn-con" id="port-btn">
+                    <a href="https://github.com/Shmormius/Consumer-Producer-Problem" target="_blank"
+                        class="main-btn">
+                        <span class="btn-text">Project Github</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

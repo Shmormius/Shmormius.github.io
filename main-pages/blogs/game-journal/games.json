@@ -46,7 +46,7 @@
         "amendment": "AMENDMENT 5/28/2024: I have finally acquired 100% of the acheivements for this game, marking the first FromSoft game that I will 100% and one of few games that i've ever 100%. ",
         "finished": "3x times",
         "playedbefore": "Yes",
-        "monthsplayed": "Jan, Apr-Jul",
+        "monthsplayed": "Jan, Apr-Jul, Dec",
         "genre": "Action role-play"
     },
     {
@@ -215,7 +215,7 @@
         "amendment": "AMENDMENT 8/12/2024: I have been playing an unhealthy amount of this game since they enabled cross progression. I love this game, I am increasing the rating from 3.5 to 4",
         "finished": "N/A",
         "playedbefore": "Yes",
-        "monthsplayed": "Jul-Oct",
+        "monthsplayed": "Jul-Nov",
         "genre": "asymmetric multiplayer, survival horror"
     },
     {
@@ -225,9 +225,57 @@
         "studio": "Bloober Team",
         "rating": 5,
         "review": "I am in love with this game. The presentation and care that went into it bleed straight through. Highly recommend this game to anyone who likes appreciating a virtual environment! This game has also gotten some real scares out of me. ",
-        "finished": "N/A",
+        "finished": "No",
         "playedbefore": "No",
         "monthsplayed": "Oct",
         "genre": "Survival Horror"
+    },
+    {
+        "id": "nov",
+        "cover": "game-journal-img/factorio.png",
+        "title": "Factorio",
+        "studio": "Wube Software",
+        "rating": 5,
+        "review": "This is one of my favorite games. It's complication and problem solving requirments make you feel very proud of your factory. Every step foward comes with 10x more problems and some very hard space and resource management. ",
+        "finished": "No",
+        "playedbefore": "Yes",
+        "monthsplayed": "Nov",
+        "genre": "Factory/automation"
+    },
+    {
+        "id": "",
+        "cover": "game-journal-img/phasmophobia-cover.jpg",
+        "title": "Phasmophobia",
+        "studio": "Kinetic Games",
+        "rating": 2.5,
+        "review": "This is a fun game to play with friends! It has some flaws and can feel a little on the repetitive side but it is very well done and fun to play in the dark.",
+        "finished": "N/A",
+        "playedbefore": "Yes",
+        "monthsplayed": "Nov-Dec",
+        "genre": "Immersive horro"
+    },
+    {
+        "id": "",
+        "cover": "game-journal-img/buckshot.png",
+        "title": "Buckshot Roulette",
+        "studio": "Mike Klubnika",
+        "rating": 5,
+        "review": "This is a great game! Amazing art direction and a short addictive game loop to play with friends.",
+        "finished": "No",
+        "playedbefore": "No",
+        "monthsplayed": "Nov-Dec",
+        "genre": "Horror indie"
+    },
+    {
+        "id": "dec",
+        "cover": "game-journal-img/fvf.jpg",
+        "title": "Friends VS Friends",
+        "studio": "Brainwash Gang",
+        "rating": 1.5,
+        "review": "I didn't like this game ver much but that has less to do with the effort and care that has clearly gone into this game and more so that it's not my kind of game.",
+        "finished": "N/A",
+        "playedbefore": "No",
+        "monthsplayed": "Dec",
+        "genre": "co-op shooter"
     }
 ]

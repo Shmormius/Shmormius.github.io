@@ -64,10 +64,10 @@
         "duration": 26
     },
     {
-        "special": "flowers",
+        "special": "lain",
         "id": "",
-        "cover": "../../blogs/tv-journal-2024/tv-journal-img/flowers-of-evil.jpg",
-        "title": "Flowers of Evil",
+        "cover": "anime-covers/lain.jpg",
+        "title": "Serial Experiments Lain",
         "rating": 8,
         "duration": 13
     },
@@ -82,13 +82,19 @@
     {   
         "special": "",
         "id": "",
+        "cover": "anime-covers/ddd.png",
+        "title": "Dandadan",
+        "rating": 9,
+        "duration": 12
+    },
+    {   
+        "id": "",
         "cover": "anime-covers/FLCL.jpg",
         "title": "FLCL",
         "rating": 8,
         "duration": 6
     },
     {
-        "special": "",
         "id": "",
         "cover": "../../blogs/tv-journal-2024/tv-journal-img/attack_on_titan.jpg",
         "title": "Attack on Titan",
@@ -101,6 +107,13 @@
         "title": "Death note",
         "rating": 9,
         "duration": 37
+    },
+    {
+        "id": "",
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/flowers-of-evil.jpg",
+        "title": "Flowers of Evil",
+        "rating": 8,
+        "duration": 13
     },
     {
         "id": "movie",
@@ -194,27 +207,6 @@
         "duration": 55
     },
     {
-        "id": "movie",
-        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3.jpg",
-        "title": "Evangelion 3.33",
-        "rating": 4,
-        "duration": 1
-    },
-    {
-        "id": "",
-        "cover": "../../blogs/tv-journal-2024/tv-journal-img/ranking.jpg",
-        "title": "Ranking of Kings",
-        "rating": 6,
-        "duration":33
-    },
-    {
-        "id": "",
-        "cover": "anime-covers/cat.jpg",
-        "title": "The Masterful Cat is Depressed Again Today",
-        "rating": 7,
-        "duration": 13
-    },
-    {
         "id": "",
         "cover": "anime-covers/terror.jpg",
         "title": "Terror in Resonance",
@@ -234,6 +226,33 @@
         "title": "Death Parade",
         "rating": 7,
         "duration": 12
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/cat.jpg",
+        "title": "The Masterful Cat is Depressed Again Today",
+        "rating": 7,
+        "duration": 13
+    },{
+        "id": "",
+        "cover": "anime-covers/stbs.jpg",
+        "title": "Stranger by the Shore",
+        "rating": 5,
+        "duration": 1
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3.jpg",
+        "title": "Evangelion 3.33",
+        "rating": 4,
+        "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/ranking.jpg",
+        "title": "Ranking of Kings",
+        "rating": 6,
+        "duration":33
     },
     {
         "id": "movie",

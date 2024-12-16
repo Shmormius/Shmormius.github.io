@@ -15,7 +15,7 @@
   }
 
 body {
-    background: linear-gradient(to top, #9bdce7, #302783, #461154, #000000);
+    background: linear-gradient(to top, #182224, #0d0b20, #0f0413, #000000);
     margin: 0px;
   }
   
@@ -241,7 +241,7 @@ nav a:hover p1 {
         rgb(103, 23, 23) 30%,
         rgba(32, 26, 115, 0.5) 60%,
         rgba(255, 0, 0, 0) 100%,
-        rgba(255,0,0,0)),url('anime-covers/eva.jpg');
+        rgba(255,0,0,0)),url('anime-covers/eva2.jpg');
       background-size: cover;
   }
 
@@ -261,7 +261,7 @@ nav a:hover p1 {
         to right,
         rgb(255, 252, 225) 30%,
         rgba(255, 0, 0, 0) 100%,
-        rgba(255,0,0,0)),url('anime-covers/Chainsaw-Man-Makima-Tercer-Ending.jpg');
+        rgba(255,0,0,0)),url('anime-covers/chainsawmanback.png');
       background-size: cover;
   }
 
@@ -303,7 +303,7 @@ nav a:hover p1 {
         rgb(33, 136, 47) 30%,
         rgba(42, 141, 148, 0.5) 60%,
         rgba(255, 0, 0, 0) 100%,
-        rgba(255,0,0,0)),url('anime-covers/look-back.jpg');
+        rgba(255,0,0,0)),url('anime-covers/look-back.png');
       background-size: cover;
   }
 
@@ -367,6 +367,27 @@ nav a:hover p1 {
         rgba(67, 151, 247, 0.5) 60%,
         rgba(255, 0, 0, 0) 100%,
         rgba(255,0,0,0)),url('anime-covers/cowboy-back.jpg');
+      background-size: cover;
+  }
+
+  #lain{
+
+    .right-anime .details .title p {
+      color: rgb(51, 32, 58);
+    }
+    .right-anime .star-rating{
+      color: rgb(38, 28, 41);
+    }
+    .right-anime .duration{
+      color: rgb(57, 18, 94);
+    }
+
+    background: linear-gradient(
+        to right,
+        rgb(6, 41, 2) 30%,
+        rgba(67, 247, 91, 0.5) 60%,
+        rgba(255, 0, 0, 0) 100%,
+        rgba(255,0,0,0)),url('anime-covers/laincover.png');
       background-size: cover;
   }
 

@@ -181,7 +181,7 @@
         "title": "Alien",
         "director": "",
         "rating": 4,
-        "review": "",
+        "review": "This was a good movie! The artistic direction is so rich, no modern blockbuster comes close to the creative vision and set design like this film does. It was a little lacking in being actually scary but that happens with age, If I had seen this for the first time on a VHS without the value blown up and detail sharped I think I would've been more scared.",
         "duration": 0,
         "genre": "",
         "dateWatched": "7/29/2024"
@@ -192,7 +192,7 @@
         "title": "El Camino",
         "director": "<br>Vince Gilligan",
         "rating": 2.5,
-        "review": "",
+        "review": "It was okay. The only reason I can say this movie adds more to the breaking bad series is that I think its better to end Jesse's story on a high note and not such an unclear one.",
         "duration": 122,
         "genre": "Action, Drama",
         "dateWatched": "8/25/2024"
@@ -207,5 +207,82 @@
         "duration": 57,
         "genre": "Coming-of-age",
         "dateWatched": "10/7/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/wildrobot.jpg",
+        "title": "Wild Robot",
+        "director": "Chris Sanders",
+        "rating": 3.5,
+        "review": "It was good and very entertaining. It has very good animation and heartfelt moments. It is an amazing moving for kids with good humor that never pandered. ",
+        "duration": 102,
+        "genre": "Animated",
+        "dateWatched": "10/26/2024"
+    },
+    {
+        "id": "nov",
+        "cover": "movie-journal-img/halloween2018.jpg",
+        "title": "Halloween(2018)",
+        "director": "David Gordon Green",
+        "rating": 3,
+        "review": "This movie is fun! I llke the original Halloween and it really felt like this movie was a love letter to that one.",
+        "duration": 106,
+        "genre": "Horror",
+        "dateWatched": "11/6/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/halloweenkills.jpg",
+        "title": "Halloween Kills",
+        "director": "David Gordon Green",
+        "rating": 2,
+        "review": "I think next year I am gonna add an 'enjoyment' rating because I enjoyed watching this movie I just don't feel like it was good. That said, it was a fun fall movie to watch while studying for my Stats exam.",
+        "duration": 106,
+        "genre": "Horror, slasher",
+        "dateWatched": "11/6/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/halloweenends.jpg",
+        "title": "Halloween Ends",
+        "director": "David Gordon Green",
+        "rating": 1.5,
+        "review": "This movie was bad but suprisingly I was enjoying the idea of someome aside from Micheal Myers to be a killer. It feels like it started strong but sputtered out of control over the halfway point. Wasn't as enjoyable as the other two.",
+        "duration": 111,
+        "genre": "Horror",
+        "dateWatched": "11/7/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/whiplash.jpg",
+        "title": "Whiplash",
+        "director": "Damien Chazelle",
+        "rating": 4,
+        "review": "I thought this movie was very entertaining and I never could predict what would happen next. It reminds me of how band directors always seem to be able to operate with impunity and never face consequences for berating or yelling at students. It was a hard watch.",
+        "duration": 107,
+        "genre": "Music, Drama",
+        "dateWatched": "11/6/2024"
+    },
+    {
+        "id": "dec",
+        "cover": "movie-journal-img/close.jpg",
+        "title": "Close",
+        "director": "Lukas Dhont",
+        "rating": 4.5,
+        "review": "Like 'Bridge to Terabithia' but for adults and hopeless.",
+        "duration": 105,
+        "genre": "Teen, Drama",
+        "dateWatched": "12/12/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/substance.jpg",
+        "title": "The Substance",
+        "director": "Coralie Fargeat",
+        "rating": 4.5,
+        "review": "I adore how this movie doesn't muddle itself in trying to prove how it is realistic. It is artistically strong, deliberate, and feels like a nightmare. This movie really stuck in my head. Not only does it provide commentary on the toxic hollywood and celebrity culture for women, but it provides body horror that made me avert my eyes many times.",
+        "duration": 140,
+        "genre": "Horror/Sci-fi",
+        "dateWatched": "12/15/2024"
     }
 ]
