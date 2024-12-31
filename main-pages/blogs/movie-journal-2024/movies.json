@@ -284,5 +284,16 @@
         "duration": 140,
         "genre": "Horror/Sci-fi",
         "dateWatched": "12/15/2024"
+    },
+    {
+        "id": "",
+        "cover": "movie-journal-img/nosferatu.jpg",
+        "title": "Nosferatu (2024)",
+        "director": "Robert Eggers",
+        "rating": 5,
+        "review": "I find it very interesting how I began this year and blog with a Robert Eggers film and now I am ending with one. We had some free movie vauchers and decided to see Eggers most recent film in theaters. It was much more disturbing than I had anticipated. There were a bunch of moments that made me cover my mouth in shock. Highly reccomend this movie, I often avoid vampire media because it is very well explored but this film still managed to breath life into it's vampire lore.",
+        "duration": 132,
+        "genre": "Horror",
+        "dateWatched": "12/30/2024"
     }
 ]
