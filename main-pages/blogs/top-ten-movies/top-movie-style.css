@@ -221,4 +221,8 @@
       padding-left: 0%;
       border: none;
     }
+    .list-container .movie-list .movie .left-movie .cover .movie-cover{
+        min-width: 125px;
+        height: auto;
+    }
 }
