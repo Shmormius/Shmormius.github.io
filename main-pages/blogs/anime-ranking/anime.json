@@ -144,13 +144,6 @@
         "duration": 12
     },
     {
-        "id": "movie",
-        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3+1.jpg",
-        "title": "Evangelion 3.0 + 1.0",
-        "rating": 8,
-        "duration": 1
-    },
-    {
         "id": "",
         "cover": "anime-covers/vinland.jpg",
         "title": "Vinland Saga",
@@ -212,6 +205,13 @@
         "title": "Terror in Resonance",
         "rating": 7,
         "duration": 11
+    },
+    {
+        "id": "movie",
+        "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3+1.jpg",
+        "title": "Evangelion 3.0 + 1.0",
+        "rating": 7,
+        "duration": 1
     },
     {
         "id": "",
