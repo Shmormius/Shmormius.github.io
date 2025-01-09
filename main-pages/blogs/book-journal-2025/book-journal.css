@@ -236,8 +236,12 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
+  body{
+    background-size: 120%;
+  }
+
   .journal-content-con {
-    width: 100%;
+    width: 90%;
     margin-left: 0%;
   }
 
