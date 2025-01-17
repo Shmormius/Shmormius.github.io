@@ -56,4 +56,4 @@ SzillaURL = 'https://deadbystats.eu/profile/76561198857537957'
 
 updatePlayerJSON(ShmormiusName, ShmormiusURL)
 updatePlayerJSON(StoneOceanName, StoneOceanURL)
-updatePlayerJSON(SzillaName, StoneOceanURL)
+updatePlayerJSON(SzillaName, SzillaURL)
