@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../../../main.css">
+    <link rel="stylesheet" href="cs-posts-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../resources/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../resources/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../resources/icon/favicon-16x16.png">
+    <link rel="manifest" href="../../../../resources/icon/site.webmanifest">
+    <title>Shmormius: Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Web Scraper</h1>
+    </div>
+
+    <div id="navigation-container"></div>
+    <script src="../../../scripts/nav/navigation.js" defer></script>
+
+    <div class="container">
+        <h1>Web Scraper and Videogame Data Visualizer</h1>
+        <div class="content">
+            <div class="row">
+                <div class="image">
+                    <img src="../cs-img/DBDstats/graph.png" width="500"
+                         height="500" loading="lazy"
+                         alt="Graph of Video game data">
+                    <div class = image-description>
+                        <p>Picture of the data vizualized in the form of a graph with a dropdown button selector.</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>The motivation behind this project is to create a way to easily compare my friends' and my own Dead By Daylight Statistics. 
+                        Dead By Stats is a webpage that allows you to visualize your own stats and we will often compare them. This web scraper is made so that we can compare all three at once via a graph.
+                        This is done by a github action that runs once per day on my website that runs python code made to scrap the Dead By Stats page of each of our accounts and compile the information into JSON files and commit the changes to this website's repository.
+                        The Python code uses BeautifulSoup to get the html data and parse the title of each data element and the value and store them in a JSON file. 
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class = "content">
+            <div class="wide-text">
+                <p>
+                    The data is visualized by parsing all of the different data element titles from the JSON files and populating a drop down menu. 
+                    When this data is accessed by selecting a data element the graphs are populated using a JavaScript file courtesey of JSDelvr.com. 
+                    Each bar on the graph is the relevant data point from the JSON file corresponding to the selected option on the dropdown menu.  
+                </p>
+            </div>
+        </div>
+        <div class ="content">
+            <div class ="row">
+                <div class="btn-con">
+                    <a href="https://github.com/Shmormius/Shmormius.github.io/tree/main/main-pages/blogs/dbd-stats" target="_blank" class="main-btn">
+                        <span class="btn-text">Project Github</span>
+                    </a>
+                </div>
+                <div class="btn-con">
+                    <a href="../../../../main-pages/blogs/dbd-stats/dbd.html" target="_blank" class="main-btn">
+                        <span class="btn-text">Project Web Page</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class ="content">
+            <div class = "row">
+                <div class="btn-con">
+                    <a href="https://deadbystats.eu/" target="_blank" class="main-btn">
+                        <span class="btn-text">Credit to Dead by Stats</span>
+                    </a>
+                </div>
+                <div class="btn-con">
+                    <a href="https://www.jsdelivr.com/" target="_blank" class="main-btn">
+                        <span class="btn-text">Credit to JSDelivr.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
