@@ -8,24 +8,30 @@
             integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="apple-touch-icon" sizes="180x180"
-            href="../icon/apple-touch-icon.png">
+            href="../resources/icon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32"
-            href="../icon/favicon-32x32.png">
+            href="../resources/icon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16"
-            href="../icon/favicon-16x16.png">
+            href="../resources/icon/favicon-16x16.png">
         <link rel="manifest" href="../icon/site.webmanifest">
         <title>Shmormius: Contact Me</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
     </head>
 
     <body>
-        <div class="header">
-            <h1>Shmormius Website</h1>
+        <div class = "header-container">
+            <div class="header">
+                <h1>Shmormius Website</h1>
+            </div>
+
+            <button id="hamburger-menu" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i> 
+            </button>
+
+            <div id="navigation-container"></div>
+            <script src="scripts/nav/navigation.js" defer></script>
         </div>
-
-        <div id="navigation-container"></div>
-        <script src="scripts/nav/navigation.js" defer></script>
-
+        
         <div class="contact-container">
             <div class="contact-content-con">
                 <div class="left-contact">
@@ -105,11 +111,9 @@
                 </div>
                 <div class="right-contact">
                     <form action method="post" class="contact-form">
-                        <div class="input-control i-c-2">
+                        <div class="input-control">
                             <input type="text" required placeholder="YOUR NAME"
                                 id="name">
-                            <input type="email" required
-                                placeholder="YOUR EMAIL" id="email">
                         </div>
                         <div class="input-control">
                             <input type="text" required

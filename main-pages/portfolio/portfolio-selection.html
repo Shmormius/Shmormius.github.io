@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="porfolio-style.css">
+    <link rel="stylesheet" href="port-boxes-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,23 +17,250 @@
 </head>
 
 <body>
-    <div class="header">
-        <h1>Shmormius Website: Portfolio Navigation</h1>
-    </div>
+    <div class="header-container">
+        <div class="header">
+            <h1>Computer Science Portfolio</h1>
+        </div>
+        
+        <button id="hamburger-menu" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i> 
+        </button>
 
-    <div id="navigation-container"></div>
-    <script src="../../main-pages/scripts/nav/navigation.js" defer></script>
-    <div class="portfolio-selection-con">
-        <div class="option-con">
-            <a href="computer_science/cs-posts/cs-portfolio-selection.html" class = "option" id = "cs">
-                <h2>Computer Science Portfolio</h2>
-                <p>This is my current portfolio of Computer Science projects. This will be updated as more projects are completed. Each project has a Github link to view the code, a written description of the project and it's goals, and a picture where applicable.  </p>
+        <div id="navigation-container"></div>
+        <script src="../scripts/nav/navigation.js" defer></script>    
+    </div>
+    
+    <div class = "port-con">
+        <div class="projects">
+            <a href="computer_science/cs-posts/cs-building-classification.html" class="project">
+                <img src="computer_science/cs-img/Picture3.png"
+                    alt="Picture of CSU building augmented in strange ways">
+                <div class="project-text">
+                    <h4>
+                        CSU building classification
+                    </h4>
+                    <p>
+                        CSU's 1st Machine learning competition winning submission
+                    </p>
+                    <div class ="attributes">
+                        <p>Python</p>
+                        <p>Resnet50</p>
+                        <p>Machine Learning</p>
+                    </div>
+                </div>
             </a>
-            <a href="blender/blender-posts/blender-portfolio-selection.html" class = "option" id = "blender">
-                <h2>3D Modeling Portfolio</h2>
-                <P>This is a selection of 3D modeling projects completed, mostly in Blender. The pictures included are all rendered by me and all models were made by me for personal use. There are a select few models that include a cgTrader link so that they may be downloaded.</P>
+            <a href="computer_science/cs-posts/cs-scraper.html" class="project">
+                <img src="computer_science/cs-img/DBDstats/graph.png"
+                    alt="Picture of rover on desk">
+                <div class="project-text">
+                    <h4>
+                        Web Scraper Using GitHub Actions
+                    </h4>
+                    <p>
+                        Game data web scraper and data vizulizer. 
+                    </p>
+                    <div class ="attributes">
+                        <p>GitHub Actions</p>
+                        <p>Python</p>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+            </a>
+            <a href="computer_science/cs-posts/cs-rover.html" class="project">
+                <img src="computer_science/cs-img/rover/rover-desk.jpg"
+                    alt="Picture of rover on desk">
+                <div class="project-text">
+                    <h4>
+                        Autonomous Rover
+                    </h4>
+                    <p>
+                        Self-seeking, GPS equipped, internet controlled rover. 
+                    </p>
+                    <div class ="attributes">
+                        <p>C++</p>
+                        <p>Python</p>
+                        <p>Raspberry Pi</p>
+                    </div>
+                </div>
+            </a>
+            <a href="computer_science/cs-posts/cs-portfolio-website.html" class="project">
+                <img src="computer_science/cs-img/website/json_thumb.png"
+                    alt="JSON of books for book blog">
+                <div class="project-text">
+                    <h4>
+                        Portfolio Website
+                    </h4>
+                    <p>
+                        Source-controlled website for portfolio
+                    </p>
+                    <div class ="attributes">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+            </a>
+            <a href="computer_science/cs-posts/cs-consume-produce.html" class="project">
+                <img src="computer_science/cs-img/buffer/Screenshot 2024-11-05 192601.png"
+                    alt="Java code">
+                <div class="project-text">
+                    <h4>
+                        Consumer Producer Problem 
+                    </h4>
+                    <p>
+                        The Consumer Producer Problem w/ bounded buffer solved in Java
+                    </p>
+                    <div class ="attributes">
+                        <p>Java</p>
+                        <p>Multithreading</p>
+                        <p>Makefile</p>
+                    </div>
+                </div>
             </a>
         </div>
     </div>
+    <div class="header">
+        <h1>3D Modeling Portfolio</h1>
+    </div>
+    <div class = "port-con">
+        <div class="projects">
+            <a href="blender/blender-posts/donut-reprisal.html" class="project">
+                <img src="blender/blender-img\donut-reprisal\DonutRenderReprisal.png"
+                    alt="Picture of Donuts in front of TVs">
+                <div class="project-text">
+                    <h4>
+                        A Donut Reprisal
+                    </h4>
+                    <p>
+                        Blender project completed for CS 462. Blender Guru donut tutorial revisit 4 years later. 
+                    </p>
+                    <div class ="attributes">
+                        <p>Blender</p>
+                        <p>Shaders</p>
+                        <p>Poly Modeling</p>
+                    </div>
+                </div>
+            </a>
+            <a href="blender/blender-posts/kira-apartment.html" class="project">
+                <img src="blender/blender-img/Kira-Apartment/Kira1.png"
+                    alt="Kira apartment from part 8">
+                <div class="project-text">
+                    <h4>
+                        Kira Apartment
+                    </h4>
+                    <p>
+                        Kira's apartment from part 8 of Jojo's Bizzare Adventure 
+                    </p>
+                    <div class ="attributes">
+                        <p>Blender</p>
+                        <p>Image Textures</p>
+                        <p>Poly Modeling</p>
+                    </div>
+                </div>
+            </a>
+            <a href="blender/blender-posts/mini-gong.html" class="project">
+                <img src="blender/blender-img/Gong/FullRenderExtra.png"
+                    alt="Mini Gong">
+                <div class="project-text">
+                    <h4>
+                        Mini Gong
+                    </h4>
+                    <p>
+                        Mini gong modeled from the one we have in our apartment.
+                    </p>
+                    <div class ="attributes">
+                        <p>Blender</p>
+                        <p>Image Textures</p>
+                        <p>CGTrader</p>
+                    </div>
+                </div>
+            </a>
+            <a href="blender/blender-posts/covid-subway.html" class="project">
+                <img src="blender/blender-img/subway/unssssssstitled.png"
+                    alt="Subway render">
+                <div class="project-text">
+                    <h4>
+                        Covid Subway
+                    </h4>
+                    <p>
+                        Subway environment made during 2020 lockdowns
+                    </p>
+                    <div class ="attributes">
+                        <p>Blender</p>
+                        <p>Environment</p>
+                        <p>Animation</p>
+                    </div>
+                </div>
+            </a>
+            <a href="blender/blender-posts/apartment.html" class="project">
+                <img src="blender/blender-img/apartment/Deskk.png"
+                    alt="Apartment environment">
+                <div class="project-text">
+                    <h4>
+                        Apartment
+                    </h4>
+                    <p>
+                        Apartment envrionment, used to test Blender features.
+                    </p>
+                    <div class ="attributes">
+                        <p>Blender</p>
+                        <p>Shaders</p>
+                        <p>Image Textures</p>
+                    </div>
+                </div>
+            </a>
+            <a href="blender/blender-posts/little-objects.html" class="project">
+                <img src="blender/blender-img/little-objects/SCREWS.png"
+                    alt="Skrews ">
+                <div class="project-text">
+                    <h4>
+                        Little objects
+                    </h4>
+                    <p>
+                        Variety of small projects and renders.  
+                    </p>
+                    <div class ="attributes">
+                        <p>Blender</p>
+                        <p>Poly Modeling</p>
+                        <p>Shaders</p>
+                    </div>
+                </div>
+            </a>
+            <a href="blender/blender-posts/environment.html" class="project">
+                <img src="blender/blender-img/environment/graaass.png"
+                    alt="Picture of grassy field">
+                <div class="project-text">
+                    <h4>
+                        Environments
+                    </h4>
+                    <p>
+                        Environment renders.  
+                    </p>
+                    <div class ="attributes">
+                        <p>Blender</p>
+                        <p>Environment</p>
+                        <p>Shaders</p>
+                    </div>
+                </div>
+            </a>
+            <a href="blender/blender-posts/extra.html" class="project">
+                <img src="blender/blender-img/weird-stuff/DEMONINDOOR.png"
+                    alt="Scary eyes in door">
+                <div class="project-text">
+                    <h4>
+                        Extra Stuff!
+                    </h4>
+                    <p>
+                        Extra renders, scary stuff 
+                    </p>
+                    <div class ="attributes">
+                        <p>Blender</p>
+                        <p>???</p>
+                        <p>???</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>   
 </body>
 </html>
