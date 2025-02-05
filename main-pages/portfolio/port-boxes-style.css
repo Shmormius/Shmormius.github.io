@@ -17,6 +17,10 @@
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
 }
 
+.navigation-container{
+  justify-content: center;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
