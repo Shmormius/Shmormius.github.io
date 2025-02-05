@@ -19,18 +19,38 @@
     </head>
 
     <body>
-        <div class="header">
-            <h1>Shmormius Website</h1>
+        <div class="header-container">
+            <div class="header">
+                <h1>Shmormius Website</h1>
+            </div>
+            <button id="hamburger-menu" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i> 
+            </button>
+
+            <div id="navigation-container"></div>
+            <script src="../main-pages/scripts/nav/navigation.js" defer></script>
+
         </div>
+        
 
-        <div id="navigation-container"></div>
-        <script src="../main-pages/scripts/nav/navigation.js" defer></script>
-
+        
         <div class="blogs-content">
             <div class="main-title">
                 <h2>BLOG</h2>
             </div>
             <div class="blogs">
+                <a href="blogs/blog-update-logs/blog-update.html" class="blog">
+                    <img src="../resources/img/blog-img/blog-thumbnails/daemon-with-cat.png"
+                        alt="Cats cuddling">
+                    <div class="blog-text">
+                        <h4>
+                            Website Update Logs
+                        </h4>
+                        <p>
+                            Update logs detailing changes made on website.
+                        </p>
+                    </div>
+                </a>
                 <a href="blogs/dbd-stats/dbd.html" class="blog">
                     <img src="../resources/img/blog-img/blog-thumbnails/dbd.jpg"
                         alt="Dead by Daylight Wraith Promotional Image">

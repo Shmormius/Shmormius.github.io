@@ -1,0 +1,26 @@
+.update-container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.update{
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.update p{
+    margin-left: 15%;
+}
+
+img{
+    border: 2px solid var(--color-white);
+    margin-left: 15%;
+    width: 30%;
+}
+
+
+@media only screen and (max-width: 767px) {
+    img{
+        width: 70%;
+    }
+}
+

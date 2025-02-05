@@ -1,0 +1,28 @@
+[
+    {
+        "date": "February 4th, 2025",
+        "updates": [
+            {
+                "text":"ADDED: New blog post added, new webpage link that outlines updates made on the website.",
+                "image":"blog-update-sc/newblogupdatelog.png"
+            },
+            {
+                "text": "CHANGED: Navigation bar no longer stays on the right side of the screen at all times, and no longer only displays the relevant text when hovered over.",
+                "image": "blog-update-sc/navchange.png",
+                "image2": "blog-update-sc/newnav.png"
+            },
+            {
+                "text": "ADDED: 'Hamburger' style drop down menu added to phone or small screen size for navigation.",
+                "image": "blog-update-sc/hamburgerchange.png"
+            },
+            {
+                "text": "FIXED: Contact page now works after breaking, the submit button now generates a email on the user client.",
+                "image": "blog-update-sc/ContactChange.png"
+            },
+            {
+                "text": "REMOVED: portfolio navigation page removed, both computer science and blender portfolio pages combined into new page.",
+                "image": "blog-update-sc/portnav.png"
+            }
+        ]
+    }
+]
