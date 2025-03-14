@@ -1,5 +1,14 @@
 [
     {
+        "date": "March 14th, 2025",
+        "updates": [
+            {
+                "text":"ADDED: New blog post added.",
+                "image":"blog-update-sc/song-blog.png"
+            }
+        ]
+    },
+    {
         "date": "February 4th, 2025",
         "updates": [
             {
