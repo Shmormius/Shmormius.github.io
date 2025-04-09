@@ -3,6 +3,12 @@
         "date": "April 9th, 2025",
         "updates": [
             {
+                "text":"CHANGED: Main Page Box Content.",
+                "image":"blog-update-sc/main-page-boxes-pre.png",
+                "image2":"blog-update-sc/main-page-boxes-post.png"
+                
+            },
+            {
                 "text":"CHANGED: Main Image.",
                 "image":"blog-update-sc/main-image-preupdate.png",
                 "image2":"blog-update-sc/main-image-update.png"
