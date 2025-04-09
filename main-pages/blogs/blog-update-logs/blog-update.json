@@ -1,5 +1,15 @@
 [
     {
+        "date": "April 9th, 2025",
+        "updates": [
+            {
+                "text":"CHANGED: About-Me section.",
+                "image":"blog-update-sc/About-Me-Grad-photo.png",
+                "image2":"blog-update-sc/About-Me-Pre-Grad-Photo.png"
+            }
+        ]
+    },
+    {
         "date": "March 14th, 2025",
         "updates": [
             {
