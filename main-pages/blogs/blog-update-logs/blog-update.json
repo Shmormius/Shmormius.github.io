@@ -3,9 +3,16 @@
         "date": "April 9th, 2025",
         "updates": [
             {
+                "text":"CHANGED: Main Image.",
+                "image":"blog-update-sc/main-image-preupdate.png",
+                "image2":"blog-update-sc/main-image-update.png"
+                
+            },
+            {
                 "text":"CHANGED: About-Me section.",
-                "image":"blog-update-sc/About-Me-Grad-photo.png",
-                "image2":"blog-update-sc/About-Me-Pre-Grad-Photo.png"
+                "image":"blog-update-sc/About-Me-Pre-Grad-Photo.png",
+                "image2":"blog-update-sc/About-Me-Grad-photo.png"
+                
             }
         ]
     },
