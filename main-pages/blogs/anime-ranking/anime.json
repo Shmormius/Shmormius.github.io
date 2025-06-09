@@ -87,13 +87,6 @@
         "rating": 9,
         "duration": 12
     },
-    {   
-        "id": "",
-        "cover": "anime-covers/FLCL.jpg",
-        "title": "FLCL",
-        "rating": 8,
-        "duration": 6
-    },
     {
         "id": "",
         "cover": "../../blogs/tv-journal-2024/tv-journal-img/attack_on_titan.jpg",
@@ -107,6 +100,20 @@
         "title": "Death note",
         "rating": 9,
         "duration": 37
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/bocchi.jpg",
+        "title": "Bocchi the Rock!",
+        "rating": 10,
+        "duration": 12
+    },
+    {   
+        "id": "",
+        "cover": "anime-covers/FLCL.jpg",
+        "title": "FLCL",
+        "rating": 8,
+        "duration": 6
     },
     {
         "id": "",
@@ -196,21 +203,21 @@
         "id": "",
         "cover": "anime-covers/demonslayer.jpg",
         "title": "Demon Slayer",
-        "rating": 7,
+        "rating": 6,
         "duration": 55
     },
     {
         "id": "",
         "cover": "anime-covers/terror.jpg",
         "title": "Terror in Resonance",
-        "rating": 7,
+        "rating": 6,
         "duration": 11
     },
     {
         "id": "movie",
         "cover": "../../blogs/movie-journal-2024/movie-journal-img/eva3+1.jpg",
         "title": "Evangelion 3.0 + 1.0",
-        "rating": 7,
+        "rating": 6,
         "duration": 1
     },
     {
