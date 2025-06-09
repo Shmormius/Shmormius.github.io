@@ -176,7 +176,6 @@ nav a:active {
       position: absolute;
       top: 70px;
       right: 20px;
-      box-shadow: var(--box-shadow-1);
       padding: 10px;
   }
 
@@ -186,7 +185,7 @@ nav a:active {
 
   nav a {
       width: 100%; 
-      margin: 5px 0; 
+      margin-bottom: 5px; 
       border-radius: 5px;
   }
 }
