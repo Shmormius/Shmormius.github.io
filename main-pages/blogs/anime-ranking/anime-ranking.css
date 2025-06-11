@@ -18,6 +18,10 @@ body {
     background: linear-gradient(to top, #182224, #0d0b20, #0f0413, #000000);
     margin: 0px;
   }
+
+  p{
+    color: var(--color-grey-1);
+  }
   
 /*header*/
   
@@ -145,18 +149,18 @@ nav a:hover p1 {
 }
 
 .ranking-content-con {
-    width: 60%;
+    width: 70%;
     padding-top: 3.5rem;
     padding: 20px;
-    background-color: var(--color-grey-1);
-    margin-left: 18%;
+    background-color:none;
+    margin-left: 11%;
   }
   
   .ranking-content-con .anime {
     display: flex;
     min-height: 200px;
-    margin-bottom: 5px;
-    border: 1px solid var(--color-secondary);
+    margin-bottom: 8px;
+    border: 3px solid var(--color-secondary);
     padding: 15px;
     border-radius: 5px;
   }
