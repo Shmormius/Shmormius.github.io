@@ -138,6 +138,13 @@
     },
     {
         "id": "",
+        "cover": "anime-covers/inuyashiki.jpg",
+        "title": "Inuyashiki",
+        "rating": 8,
+        "duration": 11
+    },
+    {
+        "id": "",
         "cover": "anime-covers/jjk.jpg",
         "title": "Jujutsu Kaisen",
         "rating": 7,
@@ -258,7 +265,7 @@
         "id": "",
         "cover": "../../blogs/tv-journal-2024/tv-journal-img/ranking.jpg",
         "title": "Ranking of Kings",
-        "rating": 6,
+        "rating": 5,
         "duration":33
     },
     {
@@ -320,7 +327,7 @@
         "id": "",
         "cover": "../../blogs/tv-journal-2024/tv-journal-img/hells-paradise.jpg",
         "title": "Hell's paradise",
-        "rating": 3,
+        "rating": 2,
         "duration": 13
     },
     {
