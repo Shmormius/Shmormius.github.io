@@ -331,6 +331,13 @@
         "duration": 13
     },
     {
+        "id": "",
+        "cover": "anime-covers/terrible.jpg",
+        "title": "Danganronpa",
+        "rating": 1,
+        "duration": 13
+    },
+    {
         "id": "movie",
         "cover": "anime-covers/Bubble_film_poster.jpg",
         "title": "Bubble",
