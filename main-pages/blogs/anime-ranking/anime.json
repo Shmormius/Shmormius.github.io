@@ -159,6 +159,13 @@
     },
     {
         "id": "",
+        "cover": "anime-covers/nhk.jpg",
+        "title": "Welcome to the N.H.K",
+        "rating": 7,
+        "duration": 24
+    },
+    {
+        "id": "",
         "cover": "anime-covers/vinland.jpg",
         "title": "Vinland Saga",
         "rating": 8,
