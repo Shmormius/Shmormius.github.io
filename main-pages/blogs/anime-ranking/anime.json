@@ -116,13 +116,6 @@
         "duration": 6
     },
     {
-        "id": "",
-        "cover": "../../blogs/tv-journal-2024/tv-journal-img/flowers-of-evil.jpg",
-        "title": "Flowers of Evil",
-        "rating": 8,
-        "duration": 13
-    },
-    {
         "id": "movie",
         "cover": "../../blogs/movie-journal-2024/movie-journal-img/yourname.jpg",
         "title": "Your Name",
@@ -135,6 +128,20 @@
         "title": "Perfect blue",
         "rating": 9,
         "duration": 1
+    },
+    {
+        "id": "",
+        "cover": "anime-covers/Paranoia_Agent.png",
+        "title":"Paranoia Agent",
+        "rating": 8,
+        "duration": 13
+    },
+    {
+        "id": "",
+        "cover": "../../blogs/tv-journal-2024/tv-journal-img/flowers-of-evil.jpg",
+        "title": "Flowers of Evil",
+        "rating": 8,
+        "duration": 13
     },
     {
         "id": "",
